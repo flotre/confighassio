@@ -13,3 +13,9 @@ tts:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+
+logger:
+
+# Exposes service shell_command.save_config
+shell_command:
+  save_config: git commit -a -m "auto backup" && git push
