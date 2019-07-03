@@ -18,4 +18,4 @@ logger:
 
 # Exposes service shell_command.save_config
 shell_command:
-  save_config: git commit -a -m "auto backup" && git push -q
+  save_config: git commit -a -m "auto backup"; git push
