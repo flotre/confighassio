@@ -1,1 +1,8 @@
-[]
+- id: backup config
+  alias: backup config
+  trigger:
+      platform: time
+      # Military time format.
+      at: '02:00:00'
+  action:
+    service: shell_command.save_config

@@ -19,3 +19,14 @@ logger:
 # Exposes service shell_command.save_config
 shell_command:
   save_config: git commit -a -m "auto backup"; git push
+  
+xiaomi_aqara:
+  discovery_retry: 5
+  gateways:
+    - mac: 34:CE:00:90:98:00
+      key: yu7pap4ec3e2tja3
+
+sensor:
+  - platform: linky
+    username: florent.aumaitre@gmail.com
+    password: !secret linky_passwork
