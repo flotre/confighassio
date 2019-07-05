@@ -1,0 +1,8 @@
+temperature:
+  name: Temperature
+  entities:
+    - sensor.temperature_exterieur
+    - sensor.temperature_entree
+    - sensor.temperature_salon
+    - sensor.temperature_cuisine
+    - sensor.temperature_chambre_bas

@@ -1,0 +1,104 @@
+{
+    "data": {
+        "config": {
+            "resources": [
+                {
+                    "type": "js",
+                    "url": "/local/monster-card.js?v=1"
+                }
+            ],
+            "title": "Maison",
+            "views": [
+                {
+                    "badges": [
+                        "person.nous",
+                        "sensor.linky_last_month",
+                        "sensor.linky_current_month",
+                        "sensor.linky_yesterday",
+                        "sensor.linky_current_year",
+                        "sensor.linky_last_year",
+                        "sun.sun"
+                    ],
+                    "cards": [
+                        {
+                            "entity": "media_player.nexus_player",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.salon_audio",
+                            "type": "media-control"
+                        },
+                        {
+                            "entities": [
+                                "automation.backup_config"
+                            ],
+                            "title": "Automatisation",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.gateway_light"
+                                }
+                            ],
+                            "title": "Lumi\u00e8re",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "weather.maison",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "card": {
+                                "title": "Temperature",
+                                "type": "entities"
+                            },
+                            "filter": {
+                                "include": [
+                                    {
+                                        "entity_id": "sensor.temperature_*"
+                                    }
+                                ]
+                            },
+                            "type": "custom:monster-card"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "card": {
+                                "title": "Batterie < 5%",
+                                "type": "entities"
+                            },
+                            "filter": {
+                                "include": [
+                                    {
+                                        "attributes": {
+                                            "battery_level": "< 5"
+                                        },
+                                        "entity_id": "sensor.temperature_*"
+                                    },
+                                    {
+                                        "attributes": {
+                                            "battery_level": "< 5"
+                                        },
+                                        "entity_id": "binary_sensor.*"
+                                    }
+                                ]
+                            },
+                            "type": "custom:monster-card"
+                        }
+                    ],
+                    "icon": "mdi:battery",
+                    "title": "Batterie"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

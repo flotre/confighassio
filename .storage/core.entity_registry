@@ -1,0 +1,377 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.nous",
+                "name": null,
+                "platform": "person",
+                "unique_id": "dc8977e83ed740c6b664a80b02c01cee"
+            },
+            {
+                "config_entry_id": "2d76d9e2b3724cb1bc1f199f9a8c12b6",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "weather.maison",
+                "name": null,
+                "platform": "met",
+                "unique_id": "home"
+            },
+            {
+                "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
+                "device_id": "e778d2fee48a4b998da8fa0a6638a4d4",
+                "disabled_by": null,
+                "entity_id": "media_player.salon_audio",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "e0425993-6635-4025-bf5c-b43e2107c4a9"
+            },
+            {
+                "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
+                "device_id": "dacb333071e843b79f52b542462f4e03",
+                "disabled_by": null,
+                "entity_id": "media_player.nexus_player",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "c24fd8c0-dea2-8417-e0a8-5fab9a026fbe"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.door_window_sensor_chambre_bas",
+                "name": "Fenetre chambre bas",
+                "platform": "xiaomi_aqara",
+                "unique_id": "status158d0001de8fd0"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.door_window_sensor_cuisine",
+                "name": "Porte fenetre cuisine",
+                "platform": "xiaomi_aqara",
+                "unique_id": "status158d0002b531b7"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.door_window_sensor_devant",
+                "name": "Porte fenetre devant",
+                "platform": "xiaomi_aqara",
+                "unique_id": "status158d0002b56b11"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.door_window_sensor_terrasse",
+                "name": "Porte fenetre terrasse",
+                "platform": "xiaomi_aqara",
+                "unique_id": "status158d0002c98713"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.water_leak_sensor_garage",
+                "name": "Fuite eau garage",
+                "platform": "xiaomi_aqara",
+                "unique_id": "status158d00024bcab1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.gateway_light",
+                "name": "Gateway",
+                "platform": "xiaomi_aqara",
+                "unique_id": "rgb34ce00909800"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.humidity_buanderie",
+                "name": "Humidit\u00e9 Buanderie",
+                "platform": "xiaomi_aqara",
+                "unique_id": "humidity158d000171e23f"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.humidity_salle_d_eau",
+                "name": "Humidit\u00e9 salle d'eau",
+                "platform": "xiaomi_aqara",
+                "unique_id": "humidity158d000171e37c"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.humidity_salon",
+                "name": "Humidit\u00e9 salon",
+                "platform": "xiaomi_aqara",
+                "unique_id": "humidity158d000171e488"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.humidity_entree",
+                "name": "Humidit\u00e9 entr\u00e9e",
+                "platform": "xiaomi_aqara",
+                "unique_id": "humidity158d0001f558f7"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.humidity_cuisine",
+                "name": "Humidit\u00e9 cuisine",
+                "platform": "xiaomi_aqara",
+                "unique_id": "humidity158d0001fa3864"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.humidity_grande_chambre",
+                "name": "Humidit\u00e9 grande chambre",
+                "platform": "xiaomi_aqara",
+                "unique_id": "humidity158d0001fa5b98"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.humidity_studio",
+                "name": "Humidit\u00e9 studio",
+                "platform": "xiaomi_aqara",
+                "unique_id": "humidity158d0001fa762e"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.humidity_exterieur",
+                "name": "Humidit\u00e9 ext\u00e9rieur",
+                "platform": "xiaomi_aqara",
+                "unique_id": "humidity158d0001fa7649"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.humidity_chambre_bas",
+                "name": "Humidit\u00e9 chambre bas",
+                "platform": "xiaomi_aqara",
+                "unique_id": "humidity158d00020182dc"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.humidity_chambre_antoine",
+                "name": "Humidit\u00e9 chambre Antoine",
+                "platform": "xiaomi_aqara",
+                "unique_id": "humidity158d000201877a"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.illumination_salon",
+                "name": "Luminosit\u00e9 salon",
+                "platform": "xiaomi_aqara",
+                "unique_id": "illumination34ce00909800"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.pressure_buanderie",
+                "name": "Pression buanderie",
+                "platform": "xiaomi_aqara",
+                "unique_id": "pressure158d000171e23f"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.pressure_salle_d_eau",
+                "name": "Pression salle d'eau",
+                "platform": "xiaomi_aqara",
+                "unique_id": "pressure158d000171e37c"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.pressure_salon",
+                "name": "Pression salon",
+                "platform": "xiaomi_aqara",
+                "unique_id": "pressure158d000171e488"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.pressure_entree",
+                "name": "Pression entr\u00e9e",
+                "platform": "xiaomi_aqara",
+                "unique_id": "pressure158d0001f558f7"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.pressure_cuisine",
+                "name": "Pression cuisine",
+                "platform": "xiaomi_aqara",
+                "unique_id": "pressure158d0001fa3864"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.pressure_grande_chambre",
+                "name": "Pression grande chambre",
+                "platform": "xiaomi_aqara",
+                "unique_id": "pressure158d0001fa5b98"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.pressure_studio",
+                "name": "Pression studio",
+                "platform": "xiaomi_aqara",
+                "unique_id": "pressure158d0001fa762e"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.pressure_exterieur",
+                "name": "Pression ext\u00e9rieur",
+                "platform": "xiaomi_aqara",
+                "unique_id": "pressure158d0001fa7649"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.pressure_chambre_bas",
+                "name": "Pression chambre bas",
+                "platform": "xiaomi_aqara",
+                "unique_id": "pressure158d00020182dc"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.pressure_chambre_antoine",
+                "name": "Pression chambre Antoine",
+                "platform": "xiaomi_aqara",
+                "unique_id": "pressure158d000201877a"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_buanderie",
+                "name": "Temperature buanderie",
+                "platform": "xiaomi_aqara",
+                "unique_id": "temperature158d000171e23f"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_salle_d_eau",
+                "name": "Temperature salle d'eau",
+                "platform": "xiaomi_aqara",
+                "unique_id": "temperature158d000171e37c"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_salon",
+                "name": "Temperature salon",
+                "platform": "xiaomi_aqara",
+                "unique_id": "temperature158d000171e488"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_entree",
+                "name": "Temperature entr\u00e9e",
+                "platform": "xiaomi_aqara",
+                "unique_id": "temperature158d0001f558f7"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_cuisine",
+                "name": "Temperature cuisine",
+                "platform": "xiaomi_aqara",
+                "unique_id": "temperature158d0001fa3864"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_grande_chambre",
+                "name": "Temperature grande chambre",
+                "platform": "xiaomi_aqara",
+                "unique_id": "temperature158d0001fa5b98"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_studio",
+                "name": "Temperature studio",
+                "platform": "xiaomi_aqara",
+                "unique_id": "temperature158d0001fa762e"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_exterieur",
+                "name": "Temperature ext\u00e9rieur",
+                "platform": "xiaomi_aqara",
+                "unique_id": "temperature158d0001fa7649"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_chambre_bas",
+                "name": "Temperature chambre bas",
+                "platform": "xiaomi_aqara",
+                "unique_id": "temperature158d00020182dc"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_chambre_antoine",
+                "name": "Temperature chambre Antoine",
+                "platform": "xiaomi_aqara",
+                "unique_id": "temperature158d000201877a"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

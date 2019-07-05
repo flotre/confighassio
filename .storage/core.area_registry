@@ -1,0 +1,24 @@
+{
+    "data": {
+        "areas": [
+            {
+                "id": "977b2686d13c4d15ae4e2aa4c973a3d1",
+                "name": "Salon"
+            },
+            {
+                "id": "87e384a4d3584712b73b13a031a24600",
+                "name": "Cuisine"
+            },
+            {
+                "id": "dc6ea6c4dfbb4d299116e1d356b29ee1",
+                "name": "Chambre"
+            },
+            {
+                "id": "e907fe4c2713464890a886763801b996",
+                "name": "Buanderie"
+            }
+        ]
+    },
+    "key": "core.area_registry",
+    "version": 1
+}
