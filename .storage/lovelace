@@ -5,6 +5,14 @@
                 {
                     "type": "js",
                     "url": "/local/monster-card.js?v=1"
+                },
+                {
+                    "type": "js",
+                    "url": "/local/card-tools.js"
+                },
+                {
+                    "type": "module",
+                    "url": "/local/secondaryinfo-entity-row.js"
                 }
             ],
             "title": "Maison",
@@ -71,6 +79,7 @@
                     "cards": [
                         {
                             "card": {
+                                "show_header_toggle": false,
                                 "title": "Batterie < 5%",
                                 "type": "entities"
                             },
@@ -80,7 +89,11 @@
                                         "attributes": {
                                             "battery_level": "< 5"
                                         },
-                                        "entity_id": "sensor.temperature_*"
+                                        "entity_id": "sensor.temperature_*",
+                                        "options": {
+                                            "secondary_info": "[[ {entity}.attributes.battery_level ]]%",
+                                            "type": "custom:secondaryinfo-entity-row"
+                                        }
                                     },
                                     {
                                         "attributes": {

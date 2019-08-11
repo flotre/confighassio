@@ -29,4 +29,4 @@ xiaomi_aqara:
 sensor:
   - platform: linky
     username: !secret linky_login
-    password: !secret linky_passwork
+    password: !secret linky_password
