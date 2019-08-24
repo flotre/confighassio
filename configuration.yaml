@@ -16,6 +16,10 @@ script: !include scripts.yaml
 
 logger:
 
+freebox:
+  host: f85359wf.fbxos.fr
+  port: 33333
+
 # Exposes service shell_command.save_config
 shell_command:
   save_config: git commit -a -m "auto backup"; git push

@@ -25,7 +25,9 @@
                         "sensor.linky_yesterday",
                         "sensor.linky_current_year",
                         "sensor.linky_last_year",
-                        "sun.sun"
+                        "sun.sun",
+                        "person.alice",
+                        "person.florent"
                     ],
                     "cards": [
                         {
@@ -64,7 +66,10 @@
                             "filter": {
                                 "include": [
                                     {
-                                        "entity_id": "sensor.temperature_*"
+                                        "entity_id": "sensor.temperature_*",
+                                        "options": {
+                                            "secondary_info": "last-changed"
+                                        }
                                     }
                                 ]
                             },
