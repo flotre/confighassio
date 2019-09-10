@@ -387,6 +387,15 @@
                 "name": null,
                 "platform": "person",
                 "unique_id": "93c92d1f540e4d028ae9c67c41ddcfc5"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.updater",
+                "name": null,
+                "platform": "updater",
+                "unique_id": "updater"
             }
         ]
     },

@@ -74,6 +74,28 @@
                                 ]
                             },
                             "type": "custom:monster-card"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.door_window_sensor_chambre_bas"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_window_sensor_cuisine"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_window_sensor_devant"
+                                },
+                                {
+                                    "entity": "binary_sensor.door_window_sensor_terrasse"
+                                },
+                                {
+                                    "entity": "binary_sensor.water_leak_sensor_garage"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Sensor",
+                            "type": "entities"
                         }
                     ],
                     "path": "default_view",

@@ -36,3 +36,13 @@
       message: Une porte ou une fenetre est ouverte mais personne n'est présent
       title: Alerte intrusion
     service: notify.email
+- id: '1568061925733'
+  alias: Backup
+  trigger:
+  - hours: '2'
+    minutes: '30'
+    platform: time_pattern
+    seconds: '0'
+  condition: []
+  action:
+  - service: hassio.snapshot_full
