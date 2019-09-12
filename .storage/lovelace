@@ -135,6 +135,26 @@
                     ],
                     "icon": "mdi:battery",
                     "title": "Batterie"
+                },
+                {
+                    "badges": [
+                        "input_boolean.virtual_chauffage_antoine",
+                        "input_boolean.chauffage_antoine"
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "input_number.temperature_sol_antoine"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:test-tube",
+                    "path": "test",
+                    "title": "test"
                 }
             ]
         }

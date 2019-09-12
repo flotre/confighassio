@@ -50,3 +50,19 @@ sensor:
   - platform: linky
     username: !secret linky_login
     password: !secret linky_password
+    
+input_boolean:
+  virtual_chauffage_antoine:
+    name: Etat souhaite du chauffage
+    icon: mdi:radiator
+    
+  chauffage_antoine:
+    name: Etat reel chauffage
+    icon: mdi:radiator
+    
+input_number:
+  temperature_sol_antoine:
+    min: -20
+    max: 35
+    step: 0.1
+    mode: box

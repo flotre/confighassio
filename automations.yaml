@@ -46,3 +46,39 @@
   condition: []
   action:
   - service: hassio.snapshot_full
+- id: '1568229466238'
+  alias: chauffage antoine on
+  trigger:
+  - entity_id: input_boolean.virtual_chauffage_antoine
+    from: 'off'
+    platform: state
+    to: 'on'
+  - below: '26'
+    entity_id: input_number.temperature_sol_antoine
+    platform: numeric_state
+  condition:
+  - below: '26'
+    condition: numeric_state
+    entity_id: input_number.temperature_sol_antoine
+  - condition: state
+    entity_id: input_boolean.virtual_chauffage_antoine
+    state: 'on'
+  action:
+  - data:
+      entity_id: input_boolean.chauffage_antoine
+    service: input_boolean.turn_on
+- id: '1568230211853'
+  alias: chauffage antoine off
+  trigger:
+  - entity_id: input_boolean.virtual_chauffage_antoine
+    from: 'on'
+    platform: state
+    to: 'off'
+  - above: '28'
+    entity_id: input_number.temperature_sol_antoine
+    platform: numeric_state
+  condition: []
+  action:
+  - data:
+      entity_id: input_boolean.chauffage_antoine
+    service: input_boolean.turn_off
