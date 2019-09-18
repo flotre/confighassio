@@ -13,6 +13,10 @@
                 {
                     "type": "module",
                     "url": "/local/secondaryinfo-entity-row.js"
+                },
+                {
+                    "type": "module",
+                    "url": "/local/schedule-card.js"
                 }
             ],
             "title": "Maison",
@@ -37,13 +41,6 @@
                         {
                             "entity": "media_player.salon_audio",
                             "type": "media-control"
-                        },
-                        {
-                            "entities": [
-                                "automation.backup_config"
-                            ],
-                            "title": "Automatisation",
-                            "type": "entities"
                         },
                         {
                             "entities": [
@@ -77,6 +74,9 @@
                         },
                         {
                             "entities": [
+                                {
+                                    "entity": "binary_sensor.door_window_sensor_entree"
+                                },
                                 {
                                     "entity": "binary_sensor.door_window_sensor_chambre_bas"
                                 },
@@ -155,6 +155,66 @@
                     "icon": "mdi:test-tube",
                     "path": "test",
                     "title": "test"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "input_boolean.zigbee_permit_join"
+                                },
+                                {
+                                    "entity": "timer.zigbee_permit_join"
+                                },
+                                {
+                                    "entity": "sensor.bridge_state"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Zigbee2mqtt",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:settings"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "id": "salon",
+                            "title": "Salon",
+                            "type": "custom:schedule-card"
+                        },
+                        {
+                            "id": "chambre_bas",
+                            "title": "Chambre bas",
+                            "type": "custom:schedule-card"
+                        },
+                        {
+                            "id": "cuisine",
+                            "title": "Cuisine",
+                            "type": "custom:schedule-card"
+                        },
+                        {
+                            "id": "chambre_antoine",
+                            "title": "Chambre Antoine",
+                            "type": "custom:schedule-card"
+                        },
+                        {
+                            "id": "salle_d_eau",
+                            "title": "Salle d'eau",
+                            "type": "custom:schedule-card"
+                        },
+                        {
+                            "id": "entree",
+                            "title": "Entr\u00e9e",
+                            "type": "custom:schedule-card"
+                        }
+                    ],
+                    "icon": "mdi:calendar",
+                    "path": "calendrier",
+                    "title": "Calendrier"
                 }
             ]
         }

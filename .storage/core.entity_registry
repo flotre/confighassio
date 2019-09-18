@@ -396,6 +396,33 @@
                 "name": null,
                 "platform": "updater",
                 "unique_id": "updater"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "8719e461120b4598ad301a4178ad7389",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.door_window_sensor_entree",
+                "name": "Porte d'entr\u00e9e",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0003e721cc_contact_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "8719e461120b4598ad301a4178ad7389",
+                "disabled_by": null,
+                "entity_id": "sensor.door_window_sensor_battery_entree",
+                "name": "Batterie Porte d'entr\u00e9e",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0003e721cc_battery_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "8719e461120b4598ad301a4178ad7389",
+                "disabled_by": null,
+                "entity_id": "sensor.door_window_sensor_linkquality_entree",
+                "name": "Link Porte d'entr\u00e9e",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0003e721cc_linkquality_zigbee2mqtt"
             }
         ]
     },
