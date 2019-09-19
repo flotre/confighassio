@@ -23,7 +23,7 @@
             "views": [
                 {
                     "badges": [
-                        "person.nous",
+                        "sensor.temperature_exterieur",
                         "sensor.linky_last_month",
                         "sensor.linky_current_month",
                         "sensor.linky_yesterday",
@@ -31,7 +31,9 @@
                         "sensor.linky_last_year",
                         "sun.sun",
                         "person.alice",
-                        "person.florent"
+                        "person.florent",
+                        "sensor.temperature_chambre_bas",
+                        "sensor.temperature_chambre_antoine"
                     ],
                     "cards": [
                         {
@@ -43,34 +45,8 @@
                             "type": "media-control"
                         },
                         {
-                            "entities": [
-                                {
-                                    "entity": "light.gateway_light"
-                                }
-                            ],
-                            "title": "Lumi\u00e8re",
-                            "type": "entities"
-                        },
-                        {
                             "entity": "weather.maison",
                             "type": "weather-forecast"
-                        },
-                        {
-                            "card": {
-                                "title": "Temperature",
-                                "type": "entities"
-                            },
-                            "filter": {
-                                "include": [
-                                    {
-                                        "entity_id": "sensor.temperature_*",
-                                        "options": {
-                                            "secondary_info": "last-changed"
-                                        }
-                                    }
-                                ]
-                            },
-                            "type": "custom:monster-card"
                         },
                         {
                             "entities": [
@@ -87,14 +63,47 @@
                                     "entity": "binary_sensor.door_window_sensor_devant"
                                 },
                                 {
+                                    "entity": "binary_sensor.contact_porte_buanderie"
+                                },
+                                {
                                     "entity": "binary_sensor.door_window_sensor_terrasse"
                                 },
                                 {
-                                    "entity": "binary_sensor.water_leak_sensor_garage"
+                                    "entity": "binary_sensor.contact_porte_garage"
+                                },
+                                {
+                                    "entity": "binary_sensor.water_leak_garage"
                                 }
                             ],
                             "show_header_toggle": false,
                             "title": "Sensor",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.temperature_buanderie",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "sensor.temperature_studio",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "sensor.temperature_cuisine",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "sensor.temperature_salon",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "sensor.temperature_entree",
+                                    "secondary_info": "last-changed"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Temperature",
                             "type": "entities"
                         }
                     ],
@@ -127,6 +136,21 @@
                                             "battery_level": "< 5"
                                         },
                                         "entity_id": "binary_sensor.*"
+                                    }
+                                ]
+                            },
+                            "type": "custom:monster-card"
+                        },
+                        {
+                            "card": {
+                                "show_header_toggle": false,
+                                "title": "Batterie Alert",
+                                "type": "entities"
+                            },
+                            "filter": {
+                                "include": [
+                                    {
+                                        "entity_id": "sensor.battery*"
                                     }
                                 ]
                             },
@@ -173,6 +197,15 @@
                             ],
                             "show_header_toggle": false,
                             "title": "Zigbee2mqtt",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.gateway_light"
+                                }
+                            ],
+                            "title": "Lumi\u00e8re",
                             "type": "entities"
                         }
                     ],

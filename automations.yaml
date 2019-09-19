@@ -28,6 +28,14 @@
     from: 'off'
     platform: state
     to: 'on'
+  - entity_id: binary_sensor.contact_porte_buanderie
+    from: 'off'
+    platform: state
+    to: 'on'
+  - entity_id: binary_sensor.contact_porte_garage
+    from: 'off'
+    platform: state
+    to: 'on'
   condition:
   - condition: state
     entity_id: person.alice

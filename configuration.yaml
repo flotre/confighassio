@@ -52,6 +52,10 @@ sensor:
   - platform: linky
     username: !secret linky_login
     password: !secret linky_password
+  - platform: mqtt
+    name: Bridge state
+    state_topic: "zigbee2mqtt/bridge/state"
+    icon: mdi:router-wireless
     
 input_boolean:
   zigbee_permit_join:
@@ -79,8 +83,3 @@ timer:
     name: Time remaining
     duration: 600 # Updated this to the number of seconds you wish
 
-sensor:
-  - platform: mqtt
-    name: Bridge state
-    state_topic: "zigbee2mqtt/bridge/state"
-    icon: mdi:router-wireless

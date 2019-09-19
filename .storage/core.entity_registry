@@ -285,7 +285,7 @@
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_buanderie",
-                "name": "Temperature buanderie",
+                "name": "Buanderie",
                 "platform": "xiaomi_aqara",
                 "unique_id": "temperature158d000171e23f"
             },
@@ -303,7 +303,7 @@
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_salon",
-                "name": "Temperature salon",
+                "name": "Salon",
                 "platform": "xiaomi_aqara",
                 "unique_id": "temperature158d000171e488"
             },
@@ -312,7 +312,7 @@
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_entree",
-                "name": "Temperature entr\u00e9e",
+                "name": "Entr\u00e9e",
                 "platform": "xiaomi_aqara",
                 "unique_id": "temperature158d0001f558f7"
             },
@@ -321,7 +321,7 @@
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_cuisine",
-                "name": "Temperature cuisine",
+                "name": "Cuisine",
                 "platform": "xiaomi_aqara",
                 "unique_id": "temperature158d0001fa3864"
             },
@@ -339,7 +339,7 @@
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_studio",
-                "name": "Temperature studio",
+                "name": "Studio",
                 "platform": "xiaomi_aqara",
                 "unique_id": "temperature158d0001fa762e"
             },
@@ -348,7 +348,7 @@
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_exterieur",
-                "name": "Temperature ext\u00e9rieur",
+                "name": "Ext\u00e9rieur",
                 "platform": "xiaomi_aqara",
                 "unique_id": "temperature158d0001fa7649"
             },
@@ -357,7 +357,7 @@
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_chambre_bas",
-                "name": "Temperature chambre bas",
+                "name": "Chambre bas",
                 "platform": "xiaomi_aqara",
                 "unique_id": "temperature158d00020182dc"
             },
@@ -366,7 +366,7 @@
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_chambre_antoine",
-                "name": "Temperature chambre Antoine",
+                "name": "Chambre Antoine",
                 "platform": "xiaomi_aqara",
                 "unique_id": "temperature158d000201877a"
             },
@@ -420,9 +420,90 @@
                 "device_id": "8719e461120b4598ad301a4178ad7389",
                 "disabled_by": null,
                 "entity_id": "sensor.door_window_sensor_linkquality_entree",
-                "name": "Link Porte d'entr\u00e9e",
+                "name": "Link Q Porte d'entr\u00e9e",
                 "platform": "mqtt",
                 "unique_id": "0x00158d0003e721cc_linkquality_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "6a99db8138fe4370aa420dccc63cc8da",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.water_leak_garage",
+                "name": "Fuite d'eau garage",
+                "platform": "mqtt",
+                "unique_id": "0x00158d00024bcab1_water_leak_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "6a99db8138fe4370aa420dccc63cc8da",
+                "disabled_by": null,
+                "entity_id": "sensor.linkquality_fuite_eau_garage",
+                "name": "Link Q fuite eau garage",
+                "platform": "mqtt",
+                "unique_id": "0x00158d00024bcab1_linkquality_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "6a99db8138fe4370aa420dccc63cc8da",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_fuite_eau_garage",
+                "name": "Fuite d'eau garage",
+                "platform": "mqtt",
+                "unique_id": "0x00158d00024bcab1_battery_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "edcb020746e74fc19b9b0ee82c1921bd",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_porte_buanderie",
+                "name": "Porte buanderie",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0003e74829_battery_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "edcb020746e74fc19b9b0ee82c1921bd",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.contact_porte_buanderie",
+                "name": "Porte buanderie",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0003e74829_contact_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "edcb020746e74fc19b9b0ee82c1921bd",
+                "disabled_by": null,
+                "entity_id": "sensor.linkquality_porte_buanderie",
+                "name": "Link Q porte buanderie",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0003e74829_linkquality_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "958b38abca9c417987aa21d432640b3f",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.contact_porte_garage",
+                "name": "Porte garage",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0003e78529_contact_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "958b38abca9c417987aa21d432640b3f",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_porte_garage",
+                "name": "Porte garage",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0003e78529_battery_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "958b38abca9c417987aa21d432640b3f",
+                "disabled_by": null,
+                "entity_id": "sensor.linkquality_porte_garage",
+                "name": "Link Q porte garage",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0003e78529_linkquality_zigbee2mqtt"
             }
         ]
     },
