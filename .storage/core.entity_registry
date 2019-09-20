@@ -504,6 +504,51 @@
                 "name": "Link Q porte garage",
                 "platform": "mqtt",
                 "unique_id": "0x00158d0003e78529_linkquality_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "ad8fb1bd62d7413faaf16525231ece20",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_temp_chambre_bas",
+                "name": "Chambre bas",
+                "platform": "mqtt",
+                "unique_id": "0x00158d00020182dc_battery_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "ad8fb1bd62d7413faaf16525231ece20",
+                "disabled_by": null,
+                "entity_id": "sensor.humidity_temp_chambre_bas",
+                "name": "Chambre bas",
+                "platform": "mqtt",
+                "unique_id": "0x00158d00020182dc_humidity_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "ad8fb1bd62d7413faaf16525231ece20",
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_temp_chambre_bas",
+                "name": "Chambre bas",
+                "platform": "mqtt",
+                "unique_id": "0x00158d00020182dc_temperature_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "ad8fb1bd62d7413faaf16525231ece20",
+                "disabled_by": null,
+                "entity_id": "sensor.pressure_temp_chambre_bas",
+                "name": "Chambre bas",
+                "platform": "mqtt",
+                "unique_id": "0x00158d00020182dc_pressure_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "ad8fb1bd62d7413faaf16525231ece20",
+                "disabled_by": null,
+                "entity_id": "sensor.linkquality_temp_chambre_bas",
+                "name": "Chambre bas",
+                "platform": "mqtt",
+                "unique_id": "0x00158d00020182dc_linkquality_zigbee2mqtt"
             }
         ]
     },

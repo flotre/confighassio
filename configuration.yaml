@@ -21,7 +21,17 @@ schedule_list:
 freebox:
   host: f85359wf.fbxos.fr
   port: 33333
-  
+
+webhook:
+
+zigbee2mqtt_networkmap:
+  #topic: your topic (optional, default zigbee2mqtt)
+panel_iframe:
+  networkmap:
+    title: 'Zigbee Map'
+    url: '/local/community/zigbee2mqtt_networkmap/map.html'
+    icon: 'mdi:graphql'
+
 # Example configuration.yaml entry
 notify:
   - name: email

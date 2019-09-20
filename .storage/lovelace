@@ -32,7 +32,7 @@
                         "sun.sun",
                         "person.alice",
                         "person.florent",
-                        "sensor.temperature_chambre_bas",
+                        "sensor.temperature_temp_chambre_bas",
                         "sensor.temperature_chambre_antoine"
                     ],
                     "cards": [
