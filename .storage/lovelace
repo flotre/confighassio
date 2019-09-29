@@ -94,7 +94,7 @@
                                     "secondary_info": "last-changed"
                                 },
                                 {
-                                    "entity": "sensor.temperature_salon",
+                                    "entity": "sensor.temperature_temp_salon",
                                     "secondary_info": "last-changed"
                                 },
                                 {
