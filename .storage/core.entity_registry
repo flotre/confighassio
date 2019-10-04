@@ -594,6 +594,51 @@
                 "name": "Salon",
                 "platform": "mqtt",
                 "unique_id": "0x00158d000171e488_temperature_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "c85fca6bd4654bafb0ff0cafb8b5bc7c",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d0001f53161_humidity",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001f53161_humidity_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "c85fca6bd4654bafb0ff0cafb8b5bc7c",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d0001f53161_pressure",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001f53161_pressure_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "c85fca6bd4654bafb0ff0cafb8b5bc7c",
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_sol_antoine",
+                "name": "Sol Antoine",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001f53161_temperature_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "c85fca6bd4654bafb0ff0cafb8b5bc7c",
+                "disabled_by": null,
+                "entity_id": "sensor.linkquality_sol_antoine",
+                "name": "Sol Antoine",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001f53161_linkquality_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "c85fca6bd4654bafb0ff0cafb8b5bc7c",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_sol_antoine",
+                "name": "Sol Antoine",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001f53161_battery_zigbee2mqtt"
             }
         ]
     },
