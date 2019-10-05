@@ -58,10 +58,11 @@ xiaomi_aqara:
     - mac: !secret aqara_gw_mac
       key: !secret aqara_gw_key
 
+linky:
+    - username: !secret linky_login
+      password: !secret linky_password
+
 sensor:
-  - platform: linky
-    username: !secret linky_login
-    password: !secret linky_password
   - platform: mqtt
     name: Bridge state
     state_topic: "zigbee2mqtt/bridge/state"
