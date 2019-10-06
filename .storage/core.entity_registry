@@ -639,6 +639,96 @@
                 "name": "Sol Antoine",
                 "platform": "mqtt",
                 "unique_id": "0x00158d0001f53161_battery_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
+                "device_id": "82f00f8c3180434e86df59a20b882e66",
+                "disabled_by": null,
+                "entity_id": "sensor.linky_current_year",
+                "name": null,
+                "platform": "linky",
+                "unique_id": "florent.aumaitre@gmail.com_yearly_-1"
+            },
+            {
+                "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
+                "device_id": "5c7006d665484490a1d32191d27f26a4",
+                "disabled_by": null,
+                "entity_id": "sensor.linky_yesterday",
+                "name": null,
+                "platform": "linky",
+                "unique_id": "florent.aumaitre@gmail.com_daily_-2"
+            },
+            {
+                "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
+                "device_id": "21a89e27761d429cabb22cdef3eb209f",
+                "disabled_by": null,
+                "entity_id": "sensor.linky_last_month",
+                "name": null,
+                "platform": "linky",
+                "unique_id": "florent.aumaitre@gmail.com_monthly_-2"
+            },
+            {
+                "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
+                "device_id": "0b3174a8178d4f74bd3bed2160d2a2e1",
+                "disabled_by": null,
+                "entity_id": "sensor.linky_current_month",
+                "name": null,
+                "platform": "linky",
+                "unique_id": "florent.aumaitre@gmail.com_monthly_-1"
+            },
+            {
+                "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
+                "device_id": "433a2280c1644fdf8aa4247a2e8a5056",
+                "disabled_by": null,
+                "entity_id": "sensor.linky_last_year",
+                "name": null,
+                "platform": "linky",
+                "unique_id": "florent.aumaitre@gmail.com_yearly_-2"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "bf80525225a049af847ffed033599a56",
+                "disabled_by": null,
+                "entity_id": "light.sonoff",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "68C476_LI_1"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "bf80525225a049af847ffed033599a56",
+                "disabled_by": null,
+                "entity_id": "sensor.sonoff_status",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "68C476_status"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "bf80525225a049af847ffed033599a56",
+                "disabled_by": null,
+                "entity_id": "switch.sonoff",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "68C476_RL_1"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "b0ec9dbee6e74f10861fbc09af2d3c2b",
+                "disabled_by": null,
+                "entity_id": "switch.sonoff_2",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "68C076_RL_1"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "b0ec9dbee6e74f10861fbc09af2d3c2b",
+                "disabled_by": null,
+                "entity_id": "sensor.sonoff_status_2",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "68C076_status"
             }
         ]
     },

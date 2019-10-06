@@ -15,6 +15,10 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 
 logger:
+  default: info
+  logs:
+    homeassistant.components.mqtt: debug
+
 
 schedule_list:
 
@@ -59,8 +63,8 @@ xiaomi_aqara:
       key: !secret aqara_gw_key
 
 linky:
-    - username: !secret linky_login
-      password: !secret linky_password
+  - username: !secret linky_login
+    password: !secret linky_password
 
 sensor:
   - platform: mqtt

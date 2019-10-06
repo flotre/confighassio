@@ -66,12 +66,12 @@
     platform: state
     to: 'on'
   - below: '26'
-    entity_id: input_number.temperature_sol_antoine
+    entity_id: sensor.temperature_sol_antoine
     platform: numeric_state
   condition:
   - below: '26'
     condition: numeric_state
-    entity_id: input_number.temperature_sol_antoine
+    entity_id: sensor.temperature_sol_antoine
   - condition: state
     entity_id: input_boolean.virtual_chauffage_antoine
     state: 'on'
@@ -87,7 +87,7 @@
     platform: state
     to: 'off'
   - above: '28'
-    entity_id: input_number.temperature_sol_antoine
+    entity_id: sensor.temperature_sol_antoine
     platform: numeric_state
   condition: []
   action:

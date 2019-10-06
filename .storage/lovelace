@@ -168,9 +168,7 @@
                     "cards": [
                         {
                             "entities": [
-                                {
-                                    "entity": "input_number.temperature_sol_antoine"
-                                }
+                                "sensor.temperature_sol_antoine"
                             ],
                             "show_header_toggle": false,
                             "type": "entities"
