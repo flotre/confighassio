@@ -32,7 +32,7 @@
                         "sun.sun",
                         "person.alice",
                         "person.florent",
-                        "sensor.temperature_temp_chambre_bas",
+                        "sensor.temperature_chambre_bas",
                         "sensor.temperature_chambre_antoine"
                     ],
                     "cards": [
@@ -94,7 +94,7 @@
                                     "secondary_info": "last-changed"
                                 },
                                 {
-                                    "entity": "sensor.temperature_temp_salon",
+                                    "entity": "sensor.temperature_salon",
                                     "secondary_info": "last-changed"
                                 },
                                 {
@@ -214,17 +214,12 @@
                     "cards": [
                         {
                             "id": "salon",
-                            "title": "Salon",
+                            "title": "Salon/Cuisine/Entr\u00e9e",
                             "type": "custom:schedule-card"
                         },
                         {
                             "id": "chambre_bas",
                             "title": "Chambre bas",
-                            "type": "custom:schedule-card"
-                        },
-                        {
-                            "id": "cuisine",
-                            "title": "Cuisine",
                             "type": "custom:schedule-card"
                         },
                         {
@@ -236,16 +231,31 @@
                             "id": "salle_d_eau",
                             "title": "Salle d'eau",
                             "type": "custom:schedule-card"
-                        },
-                        {
-                            "id": "entree",
-                            "title": "Entr\u00e9e",
-                            "type": "custom:schedule-card"
                         }
                     ],
                     "icon": "mdi:calendar",
                     "path": "calendrier",
                     "title": "Calendrier"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "climate.salon",
+                            "type": "thermostat"
+                        },
+                        {
+                            "entity": "climate.cuisine",
+                            "type": "thermostat"
+                        },
+                        {
+                            "entity": "climate.entree",
+                            "type": "thermostat"
+                        }
+                    ],
+                    "icon": "mdi:radiator",
+                    "path": "chauffage",
+                    "title": "Chauffage"
                 }
             ]
         }

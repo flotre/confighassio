@@ -302,15 +302,6 @@
                 "config_entry_id": null,
                 "device_id": null,
                 "disabled_by": null,
-                "entity_id": "sensor.temperature_salon",
-                "name": "Salon",
-                "platform": "xiaomi_aqara",
-                "unique_id": "temperature158d000171e488"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
                 "entity_id": "sensor.temperature_entree",
                 "name": "Entr\u00e9e",
                 "platform": "xiaomi_aqara",
@@ -351,15 +342,6 @@
                 "name": "Ext\u00e9rieur",
                 "platform": "xiaomi_aqara",
                 "unique_id": "temperature158d0001fa7649"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.temperature_chambre_bas",
-                "name": "Chambre bas",
-                "platform": "xiaomi_aqara",
-                "unique_id": "temperature158d00020182dc"
             },
             {
                 "config_entry_id": null,
@@ -527,15 +509,6 @@
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
                 "device_id": "ad8fb1bd62d7413faaf16525231ece20",
                 "disabled_by": null,
-                "entity_id": "sensor.temperature_temp_chambre_bas",
-                "name": "Chambre bas",
-                "platform": "mqtt",
-                "unique_id": "0x00158d00020182dc_temperature_zigbee2mqtt"
-            },
-            {
-                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
-                "device_id": "ad8fb1bd62d7413faaf16525231ece20",
-                "disabled_by": null,
                 "entity_id": "sensor.pressure_temp_chambre_bas",
                 "name": "Chambre bas",
                 "platform": "mqtt",
@@ -563,15 +536,6 @@
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
                 "device_id": "9f586bc7b78b4209a12ac83219f71bc4",
                 "disabled_by": null,
-                "entity_id": "sensor.linkquality_temp_salon",
-                "name": "Salon",
-                "platform": "mqtt",
-                "unique_id": "0x00158d000171e488_linkquality_zigbee2mqtt"
-            },
-            {
-                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
-                "device_id": "9f586bc7b78b4209a12ac83219f71bc4",
-                "disabled_by": null,
                 "entity_id": "sensor.humidity_temp_salon",
                 "name": "Salon",
                 "platform": "mqtt",
@@ -585,15 +549,6 @@
                 "name": "Salon",
                 "platform": "mqtt",
                 "unique_id": "0x00158d000171e488_pressure_zigbee2mqtt"
-            },
-            {
-                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
-                "device_id": "9f586bc7b78b4209a12ac83219f71bc4",
-                "disabled_by": null,
-                "entity_id": "sensor.temperature_temp_salon",
-                "name": "Salon",
-                "platform": "mqtt",
-                "unique_id": "0x00158d000171e488_temperature_zigbee2mqtt"
             },
             {
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
@@ -689,15 +644,6 @@
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
                 "device_id": "bf80525225a049af847ffed033599a56",
                 "disabled_by": null,
-                "entity_id": "light.sonoff",
-                "name": null,
-                "platform": "mqtt",
-                "unique_id": "68C476_LI_1"
-            },
-            {
-                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
-                "device_id": "bf80525225a049af847ffed033599a56",
-                "disabled_by": null,
                 "entity_id": "sensor.sonoff_status",
                 "name": null,
                 "platform": "mqtt",
@@ -714,21 +660,57 @@
             },
             {
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
-                "device_id": "b0ec9dbee6e74f10861fbc09af2d3c2b",
+                "device_id": "f784c4a9b9b340218f692520cd9e8ae1",
                 "disabled_by": null,
-                "entity_id": "switch.sonoff_2",
+                "entity_id": "switch.radiateur_entree",
                 "name": null,
                 "platform": "mqtt",
-                "unique_id": "68C076_RL_1"
+                "unique_id": "667103_RL_1"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "bbff9156367f466aac5222e5838df8a0",
+                "disabled_by": null,
+                "entity_id": "switch.radiateur_cuisine",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "666735_RL_1"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "9f586bc7b78b4209a12ac83219f71bc4",
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_salon",
+                "name": "Salon",
+                "platform": "mqtt",
+                "unique_id": "0x00158d000171e488_temperature_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "9f586bc7b78b4209a12ac83219f71bc4",
+                "disabled_by": null,
+                "entity_id": "sensor.linkquality_salon",
+                "name": "Salon",
+                "platform": "mqtt",
+                "unique_id": "0x00158d000171e488_linkquality_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "ad8fb1bd62d7413faaf16525231ece20",
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_chambre_bas",
+                "name": "Chambre bas",
+                "platform": "mqtt",
+                "unique_id": "0x00158d00020182dc_temperature_zigbee2mqtt"
             },
             {
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
                 "device_id": "b0ec9dbee6e74f10861fbc09af2d3c2b",
                 "disabled_by": null,
-                "entity_id": "sensor.sonoff_status_2",
+                "entity_id": "switch.radiateur_salon",
                 "name": null,
                 "platform": "mqtt",
-                "unique_id": "68C076_status"
+                "unique_id": "68C076_RL_1"
             }
         ]
     },

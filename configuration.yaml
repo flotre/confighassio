@@ -98,3 +98,28 @@ timer:
     name: Time remaining
     duration: 600 # Updated this to the number of seconds you wish
 
+
+climate:
+  - platform: generic_smart_thermostat
+    name: Salon
+    heater: switch.radiateur_salon
+    in_temp_sensor: sensor.temperature_salon
+    out_temp_sensor: sensor.temperature_exterieur
+    use_schedule_list: true
+    preheat: true
+    
+  - platform: generic_smart_thermostat
+    name: Entrée
+    heater: switch.radiateur_entree
+    in_temp_sensor: sensor.temperature_entree
+    out_temp_sensor: sensor.temperature_exterieur
+    use_schedule_list: true
+    preheat: true
+
+  - platform: generic_smart_thermostat
+    name: Cuisine
+    heater: switch.radiateur_cuisine
+    in_temp_sensor: sensor.temperature_cuisine
+    out_temp_sensor: sensor.temperature_exterieur
+    use_schedule_list: true
+    preheat: true
