@@ -33,7 +33,8 @@
                         "person.alice",
                         "person.florent",
                         "sensor.temperature_chambre_bas",
-                        "sensor.temperature_chambre_antoine"
+                        "sensor.temperature_chambre_antoine",
+                        "sensor.temperature_salle_d_eau"
                     ],
                     "cards": [
                         {
@@ -250,6 +251,11 @@
                         },
                         {
                             "entity": "climate.entree",
+                            "type": "thermostat"
+                        },
+                        {
+                            "entity": "climate.salle_deau",
+                            "name": "Salle d'eau",
                             "type": "thermostat"
                         }
                     ],

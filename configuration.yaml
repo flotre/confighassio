@@ -123,3 +123,12 @@ climate:
     out_temp_sensor: sensor.temperature_exterieur
     use_schedule_list: true
     preheat: true
+    
+  - platform: generic_smart_thermostat
+    name: Salle deau
+    heater: switch.radiateur_sde
+    in_temp_sensor: sensor.temperature_salle_d_eau
+    out_temp_sensor: sensor.temperature_exterieur
+    confort_temp: 22
+    use_schedule_list: true
+    preheat: true

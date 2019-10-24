@@ -711,6 +711,15 @@
                 "name": null,
                 "platform": "mqtt",
                 "unique_id": "68C076_RL_1"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "f0b73ba2807140dc8ccf522b58bdf165",
+                "disabled_by": null,
+                "entity_id": "switch.radiateur_sde",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "98D8E4_RL_1"
             }
         ]
     },
