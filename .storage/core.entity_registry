@@ -597,7 +597,7 @@
             },
             {
                 "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
-                "device_id": "82f00f8c3180434e86df59a20b882e66",
+                "device_id": "4d9e5de4c38f44f5a0d65cf4e21222b4",
                 "disabled_by": null,
                 "entity_id": "sensor.linky_current_year",
                 "name": null,
@@ -606,7 +606,7 @@
             },
             {
                 "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
-                "device_id": "5c7006d665484490a1d32191d27f26a4",
+                "device_id": "4d9e5de4c38f44f5a0d65cf4e21222b4",
                 "disabled_by": null,
                 "entity_id": "sensor.linky_yesterday",
                 "name": null,
@@ -615,7 +615,7 @@
             },
             {
                 "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
-                "device_id": "21a89e27761d429cabb22cdef3eb209f",
+                "device_id": "4d9e5de4c38f44f5a0d65cf4e21222b4",
                 "disabled_by": null,
                 "entity_id": "sensor.linky_last_month",
                 "name": null,
@@ -624,7 +624,7 @@
             },
             {
                 "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
-                "device_id": "0b3174a8178d4f74bd3bed2160d2a2e1",
+                "device_id": "4d9e5de4c38f44f5a0d65cf4e21222b4",
                 "disabled_by": null,
                 "entity_id": "sensor.linky_current_month",
                 "name": null,
@@ -633,7 +633,7 @@
             },
             {
                 "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
-                "device_id": "433a2280c1644fdf8aa4247a2e8a5056",
+                "device_id": "4d9e5de4c38f44f5a0d65cf4e21222b4",
                 "disabled_by": null,
                 "entity_id": "sensor.linky_last_year",
                 "name": null,

@@ -18,6 +18,7 @@ logger:
   default: info
   logs:
     homeassistant.components.mqtt: debug
+    custom_components.generic_smart_thermostat.climate: debug
 
 
 schedule_list:
