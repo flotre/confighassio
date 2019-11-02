@@ -95,15 +95,6 @@
                 "config_entry_id": null,
                 "device_id": null,
                 "disabled_by": null,
-                "entity_id": "sensor.humidity_buanderie",
-                "name": "Humidit\u00e9 Buanderie",
-                "platform": "xiaomi_aqara",
-                "unique_id": "humidity158d000171e23f"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
                 "entity_id": "sensor.humidity_salle_d_eau",
                 "name": "Humidit\u00e9 salle d'eau",
                 "platform": "xiaomi_aqara",
@@ -194,15 +185,6 @@
                 "config_entry_id": null,
                 "device_id": null,
                 "disabled_by": null,
-                "entity_id": "sensor.pressure_buanderie",
-                "name": "Pression buanderie",
-                "platform": "xiaomi_aqara",
-                "unique_id": "pressure158d000171e23f"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
                 "entity_id": "sensor.pressure_salle_d_eau",
                 "name": "Pression salle d'eau",
                 "platform": "xiaomi_aqara",
@@ -279,15 +261,6 @@
                 "name": "Pression chambre Antoine",
                 "platform": "xiaomi_aqara",
                 "unique_id": "pressure158d000201877a"
-            },
-            {
-                "config_entry_id": null,
-                "device_id": null,
-                "disabled_by": null,
-                "entity_id": "sensor.temperature_buanderie",
-                "name": "Buanderie",
-                "platform": "xiaomi_aqara",
-                "unique_id": "temperature158d000171e23f"
             },
             {
                 "config_entry_id": null,
@@ -720,6 +693,105 @@
                 "name": null,
                 "platform": "mqtt",
                 "unique_id": "98D8E4_RL_1"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "4fb3c69f803242f897f42695103fb1a6",
+                "disabled_by": null,
+                "entity_id": "sensor.0x000d6ffffe7c32f4_linkquality",
+                "name": "Repeteur studio_linkquality",
+                "platform": "mqtt",
+                "unique_id": "0x000d6ffffe7c32f4_linkquality_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "83ba6473984549a9849490323498c46d",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d0001fa762e_temperature",
+                "name": "Studio",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001fa762e_temperature_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "83ba6473984549a9849490323498c46d",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d0001fa762e_humidity",
+                "name": "Studio",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001fa762e_humidity_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "83ba6473984549a9849490323498c46d",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d0001fa762e_pressure",
+                "name": "Studio",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001fa762e_pressure_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "83ba6473984549a9849490323498c46d",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d0001fa762e_battery",
+                "name": "Studio",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001fa762e_battery_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "83ba6473984549a9849490323498c46d",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d0001fa762e_linkquality",
+                "name": "Studio",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001fa762e_linkquality_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "72cdee2b23d4404da4d2877bc0398c0c",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d000171e23f_linkquality",
+                "name": "Buanderie_linkquality",
+                "platform": "mqtt",
+                "unique_id": "0x00158d000171e23f_linkquality_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "72cdee2b23d4404da4d2877bc0398c0c",
+                "disabled_by": null,
+                "entity_id": "sensor.battery_buanderie",
+                "name": "Buanderie",
+                "platform": "mqtt",
+                "unique_id": "0x00158d000171e23f_battery_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "72cdee2b23d4404da4d2877bc0398c0c",
+                "disabled_by": null,
+                "entity_id": "sensor.humidity_buanderie",
+                "name": "Buanderie_humidity",
+                "platform": "mqtt",
+                "unique_id": "0x00158d000171e23f_humidity_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "72cdee2b23d4404da4d2877bc0398c0c",
+                "disabled_by": null,
+                "entity_id": "sensor.pressure_buanderie",
+                "name": "Buanderie_pressure",
+                "platform": "mqtt",
+                "unique_id": "0x00158d000171e23f_pressure_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "72cdee2b23d4404da4d2877bc0398c0c",
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_buanderie",
+                "name": "Buanderie_temperature",
+                "platform": "mqtt",
+                "unique_id": "0x00158d000171e23f_temperature_zigbee2mqtt"
             }
         ]
     },

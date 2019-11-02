@@ -16,6 +16,26 @@
             {
                 "id": "e907fe4c2713464890a886763801b996",
                 "name": "Buanderie"
+            },
+            {
+                "id": "97f4d16acb2f40a388a1d87ce2b2c2d4",
+                "name": "Studio"
+            },
+            {
+                "id": "ef405c1ffa0144cfa83b20cd3b6ea71c",
+                "name": "Garage"
+            },
+            {
+                "id": "85a03f017bb34a30872ddab02bb22f87",
+                "name": "Salle d'eau"
+            },
+            {
+                "id": "3d4c3bb82cd945ae8eef9d74725b23d2",
+                "name": "Chambre Antoine"
+            },
+            {
+                "id": "e4388544956c456f94e4fe3c7f5acee1",
+                "name": "Entr\u00e9e"
             }
         ]
     },
