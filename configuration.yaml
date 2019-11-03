@@ -108,6 +108,7 @@ climate:
     out_temp_sensor: sensor.temperature_exterieur
     use_schedule_list: true
     preheat: true
+    calculate_period: 30
     
   - platform: generic_smart_thermostat
     name: Entrée
