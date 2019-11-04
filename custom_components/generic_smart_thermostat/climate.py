@@ -63,7 +63,7 @@ DEFAULT_NAME = 'Generic Smart Thermostat'
 DEFAULT_AWAY_TEMP = 15.0
 DEFAULT_CONFORT_TEMP = 19.0
 DEFAULT_ECO_TEMP = 17.0
-DEFAULT_MIN_POWER = 5
+DEFAULT_MIN_POWER = 15
 DEFAULT_CALCULATE_PERIOD = 30
 DEFAULT_OFFSET_HEAT_FAILURE = 2
 
@@ -913,7 +913,7 @@ class GenericSmartThermostat(ClimateDevice, RestoreEntity):
         self._last_do_schedule = now
 
         # pre-heat mode
-        if self._preheat and self.Internals["nbCC"] > 25:
+        if self._preheat and self.Internals["nbCC"] > 25 and self._in_temp and self._out_temp:
             # TODO check if learning is done
             if ns_date and ns_mode:
                 # get next target temp

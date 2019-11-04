@@ -115,6 +115,35 @@
                     "badges": [],
                     "cards": [
                         {
+                            "entity": "climate.salon",
+                            "type": "thermostat"
+                        },
+                        {
+                            "entity": "climate.cuisine",
+                            "type": "thermostat"
+                        },
+                        {
+                            "entity": "climate.entree",
+                            "type": "thermostat"
+                        },
+                        {
+                            "entity": "climate.salle_deau",
+                            "name": "Salle d'eau",
+                            "type": "thermostat"
+                        },
+                        {
+                            "entity": "climate.chambre_antoine",
+                            "type": "thermostat"
+                        }
+                    ],
+                    "icon": "mdi:radiator",
+                    "path": "chauffage",
+                    "title": "Chauffage"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
                             "card": {
                                 "show_header_toggle": false,
                                 "title": "Batterie < 5%",
@@ -162,14 +191,51 @@
                     "title": "Batterie"
                 },
                 {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "id": "salon",
+                            "title": "Salon/Cuisine/Entr\u00e9e",
+                            "type": "custom:schedule-card"
+                        },
+                        {
+                            "id": "chambre_bas",
+                            "title": "Chambre bas",
+                            "type": "custom:schedule-card"
+                        },
+                        {
+                            "id": "chambre_antoine",
+                            "title": "Chambre Antoine",
+                            "type": "custom:schedule-card"
+                        },
+                        {
+                            "id": "salle_d_eau",
+                            "title": "Salle d'eau",
+                            "type": "custom:schedule-card"
+                        }
+                    ],
+                    "icon": "mdi:calendar",
+                    "path": "calendrier",
+                    "title": "Calendrier"
+                },
+                {
                     "badges": [
-                        "input_boolean.virtual_chauffage_antoine",
-                        "input_boolean.chauffage_antoine"
+                        {
+                            "entity": "input_boolean.virtual_chauffage_antoine"
+                        },
+                        {
+                            "entity": "switch.radiateur_chambre_antoine"
+                        }
                     ],
                     "cards": [
                         {
                             "entities": [
-                                "sensor.temperature_sol_antoine"
+                                {
+                                    "entity": "sensor.temperature_sol_antoine"
+                                },
+                                {
+                                    "entity": "sensor.temperature_chambre_antoine"
+                                }
                             ],
                             "show_header_toggle": false,
                             "type": "entities"
@@ -209,59 +275,6 @@
                         }
                     ],
                     "icon": "mdi:settings"
-                },
-                {
-                    "badges": [],
-                    "cards": [
-                        {
-                            "id": "salon",
-                            "title": "Salon/Cuisine/Entr\u00e9e",
-                            "type": "custom:schedule-card"
-                        },
-                        {
-                            "id": "chambre_bas",
-                            "title": "Chambre bas",
-                            "type": "custom:schedule-card"
-                        },
-                        {
-                            "id": "chambre_antoine",
-                            "title": "Chambre Antoine",
-                            "type": "custom:schedule-card"
-                        },
-                        {
-                            "id": "salle_d_eau",
-                            "title": "Salle d'eau",
-                            "type": "custom:schedule-card"
-                        }
-                    ],
-                    "icon": "mdi:calendar",
-                    "path": "calendrier",
-                    "title": "Calendrier"
-                },
-                {
-                    "badges": [],
-                    "cards": [
-                        {
-                            "entity": "climate.salon",
-                            "type": "thermostat"
-                        },
-                        {
-                            "entity": "climate.cuisine",
-                            "type": "thermostat"
-                        },
-                        {
-                            "entity": "climate.entree",
-                            "type": "thermostat"
-                        },
-                        {
-                            "entity": "climate.salle_deau",
-                            "name": "Salle d'eau",
-                            "type": "thermostat"
-                        }
-                    ],
-                    "icon": "mdi:radiator",
-                    "path": "chauffage",
-                    "title": "Chauffage"
                 }
             ]
         }

@@ -792,6 +792,24 @@
                 "name": "Buanderie_temperature",
                 "platform": "mqtt",
                 "unique_id": "0x00158d000171e23f_temperature_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "355fca8598d646218c6d4f3cd1538797",
+                "disabled_by": null,
+                "entity_id": "switch.radiateur_chambre_antoine",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "40C588_RL_1"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "355fca8598d646218c6d4f3cd1538797",
+                "disabled_by": null,
+                "entity_id": "sensor.radiateur_chambre_antoine",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "40C588_status"
             }
         ]
     },

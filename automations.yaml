@@ -77,8 +77,8 @@
     state: 'on'
   action:
   - data:
-      entity_id: input_boolean.chauffage_antoine
-    service: input_boolean.turn_on
+      entity_id: switch.radiateur_chambre_antoine
+    service: switch.turn_on
 - id: '1568230211853'
   alias: chauffage antoine off
   trigger:
@@ -92,8 +92,8 @@
   condition: []
   action:
   - data:
-      entity_id: input_boolean.chauffage_antoine
-    service: input_boolean.turn_off
+      entity_id: switch.radiateur_chambre_antoine
+    service: switch.turn_off
 - id: enable_zigbee_join
   alias: Enable Zigbee joining
   hide_entity: true

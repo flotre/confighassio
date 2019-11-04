@@ -81,17 +81,9 @@ input_boolean:
   virtual_chauffage_antoine:
     name: Etat souhaite du chauffage
     icon: mdi:radiator
+
     
-  chauffage_antoine:
-    name: Etat reel chauffage
-    icon: mdi:radiator
-    
-input_number:
-  temperature_sol_antoine:
-    min: -20
-    max: 35
-    step: 0.1
-    mode: box
+
 
 
 timer:
@@ -134,3 +126,13 @@ climate:
     confort_temp: 22
     use_schedule_list: true
     preheat: true
+
+  - platform: generic_smart_thermostat
+    name: Chambre Antoine
+    heater: input_boolean.virtual_chauffage_antoine
+    in_temp_sensor: sensor.temperature_chambre_antoine
+    out_temp_sensor: sensor.temperature_exterieur
+    use_schedule_list: true
+    preheat: true
+    calculate_period: 30
+    
