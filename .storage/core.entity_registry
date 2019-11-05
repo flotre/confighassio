@@ -615,24 +615,6 @@
             },
             {
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
-                "device_id": "bf80525225a049af847ffed033599a56",
-                "disabled_by": null,
-                "entity_id": "sensor.sonoff_status",
-                "name": null,
-                "platform": "mqtt",
-                "unique_id": "68C476_status"
-            },
-            {
-                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
-                "device_id": "bf80525225a049af847ffed033599a56",
-                "disabled_by": null,
-                "entity_id": "switch.sonoff",
-                "name": null,
-                "platform": "mqtt",
-                "unique_id": "68C476_RL_1"
-            },
-            {
-                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
                 "device_id": "f784c4a9b9b340218f692520cd9e8ae1",
                 "disabled_by": null,
                 "entity_id": "switch.radiateur_entree",
@@ -810,6 +792,15 @@
                 "name": null,
                 "platform": "mqtt",
                 "unique_id": "40C588_status"
+            },
+            {
+                "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_id": "bf80525225a049af847ffed033599a56",
+                "disabled_by": null,
+                "entity_id": "switch.radiateur_chambre_bas",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "68C476_RL_1"
             }
         ]
     },
