@@ -65,7 +65,7 @@
     from: 'off'
     platform: state
     to: 'on'
-  - below: '26'
+  - below: '25'
     entity_id: sensor.temperature_sol_antoine
     platform: numeric_state
   condition:
@@ -86,7 +86,7 @@
     from: 'on'
     platform: state
     to: 'off'
-  - above: '28'
+  - above: '27'
     entity_id: sensor.temperature_sol_antoine
     platform: numeric_state
   condition: []
