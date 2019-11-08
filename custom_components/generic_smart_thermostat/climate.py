@@ -63,7 +63,7 @@ DEFAULT_NAME = 'Generic Smart Thermostat'
 DEFAULT_AWAY_TEMP = 15.0
 DEFAULT_CONFORT_TEMP = 19.0
 DEFAULT_ECO_TEMP = 17.0
-DEFAULT_MIN_POWER = 15
+DEFAULT_MIN_POWER = 10
 DEFAULT_CALCULATE_PERIOD = 30
 DEFAULT_OFFSET_HEAT_FAILURE = 2
 
@@ -323,12 +323,10 @@ class GenericSmartThermostat(ClimateDevice, RestoreEntity):
             """Init on startup."""
             # get in temperature
             sensor_state = self.hass.states.get(self.in_temp_sensor_entity_id)
-            if sensor_state and sensor_state.state != STATE_UNKNOWN:
-                self._async_update_in_temp(sensor_state)
+            self._async_update_in_temp(sensor_state)
             # get out temperature
             sensor_state = self.hass.states.get(self.out_temp_sensor_entity_id)
-            if sensor_state and sensor_state.state != STATE_UNKNOWN:
-                self._async_update_out_temp(sensor_state)
+            self._async_update_out_temp(sensor_state)
 
         self.hass.bus.async_listen_once(EVENT_HOMEASSISTANT_START, _async_startup)
 
@@ -506,7 +504,7 @@ class GenericSmartThermostat(ClimateDevice, RestoreEntity):
 
     async def _async_in_temp_changed(self, entity_id, old_state, new_state):
         """Handle temperature changes."""
-        if new_state is None:
+        if new_state is None or new_state.state == STATE_UNKNOWN:
             return
 
         self._async_update_in_temp(new_state)
@@ -514,7 +512,7 @@ class GenericSmartThermostat(ClimateDevice, RestoreEntity):
 
     async def _async_out_temp_changed(self, entity_id, old_state, new_state):
         """Handle temperature changes."""
-        if new_state is None:
+        if new_state is None or new_state.state == STATE_UNKNOWN:
             return
 
         self._async_update_out_temp(new_state)
@@ -620,7 +618,7 @@ class GenericSmartThermostat(ClimateDevice, RestoreEntity):
                     self.nextcalc = dt.now() + timedelta(minutes=self._calculate_period)
                     self.logger.debug("Next calculation time will be : %s", self.nextcalc)
                     # do the thermostat work
-                    await self.auto_mode()
+                    await self.auto_mode(force)
             else:
                 self.logger.error("unrecognized hvac mode:", self._hvac_mode)
 
@@ -671,11 +669,11 @@ class GenericSmartThermostat(ClimateDevice, RestoreEntity):
         await self.async_update_ha_state()
 
 
-    async def auto_mode(self):
+    async def auto_mode(self, force):
         self.logger.debug("Temperatures: Inside = {} / Outside = {}".format(self._in_temp, self._out_temp))
 
         # failure detect
-        if not self._failure_detect():
+        if not self._failure_detect() and not force:
             # learning
             self.auto_callib()
 
@@ -694,11 +692,12 @@ class GenericSmartThermostat(ClimateDevice, RestoreEntity):
 
         # apply minimum power as required
         if power <= self.min_cycle_power and not overshoot:
-            self.logger.debug(
+            _LOGGER.debug(
                 "Calculated power is {}, applying minimum power of {}".format(power, self.min_cycle_power))
             power = self.min_cycle_power
-
-        heatduration = round(power * (self._calculate_period / 100) * 60)
+        
+        #compute heat duration
+        heatduration = round(power * (self._calculate_period / 100) * 60)        
         self.logger.debug("Calculation: Power = {} -> heat duration = {} seconds ({} min)".format(power, heatduration, heatduration/60))
 
         if power == 0:
@@ -749,7 +748,7 @@ class GenericSmartThermostat(ClimateDevice, RestoreEntity):
                                              (self.Internals['nbCC'] + 1), 1)
             self.Internals['nbCC'] = min(self.Internals['nbCC'] + 1, 50)
             self.logger.debug("ConstC updated {} -> {}".format(save_constC, self.Internals['ConstC']))
-        elif self._out_temp is not None and self._out_temp < self.Internals['LastSetPoint']:
+        elif self._out_temp is not None and self.Internals['LastSetPoint'] > self.Internals['LastOutT']:
             # learning ConstT
             ConstT = (self.Internals['ConstT'] + ((self.Internals['LastSetPoint'] - self._in_temp) /
                                                   (self.Internals['LastSetPoint'] - self.Internals['LastOutT']) *

@@ -134,6 +134,10 @@
                         {
                             "entity": "climate.chambre_antoine",
                             "type": "thermostat"
+                        },
+                        {
+                            "entity": "climate.chambre_bas",
+                            "type": "thermostat"
                         }
                     ],
                     "icon": "mdi:radiator",
