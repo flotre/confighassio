@@ -672,16 +672,15 @@ class GenericSmartThermostat(ClimateDevice, RestoreEntity):
     async def auto_mode(self, force):
         self.logger.debug("Temperatures: Inside = {} / Outside = {}".format(self._in_temp, self._out_temp))
 
-        # failure detect
-        if not self._failure_detect() and not force:
-            # learning
-            self.auto_callib()
-
         if self._in_temp > self._target_temp + self._hot_tolerance:
             self.logger.debug("Temperature exceeds _target_temp+tolerance=%s",self._target_temp + self._hot_tolerance)
             overshoot = True
             power = 0
         else:
+            # failure detect
+            if not self._failure_detect() and not force:
+                # learning
+                self.auto_callib()
             overshoot = False
             power = self._power(self._target_temp, self._in_temp, self._out_temp)
 
@@ -727,7 +726,7 @@ class GenericSmartThermostat(ClimateDevice, RestoreEntity):
 
         now = dt.now()
         if self.Internals['ALStatus'] != 1:  # not initalized... do nothing
-            self.logger.debug("Fist pass at AutoCallib... no callibration")
+            self.logger.debug("First pass at AutoCallib... no callibration")
             pass
         elif self.Internals['LastPwr'] == 0:  # heater was off last time, do nothing
             self.logger.debug("Last power was zero... no callibration")
