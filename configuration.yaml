@@ -17,7 +17,7 @@ script: !include scripts.yaml
 logger:
   default: info
   logs:
-    homeassistant.components.mqtt: debug
+    homeassistant.components.mqtt: info
     custom_components.generic_smart_thermostat.climate: debug
 
 
@@ -100,7 +100,7 @@ climate:
     out_temp_sensor: sensor.temperature_exterieur
     use_schedule_list: true
     preheat: true
-    calculate_period: 30
+    calculate_period: 60
     
   - platform: generic_smart_thermostat
     name: Entrée
@@ -109,6 +109,7 @@ climate:
     out_temp_sensor: sensor.temperature_exterieur
     use_schedule_list: true
     preheat: true
+    calculate_period: 60
 
   - platform: generic_smart_thermostat
     name: Cuisine
@@ -117,6 +118,7 @@ climate:
     out_temp_sensor: sensor.temperature_exterieur
     use_schedule_list: true
     preheat: true
+    calculate_period: 60
     
   - platform: generic_smart_thermostat
     name: Salle deau
