@@ -44,8 +44,14 @@
     entity_id: person.florent
     state: not_home
   action:
-  - data:
-      message: Une porte ou une fenetre est ouverte mais personne n'est présent
+  - data_template:
+      message: >
+        Une porte ou une fenetre est ouverte mais personne n'est présent
+        {% for state in states.binary_sensor %}
+          {% if state.state == 'on' %}
+            {{ state.entity_id }}={{ state.state }},
+          {% endif %}
+        {% endfor %}
       title: Alerte intrusion
     service: notify.email
 - id: '1568061925733'
@@ -140,3 +146,18 @@
   - service: input_boolean.turn_off
     data:
       entity_id: input_boolean.zigbee_permit_join
+- id: '1574280838904'
+  alias: chauffage salon
+  trigger:
+  - platform: template
+    value_template: '{{ is_state_attr("climate.salon", "preset_mode", "comfort") }}'
+  condition: []
+  action:
+  - data:
+      entity_id: climate.entree
+      preset_mode: comfort
+    service: climate.set_preset_mode
+  - data:
+      entity_id: climate.cuisine
+      preset_mode: comfort
+    service: climate.set_preset_mode
