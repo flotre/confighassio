@@ -45,13 +45,9 @@
     state: not_home
   action:
   - data_template:
-      message: >
-        Une porte ou une fenetre est ouverte mais personne n'est présent
-        {% for state in states.binary_sensor %}
-          {% if state.state == 'on' %}
-            {{ state.entity_id }}={{ state.state }},
-          {% endif %}
-        {% endfor %}
+      message: "Une porte ou une fenetre est ouverte mais personne n'est présent {%\
+        \ for state in states.binary_sensor %}\n  {% if state.state == 'on' %}\n \
+        \   {{ state.entity_id }}={{ state.state }},\n  {% endif %}\n{% endfor %}\n"
       title: Alerte intrusion
     service: notify.email
 - id: '1568061925733'
@@ -151,6 +147,12 @@
   trigger:
   - platform: template
     value_template: '{{ is_state_attr("climate.salon", "preset_mode", "comfort") }}'
+  - platform: template
+    value_template: '{{ is_state_attr("climate.entree", "preset_mode", "comfort")
+      }}'
+  - platform: template
+    value_template: '{{ is_state_attr("climate.cuisine", "preset_mode", "comfort")
+      }}'
   condition: []
   action:
   - data:
@@ -159,5 +161,9 @@
     service: climate.set_preset_mode
   - data:
       entity_id: climate.cuisine
+      preset_mode: comfort
+    service: climate.set_preset_mode
+  - data:
+      entity_id: climate.salon
       preset_mode: comfort
     service: climate.set_preset_mode
