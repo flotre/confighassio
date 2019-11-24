@@ -801,6 +801,24 @@
                 "name": null,
                 "platform": "mqtt",
                 "unique_id": "68C476_RL_1"
+            },
+            {
+                "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
+                "device_id": "9a28b527e86d414ebd415a03e0565980",
+                "disabled_by": null,
+                "entity_id": "media_player.salon",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "9e83be60-5bac-cf0e-d993-7a8ea28cc14a"
+            },
+            {
+                "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
+                "device_id": "fc5f302b019042cdaa2dc0f478639533",
+                "disabled_by": null,
+                "entity_id": "media_player.chromecast7630",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "1262b3da-82e4-c7d9-e83c-331d706077cf"
             }
         ]
     },
