@@ -2,823 +2,1213 @@
     "data": {
         "entities": [
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "person.nous",
                 "name": null,
                 "platform": "person",
-                "unique_id": "dc8977e83ed740c6b664a80b02c01cee"
+                "supported_features": 0,
+                "unique_id": "dc8977e83ed740c6b664a80b02c01cee",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "2d76d9e2b3724cb1bc1f199f9a8c12b6",
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "weather.maison",
                 "name": null,
                 "platform": "met",
-                "unique_id": "home"
+                "supported_features": 0,
+                "unique_id": "home",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
+                "device_class": null,
                 "device_id": "e778d2fee48a4b998da8fa0a6638a4d4",
                 "disabled_by": null,
                 "entity_id": "media_player.salon_audio",
                 "name": null,
                 "platform": "cast",
-                "unique_id": "e0425993-6635-4025-bf5c-b43e2107c4a9"
+                "supported_features": 21389,
+                "unique_id": "e0425993-6635-4025-bf5c-b43e2107c4a9",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
+                "device_class": null,
                 "device_id": "dacb333071e843b79f52b542462f4e03",
                 "disabled_by": null,
                 "entity_id": "media_player.nexus_player",
                 "name": null,
                 "platform": "cast",
-                "unique_id": "c24fd8c0-dea2-8417-e0a8-5fab9a026fbe"
+                "supported_features": 0,
+                "unique_id": "c24fd8c0-dea2-8417-e0a8-5fab9a026fbe",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "opening",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "binary_sensor.door_window_sensor_chambre_bas",
                 "name": "Fenetre chambre bas",
                 "platform": "xiaomi_aqara",
-                "unique_id": "status158d0001de8fd0"
+                "supported_features": 0,
+                "unique_id": "status158d0001de8fd0",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "opening",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "binary_sensor.door_window_sensor_cuisine",
                 "name": "Porte fenetre cuisine",
                 "platform": "xiaomi_aqara",
-                "unique_id": "status158d0002b531b7"
+                "supported_features": 0,
+                "unique_id": "status158d0002b531b7",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "opening",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "binary_sensor.door_window_sensor_devant",
                 "name": "Porte fenetre devant",
                 "platform": "xiaomi_aqara",
-                "unique_id": "status158d0002b56b11"
+                "supported_features": 0,
+                "unique_id": "status158d0002b56b11",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "opening",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "binary_sensor.door_window_sensor_terrasse",
                 "name": "Porte fenetre terrasse",
                 "platform": "xiaomi_aqara",
-                "unique_id": "status158d0002c98713"
+                "supported_features": 0,
+                "unique_id": "status158d0002c98713",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "binary_sensor.water_leak_sensor_garage",
                 "name": "Fuite eau garage",
                 "platform": "xiaomi_aqara",
-                "unique_id": "status158d00024bcab1"
+                "supported_features": 0,
+                "unique_id": "status158d00024bcab1",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "light.gateway_light",
                 "name": "Gateway",
                 "platform": "xiaomi_aqara",
-                "unique_id": "rgb34ce00909800"
+                "supported_features": 17,
+                "unique_id": "rgb34ce00909800",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "humidity",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.humidity_salle_d_eau",
                 "name": "Humidit\u00e9 salle d'eau",
                 "platform": "xiaomi_aqara",
-                "unique_id": "humidity158d000171e37c"
+                "supported_features": 0,
+                "unique_id": "humidity158d000171e37c",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.humidity_salon",
                 "name": "Humidit\u00e9 salon",
                 "platform": "xiaomi_aqara",
-                "unique_id": "humidity158d000171e488"
+                "supported_features": 0,
+                "unique_id": "humidity158d000171e488",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "humidity",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.humidity_entree",
                 "name": "Humidit\u00e9 entr\u00e9e",
                 "platform": "xiaomi_aqara",
-                "unique_id": "humidity158d0001f558f7"
+                "supported_features": 0,
+                "unique_id": "humidity158d0001f558f7",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "humidity",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.humidity_cuisine",
                 "name": "Humidit\u00e9 cuisine",
                 "platform": "xiaomi_aqara",
-                "unique_id": "humidity158d0001fa3864"
+                "supported_features": 0,
+                "unique_id": "humidity158d0001fa3864",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "humidity",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.humidity_grande_chambre",
                 "name": "Humidit\u00e9 grande chambre",
                 "platform": "xiaomi_aqara",
-                "unique_id": "humidity158d0001fa5b98"
+                "supported_features": 0,
+                "unique_id": "humidity158d0001fa5b98",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.humidity_studio",
                 "name": "Humidit\u00e9 studio",
                 "platform": "xiaomi_aqara",
-                "unique_id": "humidity158d0001fa762e"
+                "supported_features": 0,
+                "unique_id": "humidity158d0001fa762e",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "humidity",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.humidity_exterieur",
                 "name": "Humidit\u00e9 ext\u00e9rieur",
                 "platform": "xiaomi_aqara",
-                "unique_id": "humidity158d0001fa7649"
+                "supported_features": 0,
+                "unique_id": "humidity158d0001fa7649",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.humidity_chambre_bas",
                 "name": "Humidit\u00e9 chambre bas",
                 "platform": "xiaomi_aqara",
-                "unique_id": "humidity158d00020182dc"
+                "supported_features": 0,
+                "unique_id": "humidity158d00020182dc",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "humidity",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.humidity_chambre_antoine",
                 "name": "Humidit\u00e9 chambre Antoine",
                 "platform": "xiaomi_aqara",
-                "unique_id": "humidity158d000201877a"
+                "supported_features": 0,
+                "unique_id": "humidity158d000201877a",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "illuminance",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.illumination_salon",
                 "name": "Luminosit\u00e9 salon",
                 "platform": "xiaomi_aqara",
-                "unique_id": "illumination34ce00909800"
+                "supported_features": 0,
+                "unique_id": "illumination34ce00909800",
+                "unit_of_measurement": "lm"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "pressure",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.pressure_salle_d_eau",
                 "name": "Pression salle d'eau",
                 "platform": "xiaomi_aqara",
-                "unique_id": "pressure158d000171e37c"
+                "supported_features": 0,
+                "unique_id": "pressure158d000171e37c",
+                "unit_of_measurement": "hPa"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.pressure_salon",
                 "name": "Pression salon",
                 "platform": "xiaomi_aqara",
-                "unique_id": "pressure158d000171e488"
+                "supported_features": 0,
+                "unique_id": "pressure158d000171e488",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "pressure",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.pressure_entree",
                 "name": "Pression entr\u00e9e",
                 "platform": "xiaomi_aqara",
-                "unique_id": "pressure158d0001f558f7"
+                "supported_features": 0,
+                "unique_id": "pressure158d0001f558f7",
+                "unit_of_measurement": "hPa"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "pressure",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.pressure_cuisine",
                 "name": "Pression cuisine",
                 "platform": "xiaomi_aqara",
-                "unique_id": "pressure158d0001fa3864"
+                "supported_features": 0,
+                "unique_id": "pressure158d0001fa3864",
+                "unit_of_measurement": "hPa"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "pressure",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.pressure_grande_chambre",
                 "name": "Pression grande chambre",
                 "platform": "xiaomi_aqara",
-                "unique_id": "pressure158d0001fa5b98"
+                "supported_features": 0,
+                "unique_id": "pressure158d0001fa5b98",
+                "unit_of_measurement": "hPa"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.pressure_studio",
                 "name": "Pression studio",
                 "platform": "xiaomi_aqara",
-                "unique_id": "pressure158d0001fa762e"
+                "supported_features": 0,
+                "unique_id": "pressure158d0001fa762e",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "pressure",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.pressure_exterieur",
                 "name": "Pression ext\u00e9rieur",
                 "platform": "xiaomi_aqara",
-                "unique_id": "pressure158d0001fa7649"
+                "supported_features": 0,
+                "unique_id": "pressure158d0001fa7649",
+                "unit_of_measurement": "hPa"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.pressure_chambre_bas",
                 "name": "Pression chambre bas",
                 "platform": "xiaomi_aqara",
-                "unique_id": "pressure158d00020182dc"
+                "supported_features": 0,
+                "unique_id": "pressure158d00020182dc",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "pressure",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.pressure_chambre_antoine",
                 "name": "Pression chambre Antoine",
                 "platform": "xiaomi_aqara",
-                "unique_id": "pressure158d000201877a"
+                "supported_features": 0,
+                "unique_id": "pressure158d000201877a",
+                "unit_of_measurement": "hPa"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "temperature",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_salle_d_eau",
                 "name": "Temperature salle d'eau",
                 "platform": "xiaomi_aqara",
-                "unique_id": "temperature158d000171e37c"
+                "supported_features": 0,
+                "unique_id": "temperature158d000171e37c",
+                "unit_of_measurement": "\u00b0C"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "temperature",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_entree",
                 "name": "Entr\u00e9e",
                 "platform": "xiaomi_aqara",
-                "unique_id": "temperature158d0001f558f7"
+                "supported_features": 0,
+                "unique_id": "temperature158d0001f558f7",
+                "unit_of_measurement": "\u00b0C"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "temperature",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_cuisine",
                 "name": "Cuisine",
                 "platform": "xiaomi_aqara",
-                "unique_id": "temperature158d0001fa3864"
+                "supported_features": 0,
+                "unique_id": "temperature158d0001fa3864",
+                "unit_of_measurement": "\u00b0C"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "temperature",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_grande_chambre",
                 "name": "Temperature grande chambre",
                 "platform": "xiaomi_aqara",
-                "unique_id": "temperature158d0001fa5b98"
+                "supported_features": 0,
+                "unique_id": "temperature158d0001fa5b98",
+                "unit_of_measurement": "\u00b0C"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_studio",
                 "name": "Studio",
                 "platform": "xiaomi_aqara",
-                "unique_id": "temperature158d0001fa762e"
+                "supported_features": 0,
+                "unique_id": "temperature158d0001fa762e",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "temperature",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_exterieur",
                 "name": "Ext\u00e9rieur",
                 "platform": "xiaomi_aqara",
-                "unique_id": "temperature158d0001fa7649"
+                "supported_features": 0,
+                "unique_id": "temperature158d0001fa7649",
+                "unit_of_measurement": "\u00b0C"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": "temperature",
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_chambre_antoine",
                 "name": "Chambre Antoine",
                 "platform": "xiaomi_aqara",
-                "unique_id": "temperature158d000201877a"
+                "supported_features": 0,
+                "unique_id": "temperature158d000201877a",
+                "unit_of_measurement": "\u00b0C"
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "person.florent",
                 "name": null,
                 "platform": "person",
-                "unique_id": "b795ae8c43374c71be78abe34855747c"
+                "supported_features": 0,
+                "unique_id": "b795ae8c43374c71be78abe34855747c",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "person.alice",
                 "name": null,
                 "platform": "person",
-                "unique_id": "93c92d1f540e4d028ae9c67c41ddcfc5"
+                "supported_features": 0,
+                "unique_id": "93c92d1f540e4d028ae9c67c41ddcfc5",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": null,
+                "device_class": null,
                 "device_id": null,
                 "disabled_by": null,
                 "entity_id": "binary_sensor.updater",
                 "name": null,
                 "platform": "updater",
-                "unique_id": "updater"
+                "supported_features": 0,
+                "unique_id": "updater",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "door",
                 "device_id": "8719e461120b4598ad301a4178ad7389",
                 "disabled_by": null,
                 "entity_id": "binary_sensor.door_window_sensor_entree",
                 "name": "Porte d'entr\u00e9e",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0003e721cc_contact_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0003e721cc_contact_zigbee2mqtt",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "battery",
                 "device_id": "8719e461120b4598ad301a4178ad7389",
                 "disabled_by": null,
                 "entity_id": "sensor.door_window_sensor_battery_entree",
                 "name": "Batterie Porte d'entr\u00e9e",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0003e721cc_battery_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0003e721cc_battery_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "8719e461120b4598ad301a4178ad7389",
                 "disabled_by": null,
                 "entity_id": "sensor.door_window_sensor_linkquality_entree",
                 "name": "Link Q Porte d'entr\u00e9e",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0003e721cc_linkquality_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0003e721cc_linkquality_zigbee2mqtt",
+                "unit_of_measurement": "-"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "moisture",
                 "device_id": "6a99db8138fe4370aa420dccc63cc8da",
                 "disabled_by": null,
                 "entity_id": "binary_sensor.water_leak_garage",
                 "name": "Fuite d'eau garage",
                 "platform": "mqtt",
-                "unique_id": "0x00158d00024bcab1_water_leak_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d00024bcab1_water_leak_zigbee2mqtt",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "6a99db8138fe4370aa420dccc63cc8da",
                 "disabled_by": null,
                 "entity_id": "sensor.linkquality_fuite_eau_garage",
                 "name": "Link Q fuite eau garage",
                 "platform": "mqtt",
-                "unique_id": "0x00158d00024bcab1_linkquality_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d00024bcab1_linkquality_zigbee2mqtt",
+                "unit_of_measurement": "-"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "battery",
                 "device_id": "6a99db8138fe4370aa420dccc63cc8da",
                 "disabled_by": null,
                 "entity_id": "sensor.battery_fuite_eau_garage",
                 "name": "Fuite d'eau garage",
                 "platform": "mqtt",
-                "unique_id": "0x00158d00024bcab1_battery_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d00024bcab1_battery_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "battery",
                 "device_id": "edcb020746e74fc19b9b0ee82c1921bd",
                 "disabled_by": null,
                 "entity_id": "sensor.battery_porte_buanderie",
                 "name": "Porte buanderie",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0003e74829_battery_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0003e74829_battery_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "door",
                 "device_id": "edcb020746e74fc19b9b0ee82c1921bd",
                 "disabled_by": null,
                 "entity_id": "binary_sensor.contact_porte_buanderie",
                 "name": "Porte buanderie",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0003e74829_contact_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0003e74829_contact_zigbee2mqtt",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "edcb020746e74fc19b9b0ee82c1921bd",
                 "disabled_by": null,
                 "entity_id": "sensor.linkquality_porte_buanderie",
                 "name": "Link Q porte buanderie",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0003e74829_linkquality_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0003e74829_linkquality_zigbee2mqtt",
+                "unit_of_measurement": "-"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "door",
                 "device_id": "958b38abca9c417987aa21d432640b3f",
                 "disabled_by": null,
                 "entity_id": "binary_sensor.contact_porte_garage",
                 "name": "Porte garage",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0003e78529_contact_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0003e78529_contact_zigbee2mqtt",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "battery",
                 "device_id": "958b38abca9c417987aa21d432640b3f",
                 "disabled_by": null,
                 "entity_id": "sensor.battery_porte_garage",
                 "name": "Porte garage",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0003e78529_battery_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0003e78529_battery_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "958b38abca9c417987aa21d432640b3f",
                 "disabled_by": null,
                 "entity_id": "sensor.linkquality_porte_garage",
                 "name": "Link Q porte garage",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0003e78529_linkquality_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0003e78529_linkquality_zigbee2mqtt",
+                "unit_of_measurement": "-"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "battery",
                 "device_id": "ad8fb1bd62d7413faaf16525231ece20",
                 "disabled_by": null,
                 "entity_id": "sensor.battery_temp_chambre_bas",
                 "name": "Chambre bas",
                 "platform": "mqtt",
-                "unique_id": "0x00158d00020182dc_battery_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d00020182dc_battery_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "humidity",
                 "device_id": "ad8fb1bd62d7413faaf16525231ece20",
                 "disabled_by": null,
                 "entity_id": "sensor.humidity_temp_chambre_bas",
                 "name": "Chambre bas",
                 "platform": "mqtt",
-                "unique_id": "0x00158d00020182dc_humidity_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d00020182dc_humidity_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "pressure",
                 "device_id": "ad8fb1bd62d7413faaf16525231ece20",
                 "disabled_by": null,
                 "entity_id": "sensor.pressure_temp_chambre_bas",
                 "name": "Chambre bas",
                 "platform": "mqtt",
-                "unique_id": "0x00158d00020182dc_pressure_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d00020182dc_pressure_zigbee2mqtt",
+                "unit_of_measurement": "hPa"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "ad8fb1bd62d7413faaf16525231ece20",
                 "disabled_by": null,
                 "entity_id": "sensor.linkquality_temp_chambre_bas",
                 "name": "Chambre bas",
                 "platform": "mqtt",
-                "unique_id": "0x00158d00020182dc_linkquality_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d00020182dc_linkquality_zigbee2mqtt",
+                "unit_of_measurement": "-"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "battery",
                 "device_id": "9f586bc7b78b4209a12ac83219f71bc4",
                 "disabled_by": null,
                 "entity_id": "sensor.battery_temp_salon",
                 "name": "Salon",
                 "platform": "mqtt",
-                "unique_id": "0x00158d000171e488_battery_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d000171e488_battery_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "humidity",
                 "device_id": "9f586bc7b78b4209a12ac83219f71bc4",
                 "disabled_by": null,
                 "entity_id": "sensor.humidity_temp_salon",
                 "name": "Salon",
                 "platform": "mqtt",
-                "unique_id": "0x00158d000171e488_humidity_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d000171e488_humidity_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "pressure",
                 "device_id": "9f586bc7b78b4209a12ac83219f71bc4",
                 "disabled_by": null,
                 "entity_id": "sensor.pressure_temp_salon",
                 "name": "Salon",
                 "platform": "mqtt",
-                "unique_id": "0x00158d000171e488_pressure_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d000171e488_pressure_zigbee2mqtt",
+                "unit_of_measurement": "hPa"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "humidity",
                 "device_id": "c85fca6bd4654bafb0ff0cafb8b5bc7c",
                 "disabled_by": null,
                 "entity_id": "sensor.0x00158d0001f53161_humidity",
                 "name": null,
                 "platform": "mqtt",
-                "unique_id": "0x00158d0001f53161_humidity_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0001f53161_humidity_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "pressure",
                 "device_id": "c85fca6bd4654bafb0ff0cafb8b5bc7c",
                 "disabled_by": null,
                 "entity_id": "sensor.0x00158d0001f53161_pressure",
                 "name": null,
                 "platform": "mqtt",
-                "unique_id": "0x00158d0001f53161_pressure_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0001f53161_pressure_zigbee2mqtt",
+                "unit_of_measurement": "hPa"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "temperature",
                 "device_id": "c85fca6bd4654bafb0ff0cafb8b5bc7c",
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_sol_antoine",
                 "name": "Sol Antoine",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0001f53161_temperature_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0001f53161_temperature_zigbee2mqtt",
+                "unit_of_measurement": "\u00b0C"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "c85fca6bd4654bafb0ff0cafb8b5bc7c",
                 "disabled_by": null,
                 "entity_id": "sensor.linkquality_sol_antoine",
                 "name": "Sol Antoine",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0001f53161_linkquality_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0001f53161_linkquality_zigbee2mqtt",
+                "unit_of_measurement": "-"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "battery",
                 "device_id": "c85fca6bd4654bafb0ff0cafb8b5bc7c",
                 "disabled_by": null,
                 "entity_id": "sensor.battery_sol_antoine",
                 "name": "Sol Antoine",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0001f53161_battery_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0001f53161_battery_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
+                "device_class": null,
                 "device_id": "4d9e5de4c38f44f5a0d65cf4e21222b4",
                 "disabled_by": null,
                 "entity_id": "sensor.linky_current_year",
                 "name": null,
                 "platform": "linky",
-                "unique_id": "florent.aumaitre@gmail.com_yearly_-1"
+                "supported_features": 0,
+                "unique_id": "florent.aumaitre@gmail.com_yearly_-1",
+                "unit_of_measurement": "kWh"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
+                "device_class": null,
                 "device_id": "4d9e5de4c38f44f5a0d65cf4e21222b4",
                 "disabled_by": null,
                 "entity_id": "sensor.linky_yesterday",
                 "name": null,
                 "platform": "linky",
-                "unique_id": "florent.aumaitre@gmail.com_daily_-2"
+                "supported_features": 0,
+                "unique_id": "florent.aumaitre@gmail.com_daily_-2",
+                "unit_of_measurement": "kWh"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
+                "device_class": null,
                 "device_id": "4d9e5de4c38f44f5a0d65cf4e21222b4",
                 "disabled_by": null,
                 "entity_id": "sensor.linky_last_month",
                 "name": null,
                 "platform": "linky",
-                "unique_id": "florent.aumaitre@gmail.com_monthly_-2"
+                "supported_features": 0,
+                "unique_id": "florent.aumaitre@gmail.com_monthly_-2",
+                "unit_of_measurement": "kWh"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
+                "device_class": null,
                 "device_id": "4d9e5de4c38f44f5a0d65cf4e21222b4",
                 "disabled_by": null,
                 "entity_id": "sensor.linky_current_month",
                 "name": null,
                 "platform": "linky",
-                "unique_id": "florent.aumaitre@gmail.com_monthly_-1"
+                "supported_features": 0,
+                "unique_id": "florent.aumaitre@gmail.com_monthly_-1",
+                "unit_of_measurement": "kWh"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "455d10fdcf2e477584f70be4fc61df34",
+                "device_class": null,
                 "device_id": "4d9e5de4c38f44f5a0d65cf4e21222b4",
                 "disabled_by": null,
                 "entity_id": "sensor.linky_last_year",
                 "name": null,
                 "platform": "linky",
-                "unique_id": "florent.aumaitre@gmail.com_yearly_-2"
+                "supported_features": 0,
+                "unique_id": "florent.aumaitre@gmail.com_yearly_-2",
+                "unit_of_measurement": "kWh"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "f784c4a9b9b340218f692520cd9e8ae1",
                 "disabled_by": null,
                 "entity_id": "switch.radiateur_entree",
                 "name": null,
                 "platform": "mqtt",
-                "unique_id": "667103_RL_1"
+                "supported_features": 0,
+                "unique_id": "667103_RL_1",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "bbff9156367f466aac5222e5838df8a0",
                 "disabled_by": null,
                 "entity_id": "switch.radiateur_cuisine",
                 "name": null,
                 "platform": "mqtt",
-                "unique_id": "666735_RL_1"
+                "supported_features": 0,
+                "unique_id": "666735_RL_1",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "temperature",
                 "device_id": "9f586bc7b78b4209a12ac83219f71bc4",
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_salon",
                 "name": "Salon",
                 "platform": "mqtt",
-                "unique_id": "0x00158d000171e488_temperature_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d000171e488_temperature_zigbee2mqtt",
+                "unit_of_measurement": "\u00b0C"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "9f586bc7b78b4209a12ac83219f71bc4",
                 "disabled_by": null,
                 "entity_id": "sensor.linkquality_salon",
                 "name": "Salon",
                 "platform": "mqtt",
-                "unique_id": "0x00158d000171e488_linkquality_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d000171e488_linkquality_zigbee2mqtt",
+                "unit_of_measurement": "-"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "temperature",
                 "device_id": "ad8fb1bd62d7413faaf16525231ece20",
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_chambre_bas",
                 "name": "Chambre bas",
                 "platform": "mqtt",
-                "unique_id": "0x00158d00020182dc_temperature_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d00020182dc_temperature_zigbee2mqtt",
+                "unit_of_measurement": "\u00b0C"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "b0ec9dbee6e74f10861fbc09af2d3c2b",
                 "disabled_by": null,
                 "entity_id": "switch.radiateur_salon",
                 "name": null,
                 "platform": "mqtt",
-                "unique_id": "68C076_RL_1"
+                "supported_features": 0,
+                "unique_id": "68C076_RL_1",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "f0b73ba2807140dc8ccf522b58bdf165",
                 "disabled_by": null,
                 "entity_id": "switch.radiateur_sde",
                 "name": null,
                 "platform": "mqtt",
-                "unique_id": "98D8E4_RL_1"
+                "supported_features": 0,
+                "unique_id": "98D8E4_RL_1",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "4fb3c69f803242f897f42695103fb1a6",
                 "disabled_by": null,
                 "entity_id": "sensor.0x000d6ffffe7c32f4_linkquality",
                 "name": "Repeteur studio_linkquality",
                 "platform": "mqtt",
-                "unique_id": "0x000d6ffffe7c32f4_linkquality_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x000d6ffffe7c32f4_linkquality_zigbee2mqtt",
+                "unit_of_measurement": "-"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "temperature",
                 "device_id": "83ba6473984549a9849490323498c46d",
                 "disabled_by": null,
                 "entity_id": "sensor.0x00158d0001fa762e_temperature",
                 "name": "Studio",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0001fa762e_temperature_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0001fa762e_temperature_zigbee2mqtt",
+                "unit_of_measurement": "\u00b0C"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "humidity",
                 "device_id": "83ba6473984549a9849490323498c46d",
                 "disabled_by": null,
                 "entity_id": "sensor.0x00158d0001fa762e_humidity",
                 "name": "Studio",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0001fa762e_humidity_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0001fa762e_humidity_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "pressure",
                 "device_id": "83ba6473984549a9849490323498c46d",
                 "disabled_by": null,
                 "entity_id": "sensor.0x00158d0001fa762e_pressure",
                 "name": "Studio",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0001fa762e_pressure_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0001fa762e_pressure_zigbee2mqtt",
+                "unit_of_measurement": "hPa"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "battery",
                 "device_id": "83ba6473984549a9849490323498c46d",
                 "disabled_by": null,
                 "entity_id": "sensor.0x00158d0001fa762e_battery",
                 "name": "Studio",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0001fa762e_battery_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0001fa762e_battery_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "83ba6473984549a9849490323498c46d",
                 "disabled_by": null,
                 "entity_id": "sensor.0x00158d0001fa762e_linkquality",
                 "name": "Studio",
                 "platform": "mqtt",
-                "unique_id": "0x00158d0001fa762e_linkquality_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d0001fa762e_linkquality_zigbee2mqtt",
+                "unit_of_measurement": "-"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "72cdee2b23d4404da4d2877bc0398c0c",
                 "disabled_by": null,
                 "entity_id": "sensor.0x00158d000171e23f_linkquality",
                 "name": "Buanderie_linkquality",
                 "platform": "mqtt",
-                "unique_id": "0x00158d000171e23f_linkquality_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d000171e23f_linkquality_zigbee2mqtt",
+                "unit_of_measurement": "-"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "battery",
                 "device_id": "72cdee2b23d4404da4d2877bc0398c0c",
                 "disabled_by": null,
                 "entity_id": "sensor.battery_buanderie",
                 "name": "Buanderie",
                 "platform": "mqtt",
-                "unique_id": "0x00158d000171e23f_battery_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d000171e23f_battery_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "humidity",
                 "device_id": "72cdee2b23d4404da4d2877bc0398c0c",
                 "disabled_by": null,
                 "entity_id": "sensor.humidity_buanderie",
                 "name": "Buanderie_humidity",
                 "platform": "mqtt",
-                "unique_id": "0x00158d000171e23f_humidity_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d000171e23f_humidity_zigbee2mqtt",
+                "unit_of_measurement": "%"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "pressure",
                 "device_id": "72cdee2b23d4404da4d2877bc0398c0c",
                 "disabled_by": null,
                 "entity_id": "sensor.pressure_buanderie",
                 "name": "Buanderie_pressure",
                 "platform": "mqtt",
-                "unique_id": "0x00158d000171e23f_pressure_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d000171e23f_pressure_zigbee2mqtt",
+                "unit_of_measurement": "hPa"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": "temperature",
                 "device_id": "72cdee2b23d4404da4d2877bc0398c0c",
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_buanderie",
                 "name": "Buanderie_temperature",
                 "platform": "mqtt",
-                "unique_id": "0x00158d000171e23f_temperature_zigbee2mqtt"
+                "supported_features": 0,
+                "unique_id": "0x00158d000171e23f_temperature_zigbee2mqtt",
+                "unit_of_measurement": "\u00b0C"
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "355fca8598d646218c6d4f3cd1538797",
                 "disabled_by": null,
                 "entity_id": "switch.radiateur_chambre_antoine",
                 "name": null,
                 "platform": "mqtt",
-                "unique_id": "40C588_RL_1"
+                "supported_features": 0,
+                "unique_id": "40C588_RL_1",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "355fca8598d646218c6d4f3cd1538797",
                 "disabled_by": null,
                 "entity_id": "sensor.radiateur_chambre_antoine",
                 "name": null,
                 "platform": "mqtt",
-                "unique_id": "40C588_status"
+                "supported_features": 0,
+                "unique_id": "40C588_status",
+                "unit_of_measurement": " "
             },
             {
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+                "device_class": null,
                 "device_id": "bf80525225a049af847ffed033599a56",
                 "disabled_by": null,
                 "entity_id": "switch.radiateur_chambre_bas",
                 "name": null,
                 "platform": "mqtt",
-                "unique_id": "68C476_RL_1"
+                "supported_features": 0,
+                "unique_id": "68C476_RL_1",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
+                "device_class": null,
                 "device_id": "9a28b527e86d414ebd415a03e0565980",
                 "disabled_by": null,
                 "entity_id": "media_player.salon",
                 "name": null,
                 "platform": "cast",
-                "unique_id": "9e83be60-5bac-cf0e-d993-7a8ea28cc14a"
+                "supported_features": 0,
+                "unique_id": "9e83be60-5bac-cf0e-d993-7a8ea28cc14a",
+                "unit_of_measurement": null
             },
             {
+                "capabilities": {},
                 "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
+                "device_class": null,
                 "device_id": "fc5f302b019042cdaa2dc0f478639533",
                 "disabled_by": null,
                 "entity_id": "media_player.chromecast7630",
                 "name": null,
                 "platform": "cast",
-                "unique_id": "1262b3da-82e4-c7d9-e83c-331d706077cf"
+                "supported_features": 21389,
+                "unique_id": "1262b3da-82e4-c7d9-e83c-331d706077cf",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "input_boolean.zigbee_permit_join",
+                "name": null,
+                "platform": "input_boolean",
+                "supported_features": 0,
+                "unique_id": "zigbee_permit_join",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "input_boolean.virtual_chauffage_antoine",
+                "name": null,
+                "platform": "input_boolean",
+                "supported_features": 0,
+                "unique_id": "virtual_chauffage_antoine",
+                "unit_of_measurement": null
             }
         ]
     },

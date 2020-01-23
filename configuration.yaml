@@ -137,6 +137,7 @@ climate:
     use_schedule_list: true
     preheat: true
     calculate_period: 30
+    confort_temp: 19
   
   - platform: generic_smart_thermostat
     name: Chambre bas
@@ -146,4 +147,5 @@ climate:
     use_schedule_list: true
     preheat: true
     calculate_period: 30
+    confort_temp: 19
     
