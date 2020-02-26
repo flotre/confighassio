@@ -72,6 +72,12 @@ sensor:
     name: Bridge state
     state_topic: "zigbee2mqtt/bridge/state"
     icon: mdi:router-wireless
+  - platform: template
+    sensors:
+      tp_link_smart_plug_61cc_current:
+        friendly_name_template: "{{ states.switch.tp_link_smart_plug_61cc.name}} Current"
+        value_template: '{{ states.switch.tp_link_smart_plug_61cc.attributes["current_a"] | float }}'
+        unit_of_measurement: 'A'
     
 input_boolean:
   zigbee_permit_join:

@@ -23,18 +23,45 @@
             "views": [
                 {
                     "badges": [
-                        "sensor.temperature_exterieur",
-                        "sensor.linky_last_month",
-                        "sensor.linky_current_month",
-                        "sensor.linky_yesterday",
-                        "sensor.linky_current_year",
-                        "sensor.linky_last_year",
-                        "sun.sun",
-                        "person.alice",
-                        "person.florent",
-                        "sensor.temperature_chambre_bas",
-                        "sensor.temperature_chambre_antoine",
-                        "sensor.temperature_salle_d_eau"
+                        {
+                            "entity": "sensor.temperature_exterieur"
+                        },
+                        {
+                            "entity": "sensor.linky_last_month"
+                        },
+                        {
+                            "entity": "sensor.linky_current_month"
+                        },
+                        {
+                            "entity": "sensor.linky_yesterday"
+                        },
+                        {
+                            "entity": "sensor.linky_current_year"
+                        },
+                        {
+                            "entity": "sensor.linky_last_year"
+                        },
+                        {
+                            "entity": "sun.sun"
+                        },
+                        {
+                            "entity": "person.alice"
+                        },
+                        {
+                            "entity": "person.florent"
+                        },
+                        {
+                            "entity": "sensor.temperature_chambre_bas"
+                        },
+                        {
+                            "entity": "sensor.temperature_chambre_antoine"
+                        },
+                        {
+                            "entity": "sensor.temperature_salle_d_eau"
+                        },
+                        {
+                            "entity": "switch.tp_link_smart_plug_61cc"
+                        }
                     ],
                     "cards": [
                         {
@@ -279,6 +306,24 @@
                         }
                     ],
                     "icon": "mdi:settings"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.tp_link_smart_plug_61cc_current"
+                                }
+                            ],
+                            "hours_to_show": 24,
+                            "refresh_interval": 60,
+                            "title": "Courant buanderie",
+                            "type": "history-graph"
+                        }
+                    ],
+                    "path": "graph",
+                    "title": "Graph"
                 }
             ]
         }
