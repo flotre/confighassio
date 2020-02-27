@@ -1341,7 +1341,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "bbc131196fea49449a83a177ef4aafeb",
                 "device_class": null,
                 "device_id": "f78c85844c114ae3bf8a5df9f3ae1fd1",
@@ -1351,6 +1351,19 @@
                 "platform": "tplink",
                 "supported_features": 0,
                 "unique_id": "CC:32:E5:8D:61:CC",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "automation.fin_buanderie",
+                "name": null,
+                "platform": "automation",
+                "supported_features": 0,
+                "unique_id": "1582748738131",
                 "unit_of_measurement": null
             }
         ]

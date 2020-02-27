@@ -164,3 +164,18 @@
       entity_id: climate.salon
       preset_mode: comfort
     service: climate.set_preset_mode
+- id: '1582748738131'
+  alias: Fin buanderie
+  description: ''
+  trigger:
+  - below: '1'
+    entity_id: sensor.tp_link_smart_plug_61cc_watts
+    for: 00:02
+    platform: numeric_state
+  condition: []
+  action:
+  - data:
+      message: Fin buanderie.
+      notification_id: 1234
+      title: Fin buanderie
+    service: persistent_notification.create

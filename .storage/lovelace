@@ -313,10 +313,10 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.tp_link_smart_plug_61cc_current"
+                                    "entity": "sensor.tp_link_smart_plug_61cc_watts"
                                 }
                             ],
-                            "hours_to_show": 24,
+                            "hours_to_show": 8,
                             "refresh_interval": 60,
                             "title": "Courant buanderie",
                             "type": "history-graph"

@@ -78,6 +78,10 @@ sensor:
         friendly_name_template: "{{ states.switch.tp_link_smart_plug_61cc.name}} Current"
         value_template: '{{ states.switch.tp_link_smart_plug_61cc.attributes["current_a"] | float }}'
         unit_of_measurement: 'A'
+      tp_link_smart_plug_61cc_watts:
+        friendly_name_template: "{{ states.switch.tp_link_smart_plug_61cc.name}} Current Consumption"
+        value_template: '{{ states.switch.tp_link_smart_plug_61cc.attributes["current_power_w"] | float }}'
+        unit_of_measurement: 'W'
     
 input_boolean:
   zigbee_permit_join:
