@@ -168,9 +168,9 @@
   alias: Fin buanderie
   description: ''
   trigger:
-  - below: '1'
+  - below: '20'
     entity_id: sensor.tp_link_smart_plug_61cc_watts
-    for: 00:02
+    for: 00:05
     platform: numeric_state
   condition: []
   action:
@@ -179,3 +179,8 @@
       notification_id: 1234
       title: Fin buanderie
     service: persistent_notification.create
+  - data:
+      gw_mac: 34ce00909800
+      ringtone_id: 12
+      ringtone_vol: 10
+    service: xiaomi_aqara.play_ringtone
