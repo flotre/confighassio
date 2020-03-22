@@ -1,24 +1,6 @@
 {
     "data": {
         "config": {
-            "resources": [
-                {
-                    "type": "js",
-                    "url": "/local/monster-card.js?v=1"
-                },
-                {
-                    "type": "js",
-                    "url": "/local/card-tools.js"
-                },
-                {
-                    "type": "module",
-                    "url": "/local/secondaryinfo-entity-row.js"
-                },
-                {
-                    "type": "module",
-                    "url": "/local/schedule-card.js"
-                }
-            ],
             "title": "Maison",
             "views": [
                 {

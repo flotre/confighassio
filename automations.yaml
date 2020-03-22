@@ -172,10 +172,31 @@
     entity_id: sensor.tp_link_smart_plug_61cc_watts
     for: 00:05
     platform: numeric_state
-  condition: []
+  condition:
+  - condition: state
+    entity_id: input_boolean.machine_en_cours
+    state: 'on'
   action:
   - data:
       gw_mac: 34ce00909800
       ringtone_id: 12
       ringtone_vol: 10
     service: xiaomi_aqara.play_ringtone
+  - data: {}
+    entity_id: input_boolean.machine_en_cours
+    service: input_boolean.turn_off
+- id: '1584778181581'
+  alias: Debut buanderie
+  description: ''
+  trigger:
+  - above: '100'
+    entity_id: sensor.tp_link_smart_plug_61cc_watts
+    platform: numeric_state
+  condition:
+  - condition: state
+    entity_id: input_boolean.machine_en_cours
+    state: 'off'
+  action:
+  - data: {}
+    entity_id: input_boolean.machine_en_cours
+    service: input_boolean.turn_on
