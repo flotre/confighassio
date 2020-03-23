@@ -59,9 +59,9 @@
                 "icon": null,
                 "name": null,
                 "original_icon": null,
-                "original_name": null,
+                "original_name": "Nexus Player",
                 "platform": "cast",
-                "supported_features": 0,
+                "supported_features": 21389,
                 "unique_id": "c24fd8c0-dea2-8417-e0a8-5fab9a026fbe",
                 "unit_of_measurement": null
             },
