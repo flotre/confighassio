@@ -191,6 +191,7 @@
   trigger:
   - above: '100'
     entity_id: sensor.tp_link_smart_plug_61cc_watts
+    for: 00:01
     platform: numeric_state
   condition:
   - condition: state
