@@ -51,22 +51,6 @@
             },
             {
                 "capabilities": {},
-                "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
-                "device_class": null,
-                "device_id": "dacb333071e843b79f52b542462f4e03",
-                "disabled_by": null,
-                "entity_id": "media_player.nexus_player",
-                "icon": null,
-                "name": null,
-                "original_icon": null,
-                "original_name": "Nexus Player",
-                "platform": "cast",
-                "supported_features": 21389,
-                "unique_id": "c24fd8c0-dea2-8417-e0a8-5fab9a026fbe",
-                "unit_of_measurement": null
-            },
-            {
-                "capabilities": {},
                 "config_entry_id": null,
                 "device_class": "opening",
                 "device_id": null,
@@ -1682,7 +1666,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": null,
                 "device_class": null,
                 "device_id": null,
@@ -1698,7 +1682,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": null,
                 "device_class": null,
                 "device_id": null,
@@ -1711,6 +1695,22 @@
                 "platform": "automation",
                 "supported_features": 0,
                 "unique_id": "1584778181581",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": {},
+                "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
+                "device_class": null,
+                "device_id": "0f8ad5b3a01e43b09466c93ad8d1647b",
+                "disabled_by": null,
+                "entity_id": "media_player.nexus_player_2",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "Nexus Player",
+                "platform": "cast",
+                "supported_features": 21389,
+                "unique_id": "fa80222c-f326-8b45-5912-be09973f0e9e",
                 "unit_of_measurement": null
             }
         ]

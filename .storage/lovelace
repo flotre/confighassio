@@ -47,10 +47,6 @@
                     ],
                     "cards": [
                         {
-                            "entity": "media_player.nexus_player",
-                            "type": "media-control"
-                        },
-                        {
                             "entity": "media_player.salon_audio",
                             "type": "media-control"
                         },
