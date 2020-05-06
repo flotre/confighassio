@@ -111,6 +111,10 @@
                             "show_header_toggle": false,
                             "title": "Temperature",
                             "type": "entities"
+                        },
+                        {
+                            "entity": "media_player.nexus_player_2",
+                            "type": "media-control"
                         }
                     ],
                     "path": "default_view",
