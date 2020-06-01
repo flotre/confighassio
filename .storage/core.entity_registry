@@ -650,12 +650,12 @@
                 "entity_id": "sensor.door_window_sensor_linkquality_entree",
                 "icon": null,
                 "name": "Link Q Porte d'entr\u00e9e",
-                "original_icon": null,
+                "original_icon": "mdi:signal",
                 "original_name": "0x00158d0003e721cc_linkquality",
                 "platform": "mqtt",
                 "supported_features": 0,
                 "unique_id": "0x00158d0003e721cc_linkquality_zigbee2mqtt",
-                "unit_of_measurement": "-"
+                "unit_of_measurement": "lqi"
             },
             {
                 "capabilities": {},
@@ -682,12 +682,12 @@
                 "entity_id": "sensor.linkquality_fuite_eau_garage",
                 "icon": null,
                 "name": "Link Q fuite eau garage",
-                "original_icon": null,
+                "original_icon": "mdi:signal",
                 "original_name": "0x00158d00024bcab1_linkquality",
                 "platform": "mqtt",
                 "supported_features": 0,
                 "unique_id": "0x00158d00024bcab1_linkquality_zigbee2mqtt",
-                "unit_of_measurement": "-"
+                "unit_of_measurement": "lqi"
             },
             {
                 "capabilities": {},
@@ -746,12 +746,12 @@
                 "entity_id": "sensor.linkquality_porte_buanderie",
                 "icon": null,
                 "name": "Link Q porte buanderie",
-                "original_icon": null,
+                "original_icon": "mdi:signal",
                 "original_name": "0x00158d0003e74829_linkquality",
                 "platform": "mqtt",
                 "supported_features": 0,
                 "unique_id": "0x00158d0003e74829_linkquality_zigbee2mqtt",
-                "unit_of_measurement": "-"
+                "unit_of_measurement": "lqi"
             },
             {
                 "capabilities": {},
@@ -794,12 +794,12 @@
                 "entity_id": "sensor.linkquality_porte_garage",
                 "icon": null,
                 "name": "Link Q porte garage",
-                "original_icon": null,
+                "original_icon": "mdi:signal",
                 "original_name": "0x00158d0003e78529_linkquality",
                 "platform": "mqtt",
                 "supported_features": 0,
                 "unique_id": "0x00158d0003e78529_linkquality_zigbee2mqtt",
-                "unit_of_measurement": "-"
+                "unit_of_measurement": "lqi"
             },
             {
                 "capabilities": {},
@@ -858,12 +858,12 @@
                 "entity_id": "sensor.linkquality_temp_chambre_bas",
                 "icon": null,
                 "name": "Chambre bas",
-                "original_icon": null,
+                "original_icon": "mdi:signal",
                 "original_name": "0x00158d00020182dc_linkquality",
                 "platform": "mqtt",
                 "supported_features": 0,
                 "unique_id": "0x00158d00020182dc_linkquality_zigbee2mqtt",
-                "unit_of_measurement": "-"
+                "unit_of_measurement": "lqi"
             },
             {
                 "capabilities": {},
@@ -970,12 +970,12 @@
                 "entity_id": "sensor.linkquality_sol_antoine",
                 "icon": null,
                 "name": "Sol Antoine",
-                "original_icon": null,
+                "original_icon": "mdi:signal",
                 "original_name": "0x00158d0001f53161_linkquality",
                 "platform": "mqtt",
                 "supported_features": 0,
                 "unique_id": "0x00158d0001f53161_linkquality_zigbee2mqtt",
-                "unit_of_measurement": "-"
+                "unit_of_measurement": "lqi"
             },
             {
                 "capabilities": {},
@@ -1130,12 +1130,12 @@
                 "entity_id": "sensor.linkquality_salon",
                 "icon": null,
                 "name": "Salon",
-                "original_icon": null,
+                "original_icon": "mdi:signal",
                 "original_name": "0x00158d000171e488_linkquality",
                 "platform": "mqtt",
                 "supported_features": 0,
                 "unique_id": "0x00158d000171e488_linkquality_zigbee2mqtt",
-                "unit_of_measurement": "-"
+                "unit_of_measurement": "lqi"
             },
             {
                 "capabilities": {},
@@ -1194,12 +1194,12 @@
                 "entity_id": "sensor.0x000d6ffffe7c32f4_linkquality",
                 "icon": null,
                 "name": "Repeteur studio_linkquality",
-                "original_icon": null,
+                "original_icon": "mdi:signal",
                 "original_name": "0x000d6ffffe7c32f4_linkquality",
                 "platform": "mqtt",
                 "supported_features": 0,
                 "unique_id": "0x000d6ffffe7c32f4_linkquality_zigbee2mqtt",
-                "unit_of_measurement": "-"
+                "unit_of_measurement": "lqi"
             },
             {
                 "capabilities": {},
@@ -1274,12 +1274,12 @@
                 "entity_id": "sensor.0x00158d0001fa762e_linkquality",
                 "icon": null,
                 "name": "Studio",
-                "original_icon": null,
+                "original_icon": "mdi:signal",
                 "original_name": "0x00158d0001fa762e_linkquality",
                 "platform": "mqtt",
                 "supported_features": 0,
                 "unique_id": "0x00158d0001fa762e_linkquality_zigbee2mqtt",
-                "unit_of_measurement": "-"
+                "unit_of_measurement": "lqi"
             },
             {
                 "capabilities": {},
@@ -1290,12 +1290,12 @@
                 "entity_id": "sensor.0x00158d000171e23f_linkquality",
                 "icon": null,
                 "name": "Buanderie_linkquality",
-                "original_icon": null,
+                "original_icon": "mdi:signal",
                 "original_name": "0x00158d000171e23f_linkquality",
                 "platform": "mqtt",
                 "supported_features": 0,
                 "unique_id": "0x00158d000171e23f_linkquality_zigbee2mqtt",
-                "unit_of_measurement": "-"
+                "unit_of_measurement": "lqi"
             },
             {
                 "capabilities": {},
@@ -2978,7 +2978,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
                 "device_class": null,
                 "device_id": "4fb3c69f803242f897f42695103fb1a6",
