@@ -302,6 +302,17 @@
                             "refresh_interval": 60,
                             "title": "Courant buanderie",
                             "type": "history-graph"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.buanderie_total_kwh"
+                                }
+                            ],
+                            "hours_to_show": 240,
+                            "refresh_interval": 12,
+                            "title": "Consommation buanderie",
+                            "type": "history-graph"
                         }
                     ],
                     "path": "graph",

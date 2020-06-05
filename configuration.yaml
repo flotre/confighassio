@@ -75,13 +75,17 @@ sensor:
   - platform: template
     sensors:
       tp_link_smart_plug_61cc_current:
-        friendly_name_template: "{{ states.switch.tp_link_smart_plug_61cc.name}} Current"
-        value_template: '{{ states.switch.tp_link_smart_plug_61cc.attributes["current_a"] | float }}'
+        friendly_name_template: "{{ state_attr('switch.tp_link_smart_plug_61cc', 'friendly_name')}} Current"
+        value_template: "{{ state_attr('switch.tp_link_smart_plug_61cc', 'current_a') | float }}"
         unit_of_measurement: 'A'
       tp_link_smart_plug_61cc_watts:
-        friendly_name_template: "{{ states.switch.tp_link_smart_plug_61cc.name}} Current Consumption"
-        value_template: '{{ states.switch.tp_link_smart_plug_61cc.attributes["current_power_w"] | float }}'
+        friendly_name_template: "{{ state_attr('switch.tp_link_smart_plug_61cc','friendly_name')}} Current Consumption"
+        value_template: "{{ state_attr('switch.tp_link_smart_plug_61cc', 'current_power_w') | float }}"
         unit_of_measurement: 'W'
+      buanderie_total_kwh:
+        friendly_name_template: "Total consommation buanderie"
+        value_template: "{{ state_attr('switch.tp_link_smart_plug_61cc', 'total_energy_kwh') | float }}"
+        unit_of_measurement: 'kwh'
     
 input_boolean:
   zigbee_permit_join:
