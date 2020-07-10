@@ -56,12 +56,7 @@ notify:
 # Exposes service shell_command.save_config
 shell_command:
   save_config: git commit -a -m "auto backup"; git push
-  
-xiaomi_aqara:
-  discovery_retry: 5
-  gateways:
-    - mac: !secret aqara_gw_mac
-      key: !secret aqara_gw_key
+
 
 linky:
   - username: !secret linky_login
