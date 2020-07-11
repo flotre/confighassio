@@ -457,7 +457,7 @@
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_salle_d_eau",
                 "icon": null,
-                "name": "Temperature salle d'eau",
+                "name": "Salle d'eau",
                 "original_icon": null,
                 "original_name": "Temperature_158d000171e37c",
                 "platform": "xiaomi_aqara",
@@ -505,7 +505,7 @@
                 "disabled_by": null,
                 "entity_id": "sensor.temperature_grande_chambre",
                 "icon": null,
-                "name": "Temperature grande chambre",
+                "name": "Grande chambre",
                 "original_icon": null,
                 "original_name": "Temperature_158d0001fa5b98",
                 "platform": "xiaomi_aqara",
@@ -2914,7 +2914,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": null,
                 "device_id": "9536a9ca920944a99d04128f071edc8f",

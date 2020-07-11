@@ -43,6 +43,9 @@
                         },
                         {
                             "entity": "switch.tp_link_smart_plug_61cc"
+                        },
+                        {
+                            "entity": "sensor.temperature_grande_chambre"
                         }
                     ],
                     "cards": [
