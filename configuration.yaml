@@ -58,9 +58,6 @@ shell_command:
   save_config: git commit -a -m "auto backup"; git push
 
 
-linky:
-  - username: !secret linky_login
-    password: !secret linky_password
 
 sensor:
   - platform: mqtt

@@ -9,21 +9,6 @@
                             "entity": "sensor.temperature_exterieur"
                         },
                         {
-                            "entity": "sensor.linky_last_month"
-                        },
-                        {
-                            "entity": "sensor.linky_current_month"
-                        },
-                        {
-                            "entity": "sensor.linky_yesterday"
-                        },
-                        {
-                            "entity": "sensor.linky_current_year"
-                        },
-                        {
-                            "entity": "sensor.linky_last_year"
-                        },
-                        {
                             "entity": "sun.sun"
                         },
                         {
