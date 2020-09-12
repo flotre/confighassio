@@ -1723,7 +1723,7 @@
                 "icon": null,
                 "name": null,
                 "original_icon": "mdi:desktop-tower-monitor",
-                "original_name": "openmediavault",
+                "original_name": "openmediavault.local",
                 "platform": "freebox",
                 "supported_features": 0,
                 "unique_id": "70:85:C2:00:DF:69",
@@ -2866,7 +2866,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "temperature",
                 "device_id": "20ae1b3aff074504bd122f1e4550c129",
@@ -2882,7 +2882,7 @@
                 "unit_of_measurement": "\u00b0C"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "pressure",
                 "device_id": "20ae1b3aff074504bd122f1e4550c129",
@@ -2898,7 +2898,7 @@
                 "unit_of_measurement": "hPa"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "pressure",
                 "device_id": "a77eb5d2a2f9446090d158a17902751f",
@@ -2914,7 +2914,7 @@
                 "unit_of_measurement": "hPa"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "humidity",
                 "device_id": "a77eb5d2a2f9446090d158a17902751f",
@@ -2930,7 +2930,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "humidity",
                 "device_id": "20ae1b3aff074504bd122f1e4550c129",
@@ -2946,7 +2946,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "temperature",
                 "device_id": "a77eb5d2a2f9446090d158a17902751f",
@@ -2962,7 +2962,7 @@
                 "unit_of_measurement": "\u00b0C"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "humidity",
                 "device_id": "49e8d924f4294b02a9aba217d410be73",
@@ -2978,7 +2978,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "pressure",
                 "device_id": "49e8d924f4294b02a9aba217d410be73",
@@ -2994,7 +2994,7 @@
                 "unit_of_measurement": "hPa"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "temperature",
                 "device_id": "39d95db5452942b3af62e68ae33bdbb8",
@@ -3010,7 +3010,7 @@
                 "unit_of_measurement": "\u00b0C"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "pressure",
                 "device_id": "39d95db5452942b3af62e68ae33bdbb8",
@@ -3026,7 +3026,7 @@
                 "unit_of_measurement": "hPa"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "humidity",
                 "device_id": "68e774feb6484017b1b8d0177673764f",
@@ -3042,7 +3042,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "temperature",
                 "device_id": "68e774feb6484017b1b8d0177673764f",
@@ -3058,7 +3058,7 @@
                 "unit_of_measurement": "\u00b0C"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "pressure",
                 "device_id": "68e774feb6484017b1b8d0177673764f",
@@ -3074,7 +3074,7 @@
                 "unit_of_measurement": "hPa"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "temperature",
                 "device_id": "014efe2928f24a978db1e51d7cd8724e",
@@ -3090,7 +3090,7 @@
                 "unit_of_measurement": "\u00b0C"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "pressure",
                 "device_id": "014efe2928f24a978db1e51d7cd8724e",
@@ -3106,7 +3106,7 @@
                 "unit_of_measurement": "hPa"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "humidity",
                 "device_id": "014efe2928f24a978db1e51d7cd8724e",
@@ -3122,7 +3122,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_class": "battery",
                 "device_id": "1892dfc7dcca4c8797b363ef43e265b2",
@@ -3138,7 +3138,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_class": "battery",
                 "device_id": "b24a99d8126143369a80cdf4b13e61ad",
@@ -3154,7 +3154,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_class": "battery",
                 "device_id": "c9f6129e81cb4b36ab3a8db8d5a84b06",
@@ -3170,7 +3170,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_class": "battery",
                 "device_id": "7397f1a96fdb4e5eaeb4c1ea4bf49188",
@@ -3186,7 +3186,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_class": "battery",
                 "device_id": "424c39f509434df196024787afeb1af9",
@@ -3202,7 +3202,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_class": "battery",
                 "device_id": "d33d5009e18a446e9b2abb345e79e586",
@@ -3218,7 +3218,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_class": "battery",
                 "device_id": "c697f8a64f2d49dcb24ea322a04e4cd6",
@@ -3234,7 +3234,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_class": "battery",
                 "device_id": "2b9ec62a76974ef5a609376490b78fde",
@@ -3250,7 +3250,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_class": "battery",
                 "device_id": "158691be7502454fa1a353bc550bce6c",
@@ -3266,7 +3266,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_class": "battery",
                 "device_id": "cb8cd29338844a8cab03df3c636036a0",
@@ -3282,7 +3282,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
                 "device_class": null,
                 "device_id": "e7cde4bc574f476495b67d020559f6dd",
@@ -3298,7 +3298,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "temperature",
                 "device_id": "49e8d924f4294b02a9aba217d410be73",
@@ -3314,7 +3314,7 @@
                 "unit_of_measurement": "\u00b0C"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "2a4ba2984f1943a3a8090445b115bf8b",
                 "device_class": "humidity",
                 "device_id": "39d95db5452942b3af62e68ae33bdbb8",
