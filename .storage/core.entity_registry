@@ -1723,7 +1723,7 @@
                 "icon": null,
                 "name": null,
                 "original_icon": "mdi:desktop-tower-monitor",
-                "original_name": "openmediavault.local",
+                "original_name": "openmediavault",
                 "platform": "freebox",
                 "supported_features": 0,
                 "unique_id": "70:85:C2:00:DF:69",
