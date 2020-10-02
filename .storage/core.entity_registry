@@ -3328,6 +3328,22 @@
                 "supported_features": 0,
                 "unique_id": "lumi.158d000201877a-humidity",
                 "unit_of_measurement": "%"
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_class": null,
+                "device_id": "9dc116ba577841a4910f1d3751a3e325",
+                "disabled_by": null,
+                "entity_id": "device_tracker.unknown_device_7",
+                "icon": null,
+                "name": null,
+                "original_icon": "mdi:desktop-tower-monitor",
+                "original_name": "Unknown device",
+                "platform": "freebox",
+                "supported_features": 0,
+                "unique_id": "10:98:C3:60:81:40",
+                "unit_of_measurement": null
             }
         ]
     },
