@@ -186,6 +186,10 @@
                                 ]
                             },
                             "type": "custom:monster-card"
+                        },
+                        {
+                            "entity": "sensor.low_battery",
+                            "type": "entity"
                         }
                     ],
                     "icon": "mdi:battery",
