@@ -1,4 +1,6 @@
 {
+    "version": 1,
+    "key": "lovelace",
     "data": {
         "config": {
             "title": "Maison",
@@ -251,6 +253,7 @@
                     "title": "test"
                 },
                 {
+                    "icon": "mdi:cog",
                     "badges": [],
                     "cards": [
                         {
@@ -278,8 +281,7 @@
                             "title": "Lumi\u00e8re",
                             "type": "entities"
                         }
-                    ],
-                    "icon": "mdi:settings"
+                    ]
                 },
                 {
                     "badges": [],
@@ -312,7 +314,5 @@
                 }
             ]
         }
-    },
-    "key": "lovelace",
-    "version": 1
+    }
 }
