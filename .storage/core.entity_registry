@@ -22,7 +22,7 @@
             {
                 "entity_id": "weather.maison",
                 "config_entry_id": "2d76d9e2b3724cb1bc1f199f9a8c12b6",
-                "device_id": null,
+                "device_id": "0b9bf4fdde3dd28ee2a8fbcdc310e131",
                 "unique_id": "home",
                 "platform": "met",
                 "name": null,
@@ -3398,7 +3398,7 @@
             {
                 "entity_id": "weather.maison_hourly",
                 "config_entry_id": "2d76d9e2b3724cb1bc1f199f9a8c12b6",
-                "device_id": null,
+                "device_id": "0b9bf4fdde3dd28ee2a8fbcdc310e131",
                 "unique_id": "home-hourly",
                 "platform": "met",
                 "name": null,
