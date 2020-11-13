@@ -232,3 +232,23 @@
       title: Alerte batterie
     service: notify.email
   mode: single
+- id: '1605214742177'
+  alias: Unavailable Entities Notification
+  description: ''
+  trigger:
+  - platform: numeric_state
+    entity_id: sensor.unavailable_entities
+    for: 0:10
+    above: '0'
+  condition: []
+  action:
+  - data_template:
+      message: 'Une entité est invalide :
+
+        {{ state_attr(''sensor.unavailable_entities'',''entities'').split('','')|join(''\n-
+        '') }}
+
+        '
+      title: Alerte entité invalide
+    service: notify.email
+  mode: single

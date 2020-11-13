@@ -4,22 +4,6 @@
     "data": {
         "entities": [
             {
-                "entity_id": "person.nous",
-                "config_entry_id": null,
-                "device_id": null,
-                "unique_id": "dc8977e83ed740c6b664a80b02c01cee",
-                "platform": "person",
-                "name": null,
-                "icon": null,
-                "disabled_by": null,
-                "capabilities": {},
-                "supported_features": 0,
-                "device_class": null,
-                "unit_of_measurement": null,
-                "original_name": "nous",
-                "original_icon": null
-            },
-            {
                 "entity_id": "weather.maison",
                 "config_entry_id": "2d76d9e2b3724cb1bc1f199f9a8c12b6",
                 "device_id": "0b9bf4fdde3dd28ee2a8fbcdc310e131",
@@ -116,22 +100,6 @@
                 "original_icon": null
             },
             {
-                "entity_id": "binary_sensor.water_leak_sensor_garage",
-                "config_entry_id": null,
-                "device_id": null,
-                "unique_id": "status158d00024bcab1",
-                "platform": "xiaomi_aqara",
-                "name": "Fuite eau garage",
-                "icon": null,
-                "disabled_by": null,
-                "capabilities": {},
-                "supported_features": 0,
-                "device_class": null,
-                "unit_of_measurement": null,
-                "original_name": null,
-                "original_icon": null
-            },
-            {
                 "entity_id": "light.gateway_light",
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_id": "e905921adfe94ed191f971a4d51b0412",
@@ -161,22 +129,6 @@
                 "device_class": "humidity",
                 "unit_of_measurement": "%",
                 "original_name": "Humidity_158d000171e37c",
-                "original_icon": null
-            },
-            {
-                "entity_id": "sensor.humidity_salon",
-                "config_entry_id": null,
-                "device_id": null,
-                "unique_id": "humidity158d000171e488",
-                "platform": "xiaomi_aqara",
-                "name": "Humidit\u00e9 salon",
-                "icon": null,
-                "disabled_by": null,
-                "capabilities": {},
-                "supported_features": 0,
-                "device_class": null,
-                "unit_of_measurement": null,
-                "original_name": null,
                 "original_icon": null
             },
             {
@@ -228,22 +180,6 @@
                 "original_icon": null
             },
             {
-                "entity_id": "sensor.humidity_studio",
-                "config_entry_id": null,
-                "device_id": null,
-                "unique_id": "humidity158d0001fa762e",
-                "platform": "xiaomi_aqara",
-                "name": "Humidit\u00e9 studio",
-                "icon": null,
-                "disabled_by": null,
-                "capabilities": {},
-                "supported_features": 0,
-                "device_class": null,
-                "unit_of_measurement": null,
-                "original_name": null,
-                "original_icon": null
-            },
-            {
                 "entity_id": "sensor.humidity_exterieur",
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_id": "424c39f509434df196024787afeb1af9",
@@ -257,22 +193,6 @@
                 "device_class": "humidity",
                 "unit_of_measurement": "%",
                 "original_name": "Humidity_158d0001fa7649",
-                "original_icon": null
-            },
-            {
-                "entity_id": "sensor.humidity_chambre_bas",
-                "config_entry_id": null,
-                "device_id": null,
-                "unique_id": "humidity158d00020182dc",
-                "platform": "xiaomi_aqara",
-                "name": "Humidit\u00e9 chambre bas",
-                "icon": null,
-                "disabled_by": null,
-                "capabilities": {},
-                "supported_features": 0,
-                "device_class": null,
-                "unit_of_measurement": null,
-                "original_name": null,
                 "original_icon": null
             },
             {
@@ -324,22 +244,6 @@
                 "original_icon": null
             },
             {
-                "entity_id": "sensor.pressure_salon",
-                "config_entry_id": null,
-                "device_id": null,
-                "unique_id": "pressure158d000171e488",
-                "platform": "xiaomi_aqara",
-                "name": "Pression salon",
-                "icon": null,
-                "disabled_by": null,
-                "capabilities": {},
-                "supported_features": 0,
-                "device_class": null,
-                "unit_of_measurement": null,
-                "original_name": null,
-                "original_icon": null
-            },
-            {
                 "entity_id": "sensor.pressure_entree",
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_id": "b24a99d8126143369a80cdf4b13e61ad",
@@ -388,22 +292,6 @@
                 "original_icon": null
             },
             {
-                "entity_id": "sensor.pressure_studio",
-                "config_entry_id": null,
-                "device_id": null,
-                "unique_id": "pressure158d0001fa762e",
-                "platform": "xiaomi_aqara",
-                "name": "Pression studio",
-                "icon": null,
-                "disabled_by": null,
-                "capabilities": {},
-                "supported_features": 0,
-                "device_class": null,
-                "unit_of_measurement": null,
-                "original_name": null,
-                "original_icon": null
-            },
-            {
                 "entity_id": "sensor.pressure_exterieur",
                 "config_entry_id": "4d892bb56dd64a4b9bd5771c5073c4da",
                 "device_id": "424c39f509434df196024787afeb1af9",
@@ -417,22 +305,6 @@
                 "device_class": "pressure",
                 "unit_of_measurement": "hPa",
                 "original_name": "Pressure_158d0001fa7649",
-                "original_icon": null
-            },
-            {
-                "entity_id": "sensor.pressure_chambre_bas",
-                "config_entry_id": null,
-                "device_id": null,
-                "unique_id": "pressure158d00020182dc",
-                "platform": "xiaomi_aqara",
-                "name": "Pression chambre bas",
-                "icon": null,
-                "disabled_by": null,
-                "capabilities": {},
-                "supported_features": 0,
-                "device_class": null,
-                "unit_of_measurement": null,
-                "original_name": null,
                 "original_icon": null
             },
             {
@@ -513,22 +385,6 @@
                 "device_class": "temperature",
                 "unit_of_measurement": "\u00b0C",
                 "original_name": "Temperature_158d0001fa5b98",
-                "original_icon": null
-            },
-            {
-                "entity_id": "sensor.temperature_studio",
-                "config_entry_id": null,
-                "device_id": null,
-                "unique_id": "temperature158d0001fa762e",
-                "platform": "xiaomi_aqara",
-                "name": "Studio",
-                "icon": null,
-                "disabled_by": null,
-                "capabilities": {},
-                "supported_features": 0,
-                "device_class": null,
-                "unit_of_measurement": null,
-                "original_name": null,
                 "original_icon": null
             },
             {
@@ -3409,6 +3265,22 @@
                 "device_class": null,
                 "unit_of_measurement": null,
                 "original_name": "Maison Hourly",
+                "original_icon": null
+            },
+            {
+                "entity_id": "automation.unavailable_entities_notification",
+                "config_entry_id": null,
+                "device_id": null,
+                "unique_id": "1605214742177",
+                "platform": "automation",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Unavailable Entities Notification",
                 "original_icon": null
             }
         ]
