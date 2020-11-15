@@ -106,6 +106,7 @@ group:
   ignored_entities:
     entities:
       - binary_sensor.updater
+      - media_player.nexus_player_2
     
 input_boolean:
   zigbee_permit_join:
