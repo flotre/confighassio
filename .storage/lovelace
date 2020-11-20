@@ -38,6 +38,9 @@
                         },
                         {
                             "entity": "sensor.unavailable_entities"
+                        },
+                        {
+                            "entity": "sensor.low_battery"
                         }
                     ],
                     "cards": [
@@ -145,60 +148,6 @@
                     "icon": "mdi:radiator",
                     "path": "chauffage",
                     "title": "Chauffage"
-                },
-                {
-                    "badges": [],
-                    "cards": [
-                        {
-                            "card": {
-                                "show_header_toggle": false,
-                                "title": "Batterie < 5%",
-                                "type": "entities"
-                            },
-                            "filter": {
-                                "include": [
-                                    {
-                                        "attributes": {
-                                            "battery_level": "< 5"
-                                        },
-                                        "entity_id": "sensor.temperature_*",
-                                        "options": {
-                                            "secondary_info": "[[ {entity}.attributes.battery_level ]]%",
-                                            "type": "custom:secondaryinfo-entity-row"
-                                        }
-                                    },
-                                    {
-                                        "attributes": {
-                                            "battery_level": "< 5"
-                                        },
-                                        "entity_id": "binary_sensor.*"
-                                    }
-                                ]
-                            },
-                            "type": "custom:monster-card"
-                        },
-                        {
-                            "card": {
-                                "show_header_toggle": false,
-                                "title": "Batterie Alert",
-                                "type": "entities"
-                            },
-                            "filter": {
-                                "include": [
-                                    {
-                                        "entity_id": "sensor.battery*"
-                                    }
-                                ]
-                            },
-                            "type": "custom:monster-card"
-                        },
-                        {
-                            "entity": "sensor.low_battery",
-                            "type": "entity"
-                        }
-                    ],
-                    "icon": "mdi:battery",
-                    "title": "Batterie"
                 },
                 {
                     "badges": [],

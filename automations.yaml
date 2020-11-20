@@ -210,15 +210,9 @@
   - at: '18:00'
     platform: time
   condition:
-  - condition: template
-    value_template: "{%- set threshold = 5 -%}\n{% set count = namespace(value=0)\
-      \ %}\n{%- set domains = ['light', 'switch', 'sensor', 'zwave', 'lock'] -%}\n\
-      {%- for domain in domains -%}\n{%- for item in states[domain] if ((item.attributes.battery_level\
-      \ is defined and item.attributes['battery_level'] | int < threshold) or (\"\
-      battery\" in item.name | lower and ((item.state | int < threshold and item.state|int\
-      \ != 0) or item.state | lower == \"low\" or item.state | lower == \"unknown\"\
-      ))) -%}\n     {%- set count.value = count.value + 1 -%}\n{%- endfor -%}\n{%-\
-      \ endfor -%}\n{{ count.value }}"
+  - condition: numeric_state
+    entity_id: sensor.low_battery
+    above: '0'
   action:
   - data_template:
       message: "\"{%- set threshold = 5 -%}\n  {%- set domains = ['light', 'switch',\

@@ -80,14 +80,26 @@ sensor:
         unit_of_measurement: 'kwh'
       low_battery:
         friendly_name: "Low Battery"
+        unit_of_measurement: entities
         value_template: >
-          {%- set threshold = 40 -%}
+          {%- set threshold = 5 -%}
+          {% set count = namespace(value=0) %}
           {%- set domains = ['light', 'switch', 'sensor', 'zwave', 'lock'] -%}
           {%- for domain in domains -%}
           {%- for item in states[domain] if ((item.attributes.battery_level is defined and item.attributes['battery_level'] | int < threshold) or ("battery" in item.name | lower and ((item.state | int < threshold and item.state|int != 0) or item.state | lower == "low" or item.state | lower == "unknown"))) -%}
-              {{ item.attributes.friendly_name }}{%- if not loop.last %}, {% endif -%}
+               {%- set count.value = count.value + 1 -%}
           {%- endfor -%}
           {%- endfor -%}
+          {{ count.value }}
+        attribute_templates:
+          entities: >
+            {%- set threshold = 5 -%}
+            {%- set domains = ['light', 'switch', 'sensor', 'zwave', 'lock'] -%}
+            {%- for domain in domains -%}
+            {%- for item in states[domain] if ((item.attributes.battery_level is defined and item.attributes['battery_level'] | int < threshold) or ("battery" in item.name | lower and ((item.state | int < threshold and item.state|int != 0) or item.state | lower == "low" or item.state | lower == "unknown"))) -%}
+                 {{ item.attributes.friendly_name }}{%- if not loop.last %}, {% endif -%}
+            {%- endfor -%}
+            {%- endfor -%}
       unavailable_entities:
         friendly_name: Unavailable Entities
         unit_of_measurement: entities
