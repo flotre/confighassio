@@ -2790,6 +2790,40 @@
                 "unit_of_measurement": null,
                 "original_name": "Unavailable Entities Notification",
                 "original_icon": null
+            },
+            {
+                "entity_id": "device_tracker.unknown_device",
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_id": "e9bc8070e796c0714c9416fe274e897f",
+                "area_id": null,
+                "unique_id": "F8:F0:05:DF:20:4C",
+                "platform": "freebox",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Unknown device",
+                "original_icon": "mdi:desktop-tower-monitor"
+            },
+            {
+                "entity_id": "device_tracker.raspberrypi",
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_id": "d4acf782590153928f60919a241b466c",
+                "area_id": null,
+                "unique_id": "B8:27:EB:99:3F:A0",
+                "platform": "freebox",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "raspberrypi",
+                "original_icon": "mdi:help-network"
             }
         ]
     }
