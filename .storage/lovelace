@@ -41,6 +41,9 @@
                         },
                         {
                             "entity": "sensor.low_battery"
+                        },
+                        {
+                            "entity": "sensor.piscine_temperature"
                         }
                     ],
                     "cards": [
