@@ -6,5 +6,6 @@
   "codeowners": [
     "@rgruebel"
   ],
-  "requirements": []
+  "requirements": [],
+  "version": "1.0"
 }

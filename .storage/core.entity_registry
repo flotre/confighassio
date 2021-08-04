@@ -2227,7 +2227,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "temperature",
                 "unit_of_measurement": "\u00b0C",
@@ -2244,7 +2246,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "pressure",
                 "unit_of_measurement": "hPa",
@@ -2261,7 +2265,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "pressure",
                 "unit_of_measurement": "hPa",
@@ -2278,7 +2284,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "humidity",
                 "unit_of_measurement": "%",
@@ -2295,7 +2303,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "humidity",
                 "unit_of_measurement": "%",
@@ -2312,7 +2322,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "temperature",
                 "unit_of_measurement": "\u00b0C",
@@ -2329,7 +2341,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "humidity",
                 "unit_of_measurement": "%",
@@ -2346,7 +2360,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "pressure",
                 "unit_of_measurement": "hPa",
@@ -2363,7 +2379,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "temperature",
                 "unit_of_measurement": "\u00b0C",
@@ -2380,7 +2398,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "pressure",
                 "unit_of_measurement": "hPa",
@@ -2397,7 +2417,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "humidity",
                 "unit_of_measurement": "%",
@@ -2414,7 +2436,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "temperature",
                 "unit_of_measurement": "\u00b0C",
@@ -2431,7 +2455,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "pressure",
                 "unit_of_measurement": "hPa",
@@ -2448,7 +2474,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "temperature",
                 "unit_of_measurement": "\u00b0C",
@@ -2465,7 +2493,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "pressure",
                 "unit_of_measurement": "hPa",
@@ -2482,7 +2512,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "humidity",
                 "unit_of_measurement": "%",
@@ -2686,7 +2718,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "temperature",
                 "unit_of_measurement": "\u00b0C",
@@ -2703,7 +2737,9 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": {},
+                "capabilities": {
+                    "state_class": "measurement"
+                },
                 "supported_features": 0,
                 "device_class": "humidity",
                 "unit_of_measurement": "%",
@@ -3268,7 +3304,7 @@
                 "name": null,
                 "icon": null,
                 "disabled_by": null,
-                "capabilities": null,
+                "capabilities": {},
                 "supported_features": 0,
                 "device_class": "temperature",
                 "unit_of_measurement": "\u00b0C",
