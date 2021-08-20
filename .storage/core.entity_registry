@@ -3310,6 +3310,40 @@
                 "unit_of_measurement": "\u00b0C",
                 "original_name": "Freebox Temp\u00e9rature CPU A",
                 "original_icon": "mdi:thermometer"
+            },
+            {
+                "entity_id": "device_tracker.android_202cee530ea6f95b",
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_id": "13ebef70c53c3d834904aa1c46f8e3cf",
+                "area_id": null,
+                "unique_id": "34:2D:0D:01:E7:FF",
+                "platform": "freebox",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "android-202cee530ea6f95b",
+                "original_icon": "mdi:cellphone"
+            },
+            {
+                "entity_id": "device_tracker.galaxy_a02s",
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_id": "36ffac5e46b751cf151312de32d1d31a",
+                "area_id": null,
+                "unique_id": "A0:27:B6:FB:B1:C3",
+                "platform": "freebox",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Galaxy-A02s",
+                "original_icon": "mdi:cellphone"
             }
         ]
     }
