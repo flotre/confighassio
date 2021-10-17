@@ -3588,6 +3588,23 @@
                 "unit_of_measurement": "\u00b0C",
                 "original_name": "0x00158d000171e23f temperature",
                 "original_icon": null
+            },
+            {
+                "entity_id": "device_tracker.applewaeadeline_4",
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_id": "084193ad3111d6378c0826106b9924b5",
+                "area_id": null,
+                "unique_id": "D2:FB:6E:62:A0:94",
+                "platform": "freebox",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "AppleWaeAdeline",
+                "original_icon": "mdi:desktop-tower-monitor"
             }
         ]
     }
