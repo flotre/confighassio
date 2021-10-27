@@ -3605,6 +3605,57 @@
                 "unit_of_measurement": null,
                 "original_name": "AppleWaeAdeline",
                 "original_icon": "mdi:desktop-tower-monitor"
+            },
+            {
+                "entity_id": "device_tracker.unknown_device_3",
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_id": "6a116e31806c32dc660b0bd29724687d",
+                "area_id": null,
+                "unique_id": "AC:67:84:EC:18:03",
+                "platform": "freebox",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Unknown device",
+                "original_icon": "mdi:desktop-tower-monitor"
+            },
+            {
+                "entity_id": "media_player.chromecast7596",
+                "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
+                "device_id": "74a52c0265252226e491edbebd3395a3",
+                "area_id": null,
+                "unique_id": "2fd1e1e3-7e2b-60ee-63c3-3b8a320ddd10",
+                "platform": "cast",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": {},
+                "supported_features": 152449,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Chromecast7596",
+                "original_icon": null
+            },
+            {
+                "entity_id": "media_player.chromecast",
+                "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
+                "device_id": "6292cede35e6f1bb985c079b9cba4ab3",
+                "area_id": null,
+                "unique_id": "72bd7ad3-0bb3-0f04-f154-f316ac7f686d",
+                "platform": "cast",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": {},
+                "supported_features": 152449,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Chromecast",
+                "original_icon": null
             }
         ]
     }
