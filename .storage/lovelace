@@ -110,10 +110,6 @@
                             "title": "Temperature",
                             "type": "entities",
                             "state_color": false
-                        },
-                        {
-                            "entity": "media_player.nexus_player_2",
-                            "type": "media-control"
                         }
                     ]
                 },
