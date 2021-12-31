@@ -4096,6 +4096,24 @@
                 "original_name": "LAPTOP-P41R5A41",
                 "original_icon": "mdi:laptop",
                 "entity_category": null
+            },
+            {
+                "entity_id": "device_tracker.papick_2",
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_id": "fafea3006748c3c0ea2998527034a643",
+                "area_id": null,
+                "unique_id": "E4:54:E8:3B:20:E9",
+                "platform": "freebox",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "papick",
+                "original_icon": "mdi:desktop-tower-monitor",
+                "entity_category": null
             }
         ]
     }
