@@ -4114,6 +4114,24 @@
                 "original_name": "papick",
                 "original_icon": "mdi:desktop-tower-monitor",
                 "entity_category": null
+            },
+            {
+                "entity_id": "device_tracker.azure_iot",
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_id": "d77544db20552c51bc4306bba991e4e8",
+                "area_id": null,
+                "unique_id": "FC:C2:3D:23:2F:98",
+                "platform": "freebox",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "azure_iot",
+                "original_icon": "mdi:desktop-tower-monitor",
+                "entity_category": null
             }
         ]
     }
