@@ -4150,6 +4150,42 @@
                 "original_name": "iPhone-Ad",
                 "original_icon": "mdi:cellphone",
                 "entity_category": null
+            },
+            {
+                "entity_id": "device_tracker.galaxy_a02s_2",
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_id": "7b5f83f75ac3652925b8e2a6bf1fab6e",
+                "area_id": null,
+                "unique_id": "4A:22:16:EE:27:7E",
+                "platform": "freebox",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Galaxy-A02s",
+                "original_icon": "mdi:desktop-tower-monitor",
+                "entity_category": null
+            },
+            {
+                "entity_id": "device_tracker.galaxy_a02s_3",
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_id": "769dd0f11d9b0d304fc34cc6f228c2de",
+                "area_id": null,
+                "unique_id": "56:D6:D8:69:B2:38",
+                "platform": "freebox",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Galaxy-A02s",
+                "original_icon": "mdi:desktop-tower-monitor",
+                "entity_category": null
             }
         ]
     }
