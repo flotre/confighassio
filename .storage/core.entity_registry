@@ -4186,6 +4186,24 @@
                 "original_name": "Galaxy-A02s",
                 "original_icon": "mdi:desktop-tower-monitor",
                 "entity_category": null
+            },
+            {
+                "entity_id": "device_tracker.unknown_device_4",
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_id": "e93d1c93552f52120802b6cbf8922d68",
+                "area_id": null,
+                "unique_id": "D6:A7:BD:E9:B2:CE",
+                "platform": "freebox",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "Unknown device",
+                "original_icon": "mdi:desktop-tower-monitor",
+                "entity_category": null
             }
         ]
     }
