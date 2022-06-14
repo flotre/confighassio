@@ -4240,6 +4240,24 @@
                 "original_name": "Unknown device",
                 "original_icon": "mdi:desktop-tower-monitor",
                 "entity_category": null
+            },
+            {
+                "entity_id": "device_tracker.mxns_h0y31n2_5",
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_id": "7df8b5a329c9d51665d162cb11862c09",
+                "area_id": null,
+                "unique_id": "F8:E4:3B:45:27:E5",
+                "platform": "freebox",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "MXNS-H0Y31N2",
+                "original_icon": "mdi:desktop-tower-monitor",
+                "entity_category": null
             }
         ]
     }
