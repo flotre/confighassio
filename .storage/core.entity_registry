@@ -4276,6 +4276,24 @@
                 "original_name": "Unknown device",
                 "original_icon": "mdi:desktop-tower-monitor",
                 "entity_category": null
+            },
+            {
+                "entity_id": "device_tracker.beembox",
+                "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+                "device_id": "b167a008275da9a1648129beec79a1b0",
+                "area_id": null,
+                "unique_id": "0C:DC:7E:18:41:7C",
+                "platform": "freebox",
+                "name": null,
+                "icon": null,
+                "disabled_by": null,
+                "capabilities": null,
+                "supported_features": 0,
+                "device_class": null,
+                "unit_of_measurement": null,
+                "original_name": "beembox",
+                "original_icon": "mdi:desktop-tower-monitor",
+                "entity_category": null
             }
         ]
     }
