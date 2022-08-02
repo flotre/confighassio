@@ -1,52 +1,69 @@
 {
-    "data": {
-        "areas": [
-            {
-                "id": "977b2686d13c4d15ae4e2aa4c973a3d1",
-                "name": "Salon"
-            },
-            {
-                "id": "87e384a4d3584712b73b13a031a24600",
-                "name": "Cuisine"
-            },
-            {
-                "id": "dc6ea6c4dfbb4d299116e1d356b29ee1",
-                "name": "Chambre"
-            },
-            {
-                "id": "e907fe4c2713464890a886763801b996",
-                "name": "Buanderie"
-            },
-            {
-                "id": "97f4d16acb2f40a388a1d87ce2b2c2d4",
-                "name": "Studio"
-            },
-            {
-                "id": "ef405c1ffa0144cfa83b20cd3b6ea71c",
-                "name": "Garage"
-            },
-            {
-                "id": "85a03f017bb34a30872ddab02bb22f87",
-                "name": "Salle d'eau"
-            },
-            {
-                "id": "3d4c3bb82cd945ae8eef9d74725b23d2",
-                "name": "Chambre Antoine"
-            },
-            {
-                "id": "e4388544956c456f94e4fe3c7f5acee1",
-                "name": "Entr\u00e9e"
-            },
-            {
-                "id": "211994d1bb844bd1bd836e741fdcb0f6",
-                "name": "Exterieur"
-            },
-            {
-                "id": "9b51a6bd6e084815aeadac181a285cc2",
-                "name": "Chambre ami"
-            }
-        ]
-    },
-    "key": "core.area_registry",
-    "version": 1
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "name": "Salon",
+        "id": "977b2686d13c4d15ae4e2aa4c973a3d1",
+        "picture": null
+      },
+      {
+        "name": "Cuisine",
+        "id": "87e384a4d3584712b73b13a031a24600",
+        "picture": null
+      },
+      {
+        "name": "Chambre",
+        "id": "dc6ea6c4dfbb4d299116e1d356b29ee1",
+        "picture": null
+      },
+      {
+        "name": "Buanderie",
+        "id": "e907fe4c2713464890a886763801b996",
+        "picture": null
+      },
+      {
+        "name": "Studio",
+        "id": "97f4d16acb2f40a388a1d87ce2b2c2d4",
+        "picture": null
+      },
+      {
+        "name": "Garage",
+        "id": "ef405c1ffa0144cfa83b20cd3b6ea71c",
+        "picture": null
+      },
+      {
+        "name": "Salle d'eau",
+        "id": "85a03f017bb34a30872ddab02bb22f87",
+        "picture": null
+      },
+      {
+        "name": "Chambre Antoine",
+        "id": "3d4c3bb82cd945ae8eef9d74725b23d2",
+        "picture": null
+      },
+      {
+        "name": "Entrée",
+        "id": "e4388544956c456f94e4fe3c7f5acee1",
+        "picture": null
+      },
+      {
+        "name": "Exterieur",
+        "id": "211994d1bb844bd1bd836e741fdcb0f6",
+        "picture": null
+      },
+      {
+        "name": "Chambre bébé",
+        "id": "9b51a6bd6e084815aeadac181a285cc2",
+        "picture": null
+      },
+      {
+        "name": "Bureau",
+        "id": "bureau",
+        "picture": null
+      }
+    ]
+  }
 }

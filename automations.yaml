@@ -45,9 +45,9 @@
     state: not_home
   action:
   - data_template:
-      message: "Une porte ou une fenetre est ouverte mais personne n'est présent {%\
-        \ for state in states.binary_sensor %}\n  {% if state.state == 'on' %}\n \
-        \   {{ state.entity_id }}={{ state.state }},\n  {% endif %}\n{% endfor %}\n"
+      message: "Une porte ou une fenetre est ouverte mais personne n'est présent {%
+        for state in states.binary_sensor %}\n  {% if state.state == 'on' %}\n    {{
+        state.entity_id }}={{ state.state }},\n  {% endif %}\n{% endfor %}\n"
       title: Alerte intrusion
     service: notify.email
 - id: '1568061925733'
@@ -68,12 +68,12 @@
     platform: state
     to: 'on'
   - below: '25'
-    entity_id: sensor.temperature_sol_antoine
+    entity_id: sensor.lumi_lumi_weather_temperature
     platform: numeric_state
   condition:
   - below: '26'
     condition: numeric_state
-    entity_id: sensor.temperature_sol_antoine
+    entity_id: sensor.lumi_lumi_weather_temperature
   - condition: state
     entity_id: input_boolean.virtual_chauffage_antoine
     state: 'on'
@@ -89,56 +89,13 @@
     platform: state
     to: 'off'
   - above: '27'
-    entity_id: sensor.temperature_sol_antoine
+    entity_id: sensor.lumi_lumi_weather_temperature
     platform: numeric_state
   condition: []
   action:
   - data:
       entity_id: switch.radiateur_chambre_antoine
     service: switch.turn_off
-- id: enable_zigbee_join
-  alias: Enable Zigbee joining
-  trigger:
-    platform: state
-    entity_id: input_boolean.zigbee_permit_join
-    to: 'on'
-  action:
-  - service: mqtt.publish
-    data:
-      topic: zigbee2mqtt/bridge/config/permit_join
-      payload: 'true'
-  - service: timer.start
-    data:
-      entity_id: timer.zigbee_permit_join
-- id: disable_zigbee_join
-  alias: Disable Zigbee joining
-  trigger:
-  - entity_id: input_boolean.zigbee_permit_join
-    platform: state
-    to: 'off'
-  action:
-  - data:
-      payload: 'false'
-      topic: zigbee2mqtt/bridge/config/permit_join
-    service: mqtt.publish
-  - data:
-      entity_id: timer.zigbee_permit_join
-    service: timer.cancel
-- id: disable_zigbee_join_timer
-  alias: Disable Zigbee joining by timer
-  trigger:
-  - platform: event
-    event_type: timer.finished
-    event_data:
-      entity_id: timer.zigbee_permit_join
-  action:
-  - service: mqtt.publish
-    data:
-      topic: zigbee2mqtt/bridge/config/permit_join
-      payload: 'false'
-  - service: input_boolean.turn_off
-    data:
-      entity_id: input_boolean.zigbee_permit_join
 - id: '1574280838904'
   alias: chauffage salon
   trigger:
@@ -164,27 +121,6 @@
       entity_id: climate.salon
       preset_mode: comfort
     service: climate.set_preset_mode
-- id: '1582748738131'
-  alias: Fin buanderie
-  description: ''
-  trigger:
-  - below: '20'
-    entity_id: sensor.tp_link_smart_plug_61cc_watts
-    for: 00:05
-    platform: numeric_state
-  condition:
-  - condition: state
-    entity_id: input_boolean.machine_en_cours
-    state: 'on'
-  action:
-  - data:
-      gw_mac: 34ce00909800
-      ringtone_id: 12
-      ringtone_vol: 10
-    service: xiaomi_aqara.play_ringtone
-  - data: {}
-    entity_id: input_boolean.machine_en_cours
-    service: input_boolean.turn_off
 - id: '1584778181581'
   alias: Debut buanderie
   description: ''

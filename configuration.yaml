@@ -29,13 +29,6 @@ freebox:
 
 webhook:
 
-zigbee2mqtt_networkmap:
-  #topic: your topic (optional, default zigbee2mqtt)
-panel_iframe:
-  networkmap:
-    title: 'Zigbee Map'
-    url: '/local/community/zigbee2mqtt_networkmap/map.html'
-    icon: 'mdi:graphql'
 
 # Example configuration.yaml entry
 notify:
@@ -60,10 +53,6 @@ shell_command:
 
 
 sensor:
-  - platform: mqtt
-    name: Bridge state
-    state_topic: "zigbee2mqtt/bridge/state"
-    icon: mdi:router-wireless
   - platform: template
     sensors:
       tp_link_smart_plug_61cc_current:
@@ -121,22 +110,10 @@ group:
       - media_player.nexus_player_2
     
 input_boolean:
-  zigbee_permit_join:
-    name: Allow devices to join
-    initial: off
-    icon: mdi:cellphone-wireless
   virtual_chauffage_antoine:
     name: Etat souhaite du chauffage
     icon: mdi:radiator
 
-    
-
-
-
-timer:
-  zigbee_permit_join:
-    name: Time remaining
-    duration: 600 # Updated this to the number of seconds you wish
 
 
 climate:

@@ -1,267 +1,237 @@
 {
-    "version": 1,
-    "key": "lovelace",
-    "data": {
-        "config": {
-            "title": "Maison",
-            "views": [
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "title": "Maison",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "badges": [
+            {
+              "entity": "sensor.lumi_lumi_weather_4976fa01_temperature"
+            },
+            {
+              "entity": "sun.sun"
+            },
+            {
+              "entity": "person.alice"
+            },
+            {
+              "entity": "person.florent"
+            },
+            {
+              "entity": "sensor.lumi_lumi_weather_dc820102_temperature"
+            },
+            {
+              "entity": "sensor.lumi_lumi_weather_7a870102_weather_chambre_antoine"
+            },
+            {
+              "entity": "sensor.lumi_lumi_weather_7ce37101_temperature"
+            },
+            {
+              "entity": "sensor.lumi_lumi_weather_985bfa01_temperature"
+            },
+            {
+              "entity": "sensor.lumi_lumi_weather_88e47101_temperature"
+            },
+            {
+              "entity": "sensor.lumi_lumi_weather_6438fa01_temperature"
+            },
+            {
+              "entity": "sensor.lumi_lumi_weather_f758f501_temperature"
+            },
+            {
+              "entity": "sensor.low_battery"
+            },
+            {
+              "entity": "sensor.unavailable_entities"
+            },
+            {
+              "entity": "switch.tp_link_smart_plug_61cc"
+            }
+          ],
+          "cards": [
+            {
+              "entity": "media_player.salon_audio",
+              "type": "media-control"
+            },
+            {
+              "entity": "weather.maison",
+              "type": "weather-forecast"
+            },
+            {
+              "entities": [
                 {
-                    "path": "default_view",
-                    "title": "Home",
-                    "badges": [
-                        {
-                            "entity": "sensor.temperature_exterieur"
-                        },
-                        {
-                            "entity": "sun.sun"
-                        },
-                        {
-                            "entity": "person.alice"
-                        },
-                        {
-                            "entity": "person.florent"
-                        },
-                        {
-                            "entity": "sensor.temperature_chambre_bas"
-                        },
-                        {
-                            "entity": "sensor.temperature_chambre_antoine"
-                        },
-                        {
-                            "entity": "sensor.temperature_salle_d_eau"
-                        },
-                        {
-                            "entity": "switch.tp_link_smart_plug_61cc"
-                        },
-                        {
-                            "entity": "sensor.grande_chambre_temperature"
-                        },
-                        {
-                            "entity": "sensor.unavailable_entities"
-                        },
-                        {
-                            "entity": "sensor.low_battery"
-                        }
-                    ],
-                    "cards": [
-                        {
-                            "entity": "media_player.salon_audio",
-                            "type": "media-control"
-                        },
-                        {
-                            "entity": "weather.maison",
-                            "type": "weather-forecast"
-                        },
-                        {
-                            "entities": [
-                                {
-                                    "entity": "binary_sensor.door_window_sensor_entree"
-                                },
-                                {
-                                    "entity": "binary_sensor.door_window_sensor_chambre_bas"
-                                },
-                                {
-                                    "entity": "binary_sensor.door_window_sensor_cuisine"
-                                },
-                                {
-                                    "entity": "binary_sensor.door_window_sensor_devant"
-                                },
-                                {
-                                    "entity": "binary_sensor.contact_porte_buanderie"
-                                },
-                                {
-                                    "entity": "binary_sensor.door_window_sensor_terrasse"
-                                },
-                                {
-                                    "entity": "binary_sensor.contact_porte_garage"
-                                },
-                                {
-                                    "entity": "binary_sensor.water_leak_garage"
-                                }
-                            ],
-                            "show_header_toggle": false,
-                            "title": "Sensor",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                {
-                                    "entity": "sensor.temperature_buanderie",
-                                    "secondary_info": "last-updated"
-                                },
-                                {
-                                    "entity": "sensor.temperature_studio",
-                                    "secondary_info": "last-updated"
-                                },
-                                {
-                                    "entity": "sensor.temperature_cuisine",
-                                    "secondary_info": "last-changed"
-                                },
-                                {
-                                    "entity": "sensor.temperature_salon",
-                                    "secondary_info": "last-changed"
-                                },
-                                {
-                                    "entity": "sensor.temperature_entree",
-                                    "secondary_info": "last-changed"
-                                }
-                            ],
-                            "show_header_toggle": false,
-                            "title": "Temperature",
-                            "type": "entities",
-                            "state_color": false
-                        }
-                    ]
+                  "entity": "binary_sensor.lumi_lumi_sensor_magnet_aq2_cc21e703_on_off"
                 },
                 {
-                    "badges": [],
-                    "cards": [
-                        {
-                            "entity": "climate.salon",
-                            "type": "thermostat"
-                        },
-                        {
-                            "entity": "climate.cuisine",
-                            "type": "thermostat"
-                        },
-                        {
-                            "entity": "climate.entree",
-                            "type": "thermostat"
-                        },
-                        {
-                            "entity": "climate.salle_deau",
-                            "name": "Salle d'eau",
-                            "type": "thermostat"
-                        },
-                        {
-                            "entity": "climate.chambre_antoine",
-                            "type": "thermostat"
-                        },
-                        {
-                            "entity": "climate.chambre_bas",
-                            "type": "thermostat"
-                        }
-                    ],
-                    "icon": "mdi:radiator",
-                    "path": "chauffage",
-                    "title": "Chauffage"
+                  "entity": "binary_sensor.lumi_lumi_sensor_magnet_aq2_d08fde01_on_off"
                 },
                 {
-                    "badges": [],
-                    "cards": [
-                        {
-                            "id": "salon",
-                            "title": "Salon/Cuisine/Entr\u00e9e",
-                            "type": "custom:schedule-card"
-                        },
-                        {
-                            "id": "chambre_bas",
-                            "title": "Chambre bas",
-                            "type": "custom:schedule-card"
-                        },
-                        {
-                            "id": "chambre_antoine",
-                            "title": "Chambre Antoine",
-                            "type": "custom:schedule-card"
-                        },
-                        {
-                            "id": "salle_d_eau",
-                            "title": "Salle d'eau",
-                            "type": "custom:schedule-card"
-                        }
-                    ],
-                    "icon": "mdi:calendar",
-                    "path": "calendrier",
-                    "title": "Calendrier"
+                  "entity": "binary_sensor.lumi_lumi_sensor_magnet_aq2_b731b502_on_off"
                 },
                 {
-                    "badges": [
-                        {
-                            "entity": "input_boolean.virtual_chauffage_antoine"
-                        },
-                        {
-                            "entity": "switch.radiateur_chambre_antoine"
-                        }
-                    ],
-                    "cards": [
-                        {
-                            "entities": [
-                                {
-                                    "entity": "sensor.temperature_sol_antoine"
-                                },
-                                {
-                                    "entity": "sensor.temperature_chambre_antoine"
-                                }
-                            ],
-                            "show_header_toggle": false,
-                            "type": "entities"
-                        }
-                    ],
-                    "icon": "mdi:test-tube",
-                    "path": "test",
-                    "title": "test"
+                  "entity": "binary_sensor.lumi_lumi_sensor_magnet_aq2_116bb502_on_off"
                 },
                 {
-                    "icon": "mdi:cog",
-                    "badges": [],
-                    "cards": [
-                        {
-                            "entities": [
-                                {
-                                    "entity": "input_boolean.zigbee_permit_join"
-                                },
-                                {
-                                    "entity": "timer.zigbee_permit_join"
-                                },
-                                {
-                                    "entity": "sensor.bridge_state"
-                                }
-                            ],
-                            "show_header_toggle": false,
-                            "title": "Zigbee2mqtt",
-                            "type": "entities"
-                        },
-                        {
-                            "entities": [
-                                {
-                                    "entity": "light.gateway_light"
-                                }
-                            ],
-                            "title": "Lumi\u00e8re",
-                            "type": "entities"
-                        }
-                    ]
+                  "entity": "binary_sensor.lumi_lumi_sensor_magnet_aq2_2948e703_on_off"
                 },
                 {
-                    "badges": [],
-                    "cards": [
-                        {
-                            "entities": [
-                                {
-                                    "entity": "sensor.tp_link_smart_plug_61cc_watts"
-                                }
-                            ],
-                            "hours_to_show": 8,
-                            "refresh_interval": 60,
-                            "title": "Courant buanderie",
-                            "type": "history-graph"
-                        },
-                        {
-                            "entities": [
-                                {
-                                    "entity": "sensor.buanderie_total_kwh"
-                                }
-                            ],
-                            "hours_to_show": 240,
-                            "refresh_interval": 12,
-                            "title": "Consommation buanderie",
-                            "type": "history-graph"
-                        }
-                    ],
-                    "path": "graph",
-                    "title": "Graph"
+                  "entity": "binary_sensor.lumi_lumi_sensor_magnet_aq2_on_off"
+                },
+                {
+                  "entity": "binary_sensor.lumi_lumi_sensor_magnet_aq2_2985e703_on_off"
+                },
+                {
+                  "entity": "binary_sensor.water_leak_garage"
+                },
+                {
+                  "entity": "binary_sensor.lumi_lumi_sensor_magnet_aq2_d08fde01_on_off"
                 }
-            ]
+              ],
+              "show_header_toggle": false,
+              "title": "Sensor",
+              "type": "entities"
+            },
+            {
+              "entities": [
+                {
+                  "entity": "sensor.lumi_lumi_weather_3fe27101_temperature",
+                  "secondary_info": "last-updated"
+                },
+                {
+                  "entity": "sensor.lumi_lumi_weather_2e76fa01_temperature",
+                  "secondary_info": "last-updated"
+                }
+              ],
+              "show_header_toggle": false,
+              "title": "Temperature",
+              "type": "entities",
+              "state_color": false
+            }
+          ]
+        },
+        {
+          "badges": [],
+          "cards": [
+            {
+              "entity": "climate.salon",
+              "type": "thermostat"
+            },
+            {
+              "entity": "climate.cuisine",
+              "type": "thermostat"
+            },
+            {
+              "entity": "climate.entree",
+              "type": "thermostat"
+            },
+            {
+              "entity": "climate.salle_deau",
+              "name": "Salle d'eau",
+              "type": "thermostat"
+            },
+            {
+              "entity": "climate.chambre_antoine",
+              "type": "thermostat"
+            },
+            {
+              "entity": "climate.chambre_bas",
+              "type": "thermostat"
+            }
+          ],
+          "icon": "mdi:radiator",
+          "path": "chauffage",
+          "title": "Chauffage"
+        },
+        {
+          "badges": [],
+          "cards": [
+            {
+              "id": "salon",
+              "title": "Salon/Cuisine/Entrée",
+              "type": "custom:schedule-card"
+            },
+            {
+              "id": "chambre_bas",
+              "title": "Chambre bas",
+              "type": "custom:schedule-card"
+            },
+            {
+              "id": "chambre_antoine",
+              "title": "Chambre Antoine",
+              "type": "custom:schedule-card"
+            },
+            {
+              "id": "salle_d_eau",
+              "title": "Salle d'eau",
+              "type": "custom:schedule-card"
+            }
+          ],
+          "icon": "mdi:calendar",
+          "path": "calendrier",
+          "title": "Calendrier"
+        },
+        {
+          "badges": [
+            {
+              "entity": "input_boolean.virtual_chauffage_antoine"
+            },
+            {
+              "entity": "switch.radiateur_chambre_antoine"
+            }
+          ],
+          "cards": [
+            {
+              "entities": [
+                {
+                  "entity": "sensor.lumi_lumi_weather_temperature"
+                },
+                {
+                  "entity": "sensor.lumi_lumi_weather_7a870102_weather_chambre_antoine"
+                }
+              ],
+              "show_header_toggle": false,
+              "type": "entities"
+            }
+          ],
+          "icon": "mdi:test-tube",
+          "path": "test",
+          "title": "test"
+        },
+        {
+          "badges": [],
+          "cards": [
+            {
+              "entities": [
+                {
+                  "entity": "sensor.tp_link_smart_plug_61cc_watts"
+                }
+              ],
+              "hours_to_show": 8,
+              "refresh_interval": 60,
+              "title": "Courant buanderie",
+              "type": "history-graph"
+            },
+            {
+              "entities": [
+                {
+                  "entity": "sensor.buanderie_total_kwh"
+                }
+              ],
+              "hours_to_show": 240,
+              "refresh_interval": 12,
+              "title": "Consommation buanderie",
+              "type": "history-graph"
+            }
+          ],
+          "path": "graph",
+          "title": "Graph"
         }
+      ]
     }
+  }
 }
