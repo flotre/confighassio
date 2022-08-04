@@ -120,7 +120,7 @@ climate:
   - platform: generic_smart_thermostat
     name: Salon
     heater: switch.radiateur_salon
-    in_temp_sensor: sensor.temperature_salon
+    in_temp_sensor: sensor.lumi_lumi_weather_88e47101_temperature
     out_temp_sensor: sensor.temperature_exterieur
     use_schedule_list: true
     preheat: true
@@ -129,7 +129,7 @@ climate:
   - platform: generic_smart_thermostat
     name: Entrée
     heater: switch.radiateur_entree
-    in_temp_sensor: sensor.temperature_entree
+    in_temp_sensor: sensor.lumi_lumi_weather_f758f501_temperature
     out_temp_sensor: sensor.temperature_exterieur
     use_schedule_list: true
     preheat: true
@@ -138,7 +138,7 @@ climate:
   - platform: generic_smart_thermostat
     name: Cuisine
     heater: switch.radiateur_cuisine
-    in_temp_sensor: sensor.temperature_cuisine
+    in_temp_sensor: sensor.lumi_lumi_weather_6438fa01_temperature
     out_temp_sensor: sensor.temperature_exterieur
     use_schedule_list: true
     preheat: true
@@ -147,7 +147,7 @@ climate:
   - platform: generic_smart_thermostat
     name: Salle deau
     heater: switch.radiateur_sde
-    in_temp_sensor: sensor.temperature_salle_d_eau
+    in_temp_sensor: sensor.lumi_lumi_weather_7ce37101_temperature
     out_temp_sensor: sensor.temperature_exterieur
     confort_temp: 22
     use_schedule_list: true
@@ -156,7 +156,7 @@ climate:
   - platform: generic_smart_thermostat
     name: Chambre Antoine
     heater: input_boolean.virtual_chauffage_antoine
-    in_temp_sensor: sensor.temperature_chambre_antoine
+    in_temp_sensor: sensor.lumi_lumi_weather_7a870102_weather_chambre_antoine
     out_temp_sensor: sensor.temperature_exterieur
     use_schedule_list: true
     preheat: true
@@ -166,7 +166,7 @@ climate:
   - platform: generic_smart_thermostat
     name: Chambre bas
     heater: switch.radiateur_chambre_bas
-    in_temp_sensor: sensor.temperature_chambre_bas
+    in_temp_sensor: sensor.lumi_lumi_weather_dc820102_temperature
     out_temp_sensor: sensor.temperature_exterieur
     use_schedule_list: true
     preheat: true

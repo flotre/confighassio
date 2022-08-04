@@ -11,7 +11,7 @@
           "title": "Home",
           "badges": [
             {
-              "entity": "sensor.lumi_lumi_weather_4976fa01_temperature"
+              "entity": "sensor.temperature_exterieur"
             },
             {
               "entity": "sun.sun"
