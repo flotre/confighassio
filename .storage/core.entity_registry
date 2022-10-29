@@ -5825,6 +5825,29 @@
         "supported_features": 0,
         "unique_id": "C6:20:2C:45:6F:9A",
         "unit_of_measurement": null
+      },
+      {
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "aa7085d9a0cd44beac589a19594ed18e",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.galaxy_s20_fe_5g",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f50bc82f30ef4ba3012d1faf56f50602",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone",
+        "original_name": "Galaxy-S20-FE-5G",
+        "platform": "freebox",
+        "supported_features": 0,
+        "unique_id": "7E:04:C5:A6:2D:77",
+        "unit_of_measurement": null
       }
     ]
   }
