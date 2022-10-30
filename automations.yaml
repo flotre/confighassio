@@ -59,7 +59,8 @@
     seconds: '0'
   condition: []
   action:
-  - service: hassio.snapshot_full
+  - service: hassio.backup_full
+    data: {}
 - id: '1568229466238'
   alias: chauffage antoine on
   trigger:

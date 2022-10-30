@@ -23,10 +23,6 @@ logger:
 
 schedule_list:
 
-freebox:
-  host: f85359wf.fbxos.fr
-  port: 33333
-
 webhook:
 
 
