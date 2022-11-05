@@ -12,23 +12,28 @@
     from: 'off'
     platform: state
     to: 'on'
-  - entity_id: binary_sensor.door_window_sensor_cuisine
+  - entity_id:
+    - binary_sensor.lumi_lumi_sensor_magnet_aq2_b731b502_on_off
     from: 'off'
     platform: state
     to: 'on'
-  - entity_id: binary_sensor.door_window_sensor_devant
+  - entity_id:
+    - binary_sensor.lumi_lumi_sensor_magnet_aq2_116bb502_on_off
     from: 'off'
     platform: state
     to: 'on'
-  - entity_id: binary_sensor.door_window_sensor_terrasse
+  - entity_id:
+    - binary_sensor.lumi_lumi_sensor_magnet_aq2_on_off
     from: 'off'
     platform: state
     to: 'on'
-  - entity_id: binary_sensor.door_window_sensor_entree
+  - entity_id:
+    - binary_sensor.lumi_lumi_sensor_magnet_aq2_cc21e703_on_off
     from: 'off'
     platform: state
     to: 'on'
-  - entity_id: binary_sensor.contact_porte_buanderie
+  - entity_id:
+    - binary_sensor.lumi_lumi_sensor_magnet_aq2_2948e703_on_off
     from: 'off'
     platform: state
     to: 'on'
