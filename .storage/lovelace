@@ -87,9 +87,6 @@
                 },
                 {
                   "entity": "binary_sensor.water_leak_garage"
-                },
-                {
-                  "entity": "binary_sensor.lumi_lumi_sensor_magnet_aq2_d08fde01_on_off"
                 }
               ],
               "show_header_toggle": false,
