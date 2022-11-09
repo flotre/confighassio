@@ -205,23 +205,23 @@
             {
               "entities": [
                 {
-                  "entity": "sensor.tp_link_smart_plug_61cc_watts"
+                  "entity": "sensor.tp_link_smart_plug_61cc_current_consumption"
                 }
               ],
               "hours_to_show": 8,
               "refresh_interval": 60,
-              "title": "Courant buanderie",
-              "type": "history-graph"
+              "type": "history-graph",
+              "title": "Puissance "
             },
             {
               "entities": [
                 {
-                  "entity": "sensor.buanderie_total_kwh"
+                  "entity": "sensor.tp_link_smart_plug_61cc_total_consumption"
                 }
               ],
               "hours_to_show": 240,
               "refresh_interval": 12,
-              "title": "Consommation buanderie",
+              "title": "Consommation haos",
               "type": "history-graph"
             }
           ],
