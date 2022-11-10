@@ -5084,7 +5084,7 @@
         "options": {},
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
-        "original_name": "72bd7ad3-0bb3-0f04-f154-f316ac7f686d",
+        "original_name": "Android",
         "platform": "freebox",
         "supported_features": 0,
         "unique_id": "AC:67:84:EC:18:03",
@@ -6695,9 +6695,7 @@
       },
       {
         "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
+        "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
         "device_class": "battery",
         "device_id": "33f5abc60bc1e3bb2394380d2a11ca74",
@@ -6711,7 +6709,7 @@
         "name": null,
         "options": {},
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-charging-wireless-30",
+        "original_icon": "mdi:battery-70",
         "original_name": "SM-G781U1 Battery Level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -6745,7 +6743,7 @@
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
-        "device_class": null,
+        "device_class": "plug",
         "device_id": "33f5abc60bc1e3bb2394380d2a11ca74",
         "disabled_by": null,
         "entity_category": "diagnostic",
@@ -6812,9 +6810,7 @@
       },
       {
         "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
+        "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
         "device_class": "temperature",
         "device_id": "33f5abc60bc1e3bb2394380d2a11ca74",
@@ -6837,9 +6833,7 @@
       },
       {
         "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
+        "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
         "device_class": "power",
         "device_id": "33f5abc60bc1e3bb2394380d2a11ca74",
@@ -6853,7 +6847,7 @@
         "name": null,
         "options": {},
         "original_device_class": "power",
-        "original_icon": "mdi:battery-plus",
+        "original_icon": "mdi:battery-minus",
         "original_name": "SM-G781U1 Battery Power",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -7188,7 +7182,7 @@
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
-        "device_class": null,
+        "device_class": "timestamp",
         "device_id": "33f5abc60bc1e3bb2394380d2a11ca74",
         "disabled_by": "integration",
         "entity_category": "diagnostic",
@@ -7236,7 +7230,7 @@
           "state_class": "measurement"
         },
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
-        "device_class": null,
+        "device_class": "illuminance",
         "device_id": "33f5abc60bc1e3bb2394380d2a11ca74",
         "disabled_by": "integration",
         "entity_category": null,
@@ -7495,7 +7489,7 @@
           "state_class": "measurement"
         },
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
-        "device_class": null,
+        "device_class": "signal_strength",
         "device_id": "33f5abc60bc1e3bb2394380d2a11ca74",
         "disabled_by": "integration",
         "entity_category": "diagnostic",
@@ -7564,7 +7558,7 @@
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
-        "device_class": null,
+        "device_class": "timestamp",
         "device_id": "33f5abc60bc1e3bb2394380d2a11ca74",
         "disabled_by": "integration",
         "entity_category": null,
