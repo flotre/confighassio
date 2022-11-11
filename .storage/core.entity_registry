@@ -6709,7 +6709,7 @@
         "name": null,
         "options": {},
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-70",
+        "original_icon": "mdi:battery-40",
         "original_name": "SM-G781U1 Battery Level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -8029,6 +8029,60 @@
         "supported_features": 0,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_total_tx_gb",
         "unit_of_measurement": "GB"
+      },
+      {
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.esp_e22c1b",
+        "hidden_by": null,
+        "icon": null,
+        "id": "dee564ddf7ba72bfe4ecfdc00f951788",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:desktop-tower-monitor",
+        "original_name": "ESP_E22C1B",
+        "platform": "freebox",
+        "supported_features": 0,
+        "unique_id": "3C:61:05:E2:2C:1B",
+        "unit_of_measurement": null
+      },
+      {
+        "area_id": null,
+        "capabilities": {
+          "hvac_modes": [
+            "off",
+            "heat_cool"
+          ],
+          "min_temp": 0.5,
+          "max_temp": 70.0,
+          "target_temp_step": 0.1
+        },
+        "config_entry_id": "5f48ab99602efc7dcfffbd21a9f21ca6",
+        "device_class": null,
+        "device_id": "217c77f2acd3e6f7c2a01c5a1377c212",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "climate.chambre_louise",
+        "hidden_by": null,
+        "icon": null,
+        "id": "11ef7ed1922baa99c61baa36fbee1ead",
+        "has_entity_name": true,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": null,
+        "platform": "tuya",
+        "supported_features": 1,
+        "unique_id": "tuya.731030573c6105e22c1b",
+        "unit_of_measurement": null
       }
     ]
   }

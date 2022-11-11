@@ -138,6 +138,10 @@
             {
               "entity": "climate.chambre_bas",
               "type": "thermostat"
+            },
+            {
+              "type": "thermostat",
+              "entity": "climate.chambre_louise"
             }
           ],
           "icon": "mdi:radiator",
