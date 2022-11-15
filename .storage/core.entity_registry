@@ -2367,7 +2367,7 @@
         "icon": null,
         "id": "4dc7479e89f1488c984e1d63b7715a14",
         "has_entity_name": true,
-        "name": "Weather salle eau 7ce37101 humidity",
+        "name": "Salle d'eau",
         "options": {},
         "original_device_class": "humidity",
         "original_icon": null,
@@ -8082,6 +8082,29 @@
         "platform": "tuya",
         "supported_features": 1,
         "unique_id": "tuya.731030573c6105e22c1b",
+        "unit_of_measurement": null
+      },
+      {
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "automation.chauffage_humidite_salle_d_eau",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7283111c2ea1ae93d72fd07ee8eaca10",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Chauffage humidité salle d'eau",
+        "platform": "automation",
+        "supported_features": 0,
+        "unique_id": "1668461975498",
         "unit_of_measurement": null
       }
     ]
