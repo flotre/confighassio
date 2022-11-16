@@ -182,9 +182,14 @@
       hours: 0
       minutes: 1
       seconds: 0
-    above: 70
+    above: 75
   condition: []
   action:
+  - service: climate.set_hvac_mode
+    data:
+      hvac_mode: 'off'
+    target:
+      entity_id: climate.salle_deau
   - service: climate.set_hvac_mode
     data:
       hvac_mode: heat
