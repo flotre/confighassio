@@ -51,59 +51,18 @@ shell_command:
 sensor:
   - platform: template
     sensors:
-      tp_link_smart_plug_61cc_current:
-        friendly_name_template: "{{ state_attr('switch.tp_link_smart_plug_61cc', 'friendly_name')}} Current"
-        value_template: "{{ state_attr('switch.tp_link_smart_plug_61cc', 'current_a') | float }}"
-        unit_of_measurement: 'A'
-      tp_link_smart_plug_61cc_watts:
-        friendly_name_template: "{{ state_attr('switch.tp_link_smart_plug_61cc','friendly_name')}} Current Consumption"
-        value_template: "{{ state_attr('switch.tp_link_smart_plug_61cc', 'current_power_w') | float }}"
-        unit_of_measurement: 'W'
-      buanderie_total_kwh:
-        friendly_name_template: "Total consommation buanderie"
-        value_template: "{{ state_attr('switch.tp_link_smart_plug_61cc', 'total_energy_kwh') | float }}"
-        unit_of_measurement: 'kwh'
-      low_battery:
-        friendly_name: "Low Battery"
-        unit_of_measurement: entities
-        value_template: >
-          {%- set threshold = 5 -%}
-          {% set count = namespace(value=0) %}
-          {%- set domains = ['light', 'switch', 'sensor', 'zwave', 'lock'] -%}
-          {%- for domain in domains -%}
-          {%- for item in states[domain] if ((item.attributes.battery_level is defined and item.attributes['battery_level'] | int < threshold) ) -%}
-               {%- set count.value = count.value + 1 -%}
-          {%- endfor -%}
-          {%- endfor -%}
-          {{ count.value }}
-        attribute_templates:
-          entities: >
-            {%- set threshold = 5 -%}
-            {%- set domains = ['light', 'switch', 'sensor', 'zwave', 'lock'] -%}
-            {%- for domain in domains -%}
-            {%- for item in states[domain] if ((item.attributes.battery_level is defined and item.attributes['battery_level'] | int < threshold) ) -%}
-                 {{ item.attributes.friendly_name }}{%- if not loop.last %}, {% endif -%}
-            {%- endfor -%}
-            {%- endfor -%}
       unavailable_entities:
         friendly_name: Unavailable Entities
         unit_of_measurement: entities
         icon_template: "{{ 'mdi:check-circle' if is_state('sensor.unavailable_entities','0') else 'mdi:alert-circle' }}"
         value_template: >
           {{ states|selectattr('state','in',['unavailable','unknown','none'])|rejectattr('domain','eq','group')
-            |rejectattr('entity_id','in',state_attr('group.ignored_entities','entity_id'))|list|count }}
+            |list|count }}
         attribute_templates:
           entities: >
             {{ states|selectattr('state','in',['unavailable','unknown','none'])|rejectattr('domain','eq','group')
-              |rejectattr('entity_id','in',state_attr('group.ignored_entities','entity_id'))|map(attribute='entity_id')|join(',') }}
+              |map(attribute='entity_id')|join(',') }}
 
-## REQUIRED add any entities you do not want to monitor in this group.
-## This group MUST exist even if is empty for sensor template to render.
-group:
-  ignored_entities:
-    entities:
-      - binary_sensor.updater
-      - media_player.nexus_player_2
     
 input_boolean:
   virtual_chauffage_antoine:
