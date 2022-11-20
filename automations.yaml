@@ -159,7 +159,7 @@
       hours: 0
       minutes: 1
       seconds: 0
-    above: 75
+    above: 80
   condition: []
   action:
   - service: climate.set_hvac_mode

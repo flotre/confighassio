@@ -123,7 +123,7 @@
                 }
               ],
               "title": "Chauffage Antoine",
-              "show_header_toggle": true,
+              "show_header_toggle": false,
               "state_color": true
             }
           ]
