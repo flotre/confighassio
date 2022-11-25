@@ -6663,7 +6663,7 @@
         "name": null,
         "options": {},
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-40",
+        "original_icon": "mdi:battery-60",
         "original_name": "SM-G781U1 Battery Level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -8082,6 +8082,31 @@
         "platform": "automation",
         "supported_features": 0,
         "unique_id": "1668629795314",
+        "unit_of_measurement": null
+      },
+      {
+        "area_id": "bureau",
+        "capabilities": {
+          "editable": true
+        },
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "schedule.bureau",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0a660bbbc062e22ede95748b7b55faf7",
+        "has_entity_name": true,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Bureau",
+        "platform": "schedule",
+        "supported_features": 0,
+        "unique_id": "bureau",
         "unit_of_measurement": null
       }
     ]
