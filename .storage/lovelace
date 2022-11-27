@@ -158,7 +158,7 @@
             },
             {
               "type": "thermostat",
-              "entity": "climate.chambre_louise"
+              "entity": "climate.thermostat_chambre_louise_thermostat"
             }
           ],
           "icon": "mdi:radiator",
