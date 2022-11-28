@@ -18,7 +18,10 @@ logger:
   default: info
   logs:
     homeassistant.components.mqtt: info
-    custom_components.generic_smart_thermostat.climate: debug
+    custom_components.generic_smart_thermostat.climate: info
+    zigpy: debug
+    zigpy_znp: debug
+    zhaquirks: debug
 
 
 schedule_list:
@@ -46,22 +49,6 @@ notify:
 shell_command:
   save_config: git commit -a -m "auto backup"; git push
 
-
-
-sensor:
-  - platform: template
-    sensors:
-      unavailable_entities:
-        friendly_name: Unavailable Entities
-        unit_of_measurement: entities
-        icon_template: "{{ 'mdi:check-circle' if is_state('sensor.unavailable_entities','0') else 'mdi:alert-circle' }}"
-        value_template: >
-          {{ states|selectattr('state','in',['unavailable','unknown','none'])|rejectattr('domain','eq','group')
-            |list|count }}
-        attribute_templates:
-          entities: >
-            {{ states|selectattr('state','in',['unavailable','unknown','none'])|rejectattr('domain','eq','group')
-              |map(attribute='entity_id')|join(',') }}
 
     
 input_boolean:
