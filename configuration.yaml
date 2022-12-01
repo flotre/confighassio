@@ -1,4 +1,3 @@
-
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
 
@@ -19,15 +18,13 @@ logger:
   logs:
     homeassistant.components.mqtt: info
     custom_components.generic_smart_thermostat.climate: info
-    zigpy: debug
-    zigpy_znp: debug
-    zhaquirks: debug
-
+    zigpy: info
+    zigpy_znp: info
+    zhaquirks: info
 
 schedule_list:
 
 webhook:
-
 
 # Example configuration.yaml entry
 notify:
@@ -49,14 +46,10 @@ notify:
 shell_command:
   save_config: git commit -a -m "auto backup"; git push
 
-
-    
 input_boolean:
   virtual_chauffage_antoine:
     name: Etat souhaite du chauffage
     icon: mdi:radiator
-
-
 
 climate:
   - platform: generic_smart_thermostat
@@ -67,7 +60,7 @@ climate:
     use_schedule_list: true
     preheat: true
     calculate_period: 60
-    
+
   - platform: generic_smart_thermostat
     name: Entrée
     heater: switch.radiateur_entree
@@ -85,7 +78,7 @@ climate:
     use_schedule_list: true
     preheat: true
     calculate_period: 60
-    
+
   - platform: generic_smart_thermostat
     name: Salle deau
     heater: switch.radiateur_sde
@@ -104,7 +97,7 @@ climate:
     preheat: true
     calculate_period: 30
     confort_temp: 19
-  
+
   - platform: generic_smart_thermostat
     name: Chambre bas
     heater: switch.radiateur_chambre_bas
@@ -114,4 +107,3 @@ climate:
     preheat: true
     calculate_period: 30
     confort_temp: 19
-    
