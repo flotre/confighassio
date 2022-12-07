@@ -1368,7 +1368,51 @@
     "schedule": [
       [
         {
-          "cval": "eco",
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
           "nval": ""
         },
         {
@@ -1496,73 +1540,73 @@
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         }
       ],
       [
         {
-          "cval": "eco",
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
           "nval": ""
         },
         {
@@ -1690,73 +1734,73 @@
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         }
       ],
       [
         {
-          "cval": "eco",
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
           "nval": ""
         },
         {
@@ -1884,73 +1928,73 @@
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         }
       ],
       [
         {
-          "cval": "eco",
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
           "nval": ""
         },
         {
@@ -2078,73 +2122,73 @@
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         }
       ],
       [
         {
-          "cval": "eco",
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
           "nval": ""
         },
         {
@@ -2272,73 +2316,73 @@
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         }
       ],
       [
         {
-          "cval": "eco",
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
           "nval": ""
         },
         {
@@ -2466,73 +2510,73 @@
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         }
       ],
       [
         {
-          "cval": "eco",
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
+          "nval": ""
+        },
+        {
+          "cval": "comfort",
           "nval": ""
         },
         {
@@ -2660,67 +2704,23 @@
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         },
         {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
-          "nval": ""
-        },
-        {
-          "cval": "eco",
+          "cval": "comfort",
           "nval": ""
         }
       ]
