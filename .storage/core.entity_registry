@@ -1,10 +1,11 @@
 {
   "version": 1,
-  "minor_version": 8,
+  "minor_version": 10,
   "key": "core.entity_registry",
   "data": {
     "entities": [
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2d76d9e2b3724cb1bc1f199f9a8c12b6",
@@ -24,10 +25,12 @@
         "original_name": "Maison",
         "platform": "met",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "home",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {},
         "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
@@ -47,10 +50,12 @@
         "original_name": null,
         "platform": "cast",
         "supported_features": 131968,
+        "translation_key": null,
         "unique_id": "e0425993-6635-4025-bf5c-b43e2107c4a9",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -70,10 +75,12 @@
         "original_name": "Florent",
         "platform": "person",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "b795ae8c43374c71be78abe34855747c",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -93,10 +100,12 @@
         "original_name": "Alice",
         "platform": "person",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "93c92d1f540e4d028ae9c67c41ddcfc5",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
@@ -116,10 +125,12 @@
         "original_name": "Radiateur entree",
         "platform": "mqtt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "667103_RL_1",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
@@ -139,10 +150,12 @@
         "original_name": "Radiateur cuisine",
         "platform": "mqtt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "666735_RL_1",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
@@ -162,10 +175,12 @@
         "original_name": "Radiateur salon",
         "platform": "mqtt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "68C076_RL_1",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
@@ -185,10 +200,12 @@
         "original_name": "Radiateur sde",
         "platform": "mqtt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "98D8E4_RL_1",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
@@ -208,10 +225,12 @@
         "original_name": "Radiateur chambre Antoine",
         "platform": "mqtt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "40C588_RL_1",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
@@ -231,10 +250,12 @@
         "original_name": "Radiateur chambre Antoine status",
         "platform": "mqtt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "40C588_status",
         "unit_of_measurement": " "
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
@@ -254,10 +275,12 @@
         "original_name": "Radiateur chambre bas",
         "platform": "mqtt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "68C476_RL_1",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -277,10 +300,12 @@
         "original_name": "Etat souhaite du chauffage",
         "platform": "input_boolean",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "virtual_chauffage_antoine",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -300,10 +325,12 @@
         "original_name": "chauffage antoine on",
         "platform": "automation",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "1568229466238",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -323,10 +350,12 @@
         "original_name": "backup config github",
         "platform": "automation",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "backup config",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -346,10 +375,12 @@
         "original_name": "chauffage antoine off",
         "platform": "automation",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "1568230211853",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -369,10 +400,12 @@
         "original_name": "chauffage salon",
         "platform": "automation",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "1574280838904",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -392,10 +425,12 @@
         "original_name": "Alerte intrusion",
         "platform": "automation",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "1567537848073",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -415,10 +450,12 @@
         "original_name": "Backup",
         "platform": "automation",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "1568061925733",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -438,10 +475,12 @@
         "original_name": "Machine en cours",
         "platform": "input_boolean",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "machine_en_cours",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "3089635f12d37a93d9a70cc5f397c421",
@@ -461,10 +500,12 @@
         "original_name": "TP-LINK_Smart Plug_61CC",
         "platform": "tplink",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "CC:32:E5:8D:61:CC",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2d76d9e2b3724cb1bc1f199f9a8c12b6",
@@ -484,10 +525,12 @@
         "original_name": "Maison hourly",
         "platform": "met",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "home-hourly",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {},
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -507,10 +550,12 @@
         "original_name": "IDE: Update Available",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_ide_update_available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {},
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -530,10 +575,12 @@
         "original_name": "Mosquitto broker: Update Available",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_mosquitto_update_available",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -553,10 +600,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_ide_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -576,10 +625,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_mosquitto_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -599,10 +650,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_ide_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -622,10 +675,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_mosquitto_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -647,10 +702,12 @@
         "original_name": "TP-LINK_Smart Plug_61CC Current Consumption",
         "platform": "tplink",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "CC:32:E5:8D:61:CC_current_power_w",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -672,10 +729,12 @@
         "original_name": "TP-LINK_Smart Plug_61CC Total Consumption",
         "platform": "tplink",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "CC:32:E5:8D:61:CC_total_energy_kwh",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -697,10 +756,12 @@
         "original_name": "TP-LINK_Smart Plug_61CC Today's Consumption",
         "platform": "tplink",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "CC:32:E5:8D:61:CC_today_energy_kwh",
         "unit_of_measurement": "kWh"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -722,10 +783,12 @@
         "original_name": "TP-LINK_Smart Plug_61CC Voltage",
         "platform": "tplink",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "CC:32:E5:8D:61:CC_voltage",
         "unit_of_measurement": "V"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -747,10 +810,12 @@
         "original_name": "TP-LINK_Smart Plug_61CC Current",
         "platform": "tplink",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "CC:32:E5:8D:61:CC_current_a",
         "unit_of_measurement": "A"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {},
         "config_entry_id": "abb16b60397b4ee6b851bcdfb8b667e7",
@@ -770,10 +835,12 @@
         "original_name": null,
         "platform": "cast",
         "supported_features": 131968,
+        "translation_key": null,
         "unique_id": "72bd7ad3-0bb3-0f04-f154-f316ac7f686d",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -793,10 +860,12 @@
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_ide_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -816,10 +885,12 @@
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_mosquitto_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -841,10 +912,12 @@
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_ide_cpu_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -866,10 +939,12 @@
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_ide_memory_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -891,10 +966,12 @@
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_mosquitto_cpu_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -916,10 +993,12 @@
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_mosquitto_memory_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
@@ -939,10 +1018,12 @@
         "original_name": "Radiateur sde status",
         "platform": "mqtt",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "98D8E4_status",
         "unit_of_measurement": " "
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -962,10 +1043,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 1,
+        "translation_key": null,
         "unique_id": "home_assistant_supervisor_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -985,10 +1068,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 11,
+        "translation_key": null,
         "unique_id": "home_assistant_core_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -1008,10 +1093,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 25,
+        "translation_key": null,
         "unique_id": "a0d7b954_ide_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -1031,10 +1118,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 25,
+        "translation_key": null,
         "unique_id": "core_mosquitto_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "3089635f12d37a93d9a70cc5f397c421",
@@ -1054,10 +1143,12 @@
         "original_name": "TP-LINK_Smart Plug_61CC LED",
         "platform": "tplink",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "CC:32:E5:8D:61:CC_led",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -1077,10 +1168,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1102,10 +1195,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1127,10 +1222,12 @@
         "original_name": "Pressure",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-1027",
         "unit_of_measurement": "hPa"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1152,10 +1249,12 @@
         "original_name": "Temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-1026",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1172,15 +1271,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1197,15 +1298,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1227,10 +1330,12 @@
         "original_name": "Humidity",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-1029",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1247,15 +1352,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:c9:87:13-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1272,15 +1379,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:c9:87:13-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1302,10 +1411,12 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:c9:87:13-1-2",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -1325,10 +1436,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:c9:87:13-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -1348,10 +1461,12 @@
         "original_name": "Opening",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:c9:87:13-1-6",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1373,10 +1488,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:c9:87:13-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -1396,10 +1513,12 @@
         "original_name": "Opening",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:6b:11-1-6",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -1419,10 +1538,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:6b:11-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1444,10 +1565,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:6b:11-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1469,10 +1592,12 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:6b:11-1-2",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1489,15 +1614,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:6b:11-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1514,15 +1641,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:6b:11-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -1542,10 +1671,12 @@
         "original_name": "Opening",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:21:cc-1-6",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -1565,10 +1696,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:21:cc-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1590,10 +1723,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:21:cc-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1615,10 +1750,12 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:21:cc-1-2",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1635,15 +1772,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:21:cc-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1660,15 +1799,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:21:cc-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1685,15 +1826,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:31:61-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1710,15 +1853,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:31:61-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1740,10 +1885,12 @@
         "original_name": "Humidity",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:31:61-1-1029",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -1763,10 +1910,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:31:61-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1788,10 +1937,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:31:61-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1813,10 +1964,12 @@
         "original_name": "Pressure",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:31:61-1-1027",
         "unit_of_measurement": "hPa"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1838,10 +1991,12 @@
         "original_name": "Temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:31:61-1-1026",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -1861,10 +2016,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:87:7a-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1886,10 +2043,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:87:7a-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1911,10 +2070,12 @@
         "original_name": "Pressure",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:87:7a-1-1027",
         "unit_of_measurement": "hPa"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1931,15 +2092,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:87:7a-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1956,15 +2119,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:87:7a-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -1986,10 +2151,12 @@
         "original_name": "Humidity",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:87:7a-1-1029",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -2009,10 +2176,12 @@
         "original_name": "Opening",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:de:8f:d0-1-6",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -2032,10 +2201,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:de:8f:d0-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2057,10 +2228,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:de:8f:d0-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2082,10 +2255,12 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:de:8f:d0-1-2",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2102,15 +2277,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:de:8f:d0-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2127,15 +2304,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:de:8f:d0-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -2155,10 +2334,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2180,10 +2361,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2205,10 +2388,12 @@
         "original_name": "Pressure",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-1027",
         "unit_of_measurement": "hPa"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2230,10 +2415,12 @@
         "original_name": "Temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-1026",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2250,15 +2437,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2275,15 +2464,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2305,10 +2496,12 @@
         "original_name": "Humidity",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-1029",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -2328,10 +2521,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:82:dc-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2353,10 +2548,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:82:dc-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2378,10 +2575,12 @@
         "original_name": "Pressure",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:82:dc-1-1027",
         "unit_of_measurement": "hPa"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2403,10 +2602,12 @@
         "original_name": "Temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:82:dc-1-1026",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2423,15 +2624,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:82:dc-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2448,15 +2651,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:82:dc-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2478,10 +2683,12 @@
         "original_name": "Humidity",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:82:dc-1-1029",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -2501,10 +2708,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:38:64-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2526,10 +2735,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:38:64-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2551,10 +2762,12 @@
         "original_name": "Pressure",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:38:64-1-1027",
         "unit_of_measurement": "hPa"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2576,10 +2789,12 @@
         "original_name": "Temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:38:64-1-1026",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2596,15 +2811,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:38:64-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2621,15 +2838,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:38:64-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2651,10 +2870,12 @@
         "original_name": "Humidity",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:38:64-1-1029",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -2674,10 +2895,12 @@
         "original_name": "Opening",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:31:b7-1-6",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -2697,10 +2920,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:31:b7-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2722,10 +2947,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:31:b7-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2747,10 +2974,12 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:31:b7-1-2",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2767,15 +2996,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:31:b7-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2792,15 +3023,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:31:b7-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -2820,10 +3053,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e4:88-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2845,10 +3080,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e4:88-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2870,10 +3107,12 @@
         "original_name": "Pressure",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e4:88-1-1027",
         "unit_of_measurement": "hPa"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2895,10 +3134,12 @@
         "original_name": "Temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e4:88-1-1026",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2915,15 +3156,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e4:88-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2940,15 +3183,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e4:88-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -2970,10 +3215,12 @@
         "original_name": "Humidity",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e4:88-1-1029",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -2993,10 +3240,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3018,10 +3267,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3043,10 +3294,12 @@
         "original_name": "Pressure",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-1027",
         "unit_of_measurement": "hPa"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3068,10 +3321,12 @@
         "original_name": "Temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-1026",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3088,15 +3343,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3113,15 +3370,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3143,10 +3402,12 @@
         "original_name": "Humidity",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-1029",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3168,10 +3429,12 @@
         "original_name": "Temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:87:7a-1-1026",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -3191,10 +3454,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:49-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3216,10 +3481,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:49-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3241,10 +3508,12 @@
         "original_name": "Pressure",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:49-1-1027",
         "unit_of_measurement": "hPa"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3261,15 +3530,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:49-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3286,15 +3557,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:49-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3316,10 +3589,12 @@
         "original_name": "Humidity",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:49-1-1029",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -3339,10 +3614,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:0d:6f:ff:fe:7c:32:f4-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3359,15 +3636,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:0d:6f:ff:fe:7c:32:f4-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3384,15 +3663,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:0d:6f:ff:fe:7c:32:f4-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -3412,10 +3693,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3437,10 +3720,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3462,10 +3747,12 @@
         "original_name": "Pressure",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-1027",
         "unit_of_measurement": "hPa"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3487,10 +3774,12 @@
         "original_name": "Temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-1026",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3507,15 +3796,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3532,15 +3823,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3562,10 +3855,12 @@
         "original_name": "Humidity",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-1029",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -3585,10 +3880,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3610,10 +3907,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3635,10 +3934,12 @@
         "original_name": "Pressure",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-1027",
         "unit_of_measurement": "hPa"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3660,10 +3961,12 @@
         "original_name": "Temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-1026",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3680,15 +3983,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3705,15 +4010,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3735,10 +4042,12 @@
         "original_name": "Humidity",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-1029",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -3758,10 +4067,12 @@
         "original_name": "Opening",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:85:29-1-6",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -3781,10 +4092,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:85:29-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3806,10 +4119,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:85:29-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3831,10 +4146,12 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:85:29-1-2",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3851,15 +4168,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:85:29-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3876,15 +4195,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:85:29-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3906,10 +4227,12 @@
         "original_name": "Temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:49-1-1026",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -3929,10 +4252,12 @@
         "original_name": "Opening",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:48:29-1-6",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -3952,10 +4277,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:48:29-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -3977,10 +4304,12 @@
         "original_name": "Battery",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:48:29-1-1",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4002,10 +4331,12 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:48:29-1-2",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4022,15 +4353,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:48:29-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -4047,15 +4380,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:48:29-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4075,10 +4410,12 @@
         "original_name": "Reboot Freebox",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Reboot Freebox",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4098,10 +4435,12 @@
         "original_name": "openmediavault",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "70:85:C2:00:DF:69",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4121,10 +4460,12 @@
         "original_name": "beembox",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "0C:DC:7E:18:41:7C",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4144,10 +4485,12 @@
         "original_name": "rockrobo",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "34:CE:00:EA:59:F8",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4167,10 +4510,12 @@
         "original_name": "Chromecast-Audio",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "54:60:09:F8:8C:DA",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4190,10 +4535,12 @@
         "original_name": "sonoff-radantoine-1416",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "5C:CF:7F:40:C5:88",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4213,10 +4560,12 @@
         "original_name": "sonoff-radchbas-1142",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "5C:CF:7F:68:C4:76",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4236,10 +4585,12 @@
         "original_name": "sonoff-radcuisine-1845",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "5C:CF:7F:66:67:35",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4259,10 +4610,12 @@
         "original_name": "sonoff_sde_bas-6372",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "60:01:94:98:D8:E4",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4282,10 +4635,12 @@
         "original_name": "sonoff-radsalon-0118",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "5C:CF:7F:68:C0:76",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4305,16 +4660,18 @@
         "original_name": "sonoff-radentree-4355",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "5C:CF:7F:66:71:03",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
         "device_class": null,
         "device_id": null,
-        "disabled_by": "integration",
+        "disabled_by": null,
         "entity_category": "diagnostic",
         "entity_id": "device_tracker.galaxy_s9_florent",
         "hidden_by": null,
@@ -4328,10 +4685,12 @@
         "original_name": "Galaxy-S9-Florent",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "8C:B8:4A:A6:37:97",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4351,10 +4710,12 @@
         "original_name": "lumi-gateway-v3_miio57838515",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "34:CE:00:90:98:00",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4374,10 +4735,12 @@
         "original_name": "HS110",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "CC:32:E5:8D:61:CC",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4397,10 +4760,12 @@
         "original_name": "android-d24d66948a1b54f0",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "08:62:66:E3:B9:BB",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4420,10 +4785,12 @@
         "original_name": "MXNS-H0Y31N2",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "A0:C5:89:C7:99:A8",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4443,10 +4810,12 @@
         "original_name": "MXNS-H0Y31N2",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "10:65:30:17:7A:85",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4466,10 +4835,12 @@
         "original_name": "UC681",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "98:E7:43:E6:9F:F2",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4489,10 +4860,12 @@
         "original_name": "MCDO",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:90:F5:FB:8E:14",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4512,10 +4885,12 @@
         "original_name": "EPSONEF485A",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "AC:18:26:EF:48:5A",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4535,10 +4910,12 @@
         "original_name": "MCDO",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "AC:7B:A1:3F:1B:82",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4558,10 +4935,12 @@
         "original_name": "PAPICK",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "50:E0:85:33:09:19",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4581,10 +4960,12 @@
         "original_name": "UC681",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "98:E7:43:94:46:FA",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4604,10 +4985,12 @@
         "original_name": "Chromecast",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6C:AD:F8:A7:9B:10",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4627,10 +5010,12 @@
         "original_name": "UC681-FAM-Linux",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "08:00:27:D5:BF:39",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4650,10 +5035,12 @@
         "original_name": "UC681",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "24:41:8C:4B:49:C5",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4673,10 +5060,12 @@
         "original_name": "Galaxy-S9",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "8C:B8:4A:A5:43:7F",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4696,10 +5085,12 @@
         "original_name": "L020939",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "A4:4C:C8:63:9A:D1",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4719,10 +5110,12 @@
         "original_name": "L020939",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "28:C6:3F:02:E0:7C",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4742,10 +5135,12 @@
         "original_name": "Unknown device",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "F8:F0:05:DF:20:4C",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4765,10 +5160,12 @@
         "original_name": "raspberrypi",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "B8:27:EB:99:3F:A0",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4788,10 +5185,12 @@
         "original_name": "android-e9f12c35a3261c57",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "A0:3E:6B:A9:EA:EF",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4811,10 +5210,12 @@
         "original_name": "iPhone-Ad",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "16:D3:9C:19:39:54",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4834,10 +5235,12 @@
         "original_name": "iPhone-Ad",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "58:6B:14:02:CD:7C",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4857,10 +5260,12 @@
         "original_name": "iPhone",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "A2:0C:C3:C6:11:EA",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4880,10 +5285,12 @@
         "original_name": "AppleWaeAdeline",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "46:92:60:4B:9B:48",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4903,10 +5310,12 @@
         "original_name": "AppleWaeAdeline",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "AC:88:FD:98:D0:1A",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4926,10 +5335,12 @@
         "original_name": "Unknown device",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "F8:F0:05:DF:1A:10",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4949,10 +5360,12 @@
         "original_name": "android-7ad126d2a3b19511",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "34:2D:0D:01:E7:FF",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4972,10 +5385,12 @@
         "original_name": "Galaxy-A02s",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "A0:27:B6:FB:B1:C3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -4995,10 +5410,12 @@
         "original_name": "AppleWaeAdeline",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "D2:FB:6E:62:A0:94",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5015,13 +5432,15 @@
         "options": {},
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
-        "original_name": "Android",
+        "original_name": "72bd7ad3-0bb3-0f04-f154-f316ac7f686d",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "AC:67:84:EC:18:03",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5041,10 +5460,12 @@
         "original_name": "Sherlock",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "80:B6:55:8A:4C:D3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5064,10 +5485,12 @@
         "original_name": "papick",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:54:E8:3B:20:E9",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5087,10 +5510,12 @@
         "original_name": "azure_iot",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "FC:C2:3D:23:2F:98",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5110,10 +5535,12 @@
         "original_name": "iPhone-Ad",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "B2:8E:C0:E3:1F:2C",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5133,10 +5560,12 @@
         "original_name": "Galaxy-A02s",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "4A:22:16:EE:27:7E",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5156,10 +5585,12 @@
         "original_name": "Galaxy-A02s",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "56:D6:D8:69:B2:38",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5179,10 +5610,12 @@
         "original_name": "Unknown device",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "D6:A7:BD:E9:B2:CE",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5202,10 +5635,12 @@
         "original_name": "iPhone-4",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "26:92:12:9E:48:62",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5225,10 +5660,12 @@
         "original_name": "Unknown device",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "EA:E5:65:B6:0E:1B",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5248,10 +5685,12 @@
         "original_name": "JFB22",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "F8:E4:3B:45:27:E5",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5271,10 +5710,12 @@
         "original_name": "Unknown device",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "F2:5F:7E:C5:53:48",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5294,10 +5735,12 @@
         "original_name": "OPPO-Find-X5-Lite",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "AA:AB:1A:27:39:77",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5317,10 +5760,12 @@
         "original_name": "iPhone-Ad",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "9E:28:23:BD:09:7D",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5340,10 +5785,12 @@
         "original_name": "iPhone-AL",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "3A:42:0B:FA:09:49",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5363,10 +5810,12 @@
         "original_name": "Unknown device",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "C6:20:2C:45:6F:9A",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5386,10 +5835,12 @@
         "original_name": "Galaxy-S20-FE-5G",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "7E:04:C5:A6:2D:77",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5409,10 +5860,12 @@
         "original_name": "Freebox Server (r2)",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5432,10 +5885,12 @@
         "original_name": "Freebox Disque dur",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox Disque dur",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5455,10 +5910,12 @@
         "original_name": "Freebox Température Switch",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox Température Switch",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5478,10 +5935,12 @@
         "original_name": "Freebox Température CPU A",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox Température CPU A",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5501,10 +5960,12 @@
         "original_name": "Freebox Température CPU B",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox Température CPU B",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5519,15 +5980,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_rate",
         "original_icon": "mdi:download-network",
         "original_name": "Freebox download speed",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox download speed",
         "unit_of_measurement": "kB/s"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5542,15 +6005,17 @@
         "has_entity_name": false,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "data_rate",
         "original_icon": "mdi:upload-network",
         "original_name": "Freebox upload speed",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox upload speed",
         "unit_of_measurement": "kB/s"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5570,10 +6035,12 @@
         "original_name": "Freebox missed calls",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox missed calls",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5593,10 +6060,12 @@
         "original_name": "Disque dur free space",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 partition_free_space 0 2",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5616,10 +6085,12 @@
         "original_name": "Disque 1 free space",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 partition_free_space 1000 1001",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5639,10 +6110,12 @@
         "original_name": "Freebox WiFi",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox WiFi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5662,10 +6135,12 @@
         "original_name": "Mark calls as read",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Mark calls as read",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -5685,10 +6160,12 @@
         "original_name": "homeassistant",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:23:24:54:F1:30",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -5708,10 +6185,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 3,
+        "translation_key": null,
         "unique_id": "home_assistant_os_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -5731,10 +6210,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "home_assistant_os_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -5754,10 +6235,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "home_assistant_os_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -5777,10 +6260,12 @@
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_ssh_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -5800,10 +6285,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_ssh_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -5823,10 +6310,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_ssh_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5848,10 +6337,12 @@
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_ssh_cpu_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5873,10 +6364,12 @@
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "core_ssh_memory_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -5896,10 +6389,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 25,
+        "translation_key": null,
         "unique_id": "core_ssh_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -5919,10 +6414,12 @@
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_sonweb_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -5942,10 +6439,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_sonweb_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -5965,10 +6464,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_sonweb_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -5990,10 +6491,12 @@
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_sonweb_cpu_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -6015,10 +6518,12 @@
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_sonweb_memory_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -6038,10 +6543,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 25,
+        "translation_key": null,
         "unique_id": "a0d7b954_sonweb_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6061,10 +6568,12 @@
         "original_name": "SM-G781U1",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "47b70d7db4e5f497",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6084,10 +6593,12 @@
         "original_name": "SM-G781U1 Detected Activity",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_detected_activity",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -6109,10 +6620,12 @@
         "original_name": "SM-G781U1 Sleep Confidence",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_sleep_confidence",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6132,10 +6645,12 @@
         "original_name": "SM-G781U1 Sleep Segment",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_sleep_segment",
         "unit_of_measurement": "ms"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6155,10 +6670,12 @@
         "original_name": "SM-G781U1 Current Version",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_current_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -6180,10 +6697,12 @@
         "original_name": "SM-G781U1 App Rx GB",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_app_rx_gb",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -6205,10 +6724,12 @@
         "original_name": "SM-G781U1 App Tx GB",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_app_tx_gb",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -6230,10 +6751,12 @@
         "original_name": "SM-G781U1 App Memory",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_app_memory",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6253,10 +6776,12 @@
         "original_name": "SM-G781U1 App Inactive",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_app_inactive",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6276,10 +6801,12 @@
         "original_name": "SM-G781U1 App Standby Bucket",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_app_standby_bucket",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6299,10 +6826,12 @@
         "original_name": "SM-G781U1 App Importance",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_app_importance",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6322,10 +6851,12 @@
         "original_name": "SM-G781U1 Ringer Mode",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_audio_sensor",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6345,10 +6876,12 @@
         "original_name": "SM-G781U1 Audio Mode",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_audio_mode",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6368,10 +6901,12 @@
         "original_name": "SM-G781U1 Headphones",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_headphone_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6391,10 +6926,12 @@
         "original_name": "SM-G781U1 Mic Muted",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_mic_muted",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6414,10 +6951,12 @@
         "original_name": "SM-G781U1 Speakerphone",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_speakerphone_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6437,10 +6976,12 @@
         "original_name": "SM-G781U1 Music Active",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_music_active",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6460,10 +7001,12 @@
         "original_name": "SM-G781U1 Volume Level Alarm",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_volume_alarm",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6483,10 +7026,12 @@
         "original_name": "SM-G781U1 Volume Level Call",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_volume_call",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6506,10 +7051,12 @@
         "original_name": "SM-G781U1 Volume Level Music",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_volume_music",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6529,10 +7076,12 @@
         "original_name": "SM-G781U1 Volume Level Ringer",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_volume_ring",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6552,10 +7101,12 @@
         "original_name": "SM-G781U1 Volume Level Notification",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_volume_notification",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6575,10 +7126,12 @@
         "original_name": "SM-G781U1 Volume Level System",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_volume_system",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6598,10 +7151,12 @@
         "original_name": "SM-G781U1 Volume Level DTMF",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_volume_dtmf",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6621,10 +7176,12 @@
         "original_name": "SM-G781U1 Volume Level Accessibility",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_volume_accessibility",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6640,14 +7197,16 @@
         "name": null,
         "options": {},
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-70",
+        "original_icon": "mdi:battery-80",
         "original_name": "SM-G781U1 Battery Level",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_battery_level",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6663,14 +7222,16 @@
         "name": null,
         "options": {},
         "original_device_class": null,
-        "original_icon": "mdi:battery-plus",
+        "original_icon": "mdi:battery-minus",
         "original_name": "SM-G781U1 Battery State",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_battery_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6686,14 +7247,16 @@
         "name": null,
         "options": {},
         "original_device_class": "plug",
-        "original_icon": "mdi:power-plug",
+        "original_icon": "mdi:power-plug-off",
         "original_name": "SM-G781U1 Is Charging",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_is_charging",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6709,14 +7272,16 @@
         "name": null,
         "options": {},
         "original_device_class": null,
-        "original_icon": "mdi:battery-charging-wireless",
+        "original_icon": "mdi:battery",
         "original_name": "SM-G781U1 Charger Type",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_charger_type",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6736,10 +7301,12 @@
         "original_name": "SM-G781U1 Battery Health",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_battery_health",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6759,10 +7326,12 @@
         "original_name": "SM-G781U1 Battery Temperature",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_battery_temperature",
         "unit_of_measurement": "°C"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6782,10 +7351,12 @@
         "original_name": "SM-G781U1 Battery Power",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_battery_power",
         "unit_of_measurement": "W"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -6807,10 +7378,12 @@
         "original_name": "SM-G781U1 Bluetooth Connection",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_bluetooth_connection",
         "unit_of_measurement": "connection(s)"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6830,10 +7403,12 @@
         "original_name": "SM-G781U1 Bluetooth State",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_bluetooth_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6853,10 +7428,12 @@
         "original_name": "SM-G781U1 BLE Transmitter",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_ble_emitter",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6876,10 +7453,12 @@
         "original_name": "SM-G781U1 Beacon Monitor",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_beacon_monitor",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6899,10 +7478,12 @@
         "original_name": "SM-G781U1 Screen Brightness",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_screen_brightness",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6922,10 +7503,12 @@
         "original_name": "SM-G781U1 Do Not Disturb Sensor",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_dnd_sensor",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6945,10 +7528,12 @@
         "original_name": "SM-G781U1 Accent Color",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_accent_color",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6968,10 +7553,12 @@
         "original_name": "SM-G781U1 Work Profile",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_is_work_profile",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -6991,10 +7578,12 @@
         "original_name": "SM-G781U1 Geocoded Location",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_geocoded_location",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7014,10 +7603,12 @@
         "original_name": "SM-G781U1 Device Locked",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_device_locked",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7037,10 +7628,12 @@
         "original_name": "SM-G781U1 Device Secure",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_device_secure",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7060,10 +7653,12 @@
         "original_name": "SM-G781U1 Keyguard Locked",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_keyguard_locked",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7083,10 +7678,12 @@
         "original_name": "SM-G781U1 Keyguard Secure",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_keyguard_secure",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7106,10 +7703,12 @@
         "original_name": "SM-G781U1 Last Used App",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_last_used_app",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7129,10 +7728,12 @@
         "original_name": "SM-G781U1 Last Reboot",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_last_reboot",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7152,10 +7753,12 @@
         "original_name": "SM-G781U1 Last Update Trigger",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_last_update",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7177,10 +7780,12 @@
         "original_name": "SM-G781U1 Light Sensor",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_light_sensor",
         "unit_of_measurement": "lx"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7200,10 +7805,12 @@
         "original_name": "SM-G781U1 High Accuracy Mode",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_high_accuracy_mode",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7223,10 +7830,12 @@
         "original_name": "SM-G781U1 High Accuracy Update Interval",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_high_accuracy_update_interval",
         "unit_of_measurement": "seconds"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7246,10 +7855,12 @@
         "original_name": "SM-G781U1 Mobile Data",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_mobile_data",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7269,10 +7880,12 @@
         "original_name": "SM-G781U1 Mobile Data Roaming",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_mobile_data_roaming",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7292,10 +7905,12 @@
         "original_name": "SM-G781U1 WiFi Connection",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_wifi_connection",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7315,10 +7930,12 @@
         "original_name": "SM-G781U1 WiFi BSSID",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_wifi_bssid",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7338,10 +7955,12 @@
         "original_name": "SM-G781U1 WiFi IP Address",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_wifi_ip_address",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7363,10 +7982,12 @@
         "original_name": "SM-G781U1 WiFi Link Speed",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_wifi_link_speed",
         "unit_of_measurement": "Mbps"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7386,10 +8007,12 @@
         "original_name": "SM-G781U1 WiFi State",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_wifi_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7411,10 +8034,12 @@
         "original_name": "SM-G781U1 WiFi Frequency",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_wifi_frequency",
         "unit_of_measurement": "MHz"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7436,10 +8061,12 @@
         "original_name": "SM-G781U1 WiFi Signal Strength",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_wifi_signal_strength",
         "unit_of_measurement": "dBm"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7459,10 +8086,12 @@
         "original_name": "SM-G781U1 Public IP Address",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_public_ip_address",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7482,10 +8111,12 @@
         "original_name": "SM-G781U1 Network Type",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_network_type",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7505,10 +8136,12 @@
         "original_name": "SM-G781U1 Next Alarm",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_next_alarm",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7528,10 +8161,12 @@
         "original_name": "SM-G781U1 Last Notification",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_last_notification",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7551,10 +8186,12 @@
         "original_name": "SM-G781U1 Last Removed Notification",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_last_removed_notification",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7576,10 +8213,12 @@
         "original_name": "SM-G781U1 Active Notification Count",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_active_notification_count",
         "unit_of_measurement": "notifications"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7599,10 +8238,12 @@
         "original_name": "SM-G781U1 Media Session",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_media_session",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7622,10 +8263,12 @@
         "original_name": "SM-G781U1 Phone State",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_phone_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7645,10 +8288,12 @@
         "original_name": "SM-G781U1 SIM 1",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_sim_1",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7668,10 +8313,12 @@
         "original_name": "SM-G781U1 SIM 2",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_sim_2",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7691,10 +8338,12 @@
         "original_name": "SM-G781U1 Interactive",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_is_interactive",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7714,10 +8363,12 @@
         "original_name": "SM-G781U1 Doze Mode",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_is_idle",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7737,10 +8388,12 @@
         "original_name": "SM-G781U1 Power Save",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_power_save",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7760,10 +8413,12 @@
         "original_name": "SM-G781U1 Proximity Sensor",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_proximity_sensor",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -7785,10 +8440,12 @@
         "original_name": "SM-G781U1 Steps Sensor",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_steps_sensor",
         "unit_of_measurement": "steps"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7810,10 +8467,12 @@
         "original_name": "SM-G781U1 Internal Storage",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_storage_sensor",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -7835,10 +8494,12 @@
         "original_name": "SM-G781U1 External Storage",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_external_storage",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -7858,10 +8519,12 @@
         "original_name": "SM-G781U1 Current Time Zone",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_current_time_zone",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -7883,10 +8546,12 @@
         "original_name": "SM-G781U1 Mobile Rx GB",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_mobile_rx_gb",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -7908,10 +8573,12 @@
         "original_name": "SM-G781U1 Mobile Tx GB",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_mobile_tx_gb",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -7933,10 +8600,12 @@
         "original_name": "SM-G781U1 Total Rx GB",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_total_rx_gb",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "total_increasing"
@@ -7958,10 +8627,12 @@
         "original_name": "SM-G781U1 Total Tx GB",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_total_tx_gb",
         "unit_of_measurement": "GB"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -7981,10 +8652,12 @@
         "original_name": "ESP_E22C1B",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "3C:61:05:E2:2C:1B",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -8004,10 +8677,12 @@
         "original_name": "Chauffage humidité salle d'eau",
         "platform": "automation",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "1668461975498",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": null,
@@ -8027,10 +8702,12 @@
         "original_name": "Low battery level detection & notification for all battery sensors",
         "platform": "automation",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "1668629795314",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "6b800adc7d132dbd5de75e9f1d4673b3",
@@ -8050,10 +8727,12 @@
         "original_name": "SM-G781U1 Screen Off Timeout",
         "platform": "mobile_app",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "6a69f08f2b4d8ee86c176d17fe415c4c9b31681cc3edb3a97d346de1694d1fe7_screen_off_timeout",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": "85a03f017bb34a30872ddab02bb22f87",
         "capabilities": null,
         "config_entry_id": "ae2a10e39510876db73db4204a414c88",
@@ -8073,10 +8752,12 @@
         "original_name": "Pente humidité salle d'eau",
         "platform": "derivative",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "ae2a10e39510876db73db4204a414c88",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -8096,10 +8777,12 @@
         "original_name": "Identify",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:12:4b:00:24:c2:36:c9-1-3",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "supported_color_modes": [
@@ -8123,10 +8806,12 @@
         "original_name": "Light",
         "platform": "zha",
         "supported_features": 8,
+        "translation_key": null,
         "unique_id": "00:12:4b:00:24:c2:36:c9-1",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8143,15 +8828,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:12:4b:00:24:c2:36:c9-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8168,15 +8855,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "00:12:4b:00:24:c2:36:c9-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
@@ -8196,10 +8885,12 @@
         "original_name": "HVAC action",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "50:32:5f:ff:fe:41:84:b6-1-513-hvac_action",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "hvac_modes": [
@@ -8226,10 +8917,12 @@
         "original_name": "Thermostat",
         "platform": "zha",
         "supported_features": 1,
+        "translation_key": null,
         "unique_id": "50:32:5f:ff:fe:41:84:b6-1",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8246,15 +8939,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "50:32:5f:ff:fe:41:84:b6-1-0-lqi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8271,15 +8966,17 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": "signal_strength",
+        "original_device_class": null,
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "50:32:5f:ff:fe:41:84:b6-1-0-rssi",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -8299,10 +8996,12 @@
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_vscode_state",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -8322,10 +9021,12 @@
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_vscode_version",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -8345,10 +9046,12 @@
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_vscode_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8370,10 +9073,12 @@
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_vscode_cpu_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": {
           "state_class": "measurement"
@@ -8395,10 +9100,12 @@
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "a0d7b954_vscode_memory_percent",
         "unit_of_measurement": "%"
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "8b943ed0e9800aa733d9181cc102ee20",
@@ -8418,10 +9125,12 @@
         "original_name": "Update",
         "platform": "hassio",
         "supported_features": 25,
+        "translation_key": null,
         "unique_id": "a0d7b954_vscode_version_latest",
         "unit_of_measurement": null
       },
       {
+        "aliases": [],
         "area_id": null,
         "capabilities": null,
         "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
@@ -8441,6 +9150,7 @@
         "original_name": "Unknown device",
         "platform": "freebox",
         "supported_features": 0,
+        "translation_key": null,
         "unique_id": "46:4A:30:5C:57:6C",
         "unit_of_measurement": null
       }

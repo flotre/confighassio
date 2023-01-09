@@ -107,3 +107,21 @@ climate:
     preheat: true
     calculate_period: 30
     confort_temp: 19
+
+# history chauffage salon
+sensor:
+  - platform: history_stats
+    name: Radiateur salon total ON
+    entity_id: switch.radiateur_salon
+    state: "on"
+    type: time
+    start: "{{ 0 }}"
+    end: "{{ now() }}"
+
+template:
+  - sensor:
+      - name: Total energie radiateur salon
+        device_class: energy
+        state_class: total_increasing
+        unit_of_measurement: kWh
+        state: "{{2*float(states('sensor.radiateur_salon_total_on'))}}"
