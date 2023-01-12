@@ -9806,7 +9806,7 @@
         "name": null,
         "options": {},
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-charging-wireless-60",
+        "original_icon": "mdi:battery-charging-wireless-70",
         "original_name": "SM-G960F Battery Level",
         "platform": "mobile_app",
         "supported_features": 0,
