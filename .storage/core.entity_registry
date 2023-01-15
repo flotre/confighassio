@@ -11270,6 +11270,33 @@
         "translation_key": null,
         "unique_id": "d84233d8f730b33051358432dffef7776cd3f375c99d663a173ee08a5792636d_total_tx_gb",
         "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "52b28e7c735220657a32da684345c889",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.chauffage_salon",
+        "hidden_by": null,
+        "icon": null,
+        "id": "cf651886ce471f2e1baeab606b14c255",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:counter",
+        "original_name": "Chauffage salon",
+        "platform": "utility_meter",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "52b28e7c735220657a32da684345c889",
+        "unit_of_measurement": null
       }
     ]
   }
