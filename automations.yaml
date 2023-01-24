@@ -160,3 +160,43 @@
         data:
           message: '{{sensors}}'
           title: Alerte batterie
+- id: '1674389488356'
+  alias: chauffage SDE ON
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - input_boolean.chauffage_sde_humidite
+    - input_boolean.chauffage_sde_temperature
+    from: 'off'
+    to: 'on'
+  condition: []
+  action:
+  - service: switch.turn_on
+    data: {}
+    target:
+      entity_id: switch.radiateur_sde
+  mode: single
+- id: '1674389648731'
+  alias: Chauffage SDE OFF
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - input_boolean.chauffage_sde_humidite
+    - input_boolean.chauffage_sde_temperature
+  condition:
+  - condition: and
+    conditions:
+    - condition: state
+      entity_id: input_boolean.chauffage_sde_humidite
+      state: 'off'
+    - condition: state
+      entity_id: input_boolean.chauffage_sde_temperature
+      state: 'off'
+  action:
+  - service: switch.turn_off
+    data: {}
+    target:
+      entity_id: switch.radiateur_sde
+  mode: single

@@ -163,6 +163,45 @@
           "title": "Chauffage"
         },
         {
+          "theme": "Backend-selected",
+          "icon": "mdi:bathtub",
+          "type": "sidebar",
+          "badges": [],
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "input_boolean.chauffage_sde_temperature"
+                },
+                {
+                  "entity": "input_boolean.chauffage_sde_humidite"
+                },
+                {
+                  "entity": "switch.radiateur_sde"
+                },
+                {
+                  "entity": "sensor.lumi_lumi_weather_7ce37101_humidity"
+                }
+              ]
+            },
+            {
+              "type": "humidifier",
+              "entity": "humidifier.salle_eau",
+              "name": "Humidité"
+            },
+            {
+              "type": "thermostat",
+              "entity": "climate.salle_deau"
+            },
+            {
+              "id": "salle_d_eau",
+              "title": "Salle d'eau",
+              "type": "custom:schedule-card"
+            }
+          ]
+        },
+        {
           "badges": [],
           "cards": [
             {
@@ -178,11 +217,6 @@
             {
               "id": "chambre_antoine",
               "title": "Chambre Antoine",
-              "type": "custom:schedule-card"
-            },
-            {
-              "id": "salle_d_eau",
-              "title": "Salle d'eau",
               "type": "custom:schedule-card"
             }
           ],
@@ -214,6 +248,24 @@
           ],
           "path": "graph",
           "title": "Graph"
+        },
+        {
+          "theme": "Backend-selected",
+          "icon": "mdi:lightning-bolt",
+          "badges": [],
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.total_energie_radiateur_salon"
+                },
+                {
+                  "entity": "sensor.chauffage_salon"
+                }
+              ]
+            }
+          ]
         }
       ]
     }

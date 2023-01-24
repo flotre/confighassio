@@ -81,7 +81,7 @@ climate:
 
   - platform: generic_smart_thermostat
     name: Salle deau
-    heater: switch.radiateur_sde
+    heater: input_boolean.chauffage_sde_temperature
     in_temp_sensor: sensor.lumi_lumi_weather_7ce37101_temperature
     out_temp_sensor: sensor.temperature_exterieur
     confort_temp: 22
@@ -125,3 +125,16 @@ template:
         state_class: total_increasing
         unit_of_measurement: kWh
         state: "{{2*float(states('sensor.radiateur_salon_total_on'))}}"
+
+generic_hygrostat:
+  - name: Salle eau
+    humidifier: input_boolean.chauffage_sde_humidite
+    target_sensor: sensor.lumi_lumi_weather_7ce37101_humidity
+    target_humidity: 60
+    device_class: "dehumidifier"
+    min_cycle_duration:
+      minutes: 30
+    keep_alive:
+      minutes: 15
+    sensor_stale_duration:
+      hours: 1
