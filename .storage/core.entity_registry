@@ -1271,14 +1271,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -1352,14 +1352,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:c9:87:13-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -1614,14 +1614,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:6b:11-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -1772,14 +1772,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:21:cc-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -1826,14 +1826,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:31:61-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -2092,14 +2092,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:87:7a-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -2277,14 +2277,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:de:8f:d0-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -2437,14 +2437,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -2624,14 +2624,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:82:dc-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -2811,14 +2811,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:38:64-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -2996,14 +2996,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:31:b7-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -3156,14 +3156,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e4:88-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -3343,14 +3343,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -3530,14 +3530,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:49-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -3636,14 +3636,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:0d:6f:ff:fe:7c:32:f4-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -3796,14 +3796,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -3983,14 +3983,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -4168,14 +4168,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:85:29-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -4353,14 +4353,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:48:29-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -5432,7 +5432,7 @@
         "options": {},
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
-        "original_name": "72bd7ad3-0bb3-0f04-f154-f316ac7f686d",
+        "original_name": "Android",
         "platform": "freebox",
         "supported_features": 0,
         "translation_key": null,
@@ -6565,14 +6565,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:12:4b:00:24:c2:36:c9-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -6703,14 +6703,14 @@
         "has_entity_name": true,
         "name": null,
         "options": {},
-        "original_device_class": null,
+        "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "50:32:5f:ff:fe:41:84:b6-1-0-rssi",
-        "unit_of_measurement": null
+        "unit_of_measurement": "dBm"
       },
       {
         "aliases": [],
@@ -9892,9 +9892,7 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
+        "capabilities": null,
         "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
         "device_class": "battery",
         "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
@@ -9933,7 +9931,7 @@
         "name": null,
         "options": {},
         "original_device_class": null,
-        "original_icon": "mdi:battery-plus",
+        "original_icon": "mdi:battery-minus",
         "original_name": "Pixel 6 Battery State",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9958,7 +9956,7 @@
         "name": null,
         "options": {},
         "original_device_class": "plug",
-        "original_icon": "mdi:power-plug",
+        "original_icon": "mdi:power-plug-off",
         "original_name": "Pixel 6 Is Charging",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9983,7 +9981,7 @@
         "name": null,
         "options": {},
         "original_device_class": null,
-        "original_icon": "mdi:power-plug",
+        "original_icon": "mdi:battery",
         "original_name": "Pixel 6 Charger Type",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -10019,9 +10017,7 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
+        "capabilities": null,
         "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
         "device_class": "temperature",
         "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
@@ -10046,9 +10042,7 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
+        "capabilities": null,
         "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
         "device_class": "power",
         "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
@@ -11421,6 +11415,31 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_android_auto",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.esp_d40268",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a817bbe9547f5e115708132a24f8ab01",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:desktop-tower-monitor",
+        "original_name": "ESP_D40268",
+        "platform": "freebox",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "48:55:19:D4:02:68",
         "unit_of_measurement": null
       }
     ]
