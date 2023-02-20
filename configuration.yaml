@@ -118,6 +118,38 @@ sensor:
     start: "{{ 0 }}"
     end: "{{ now() }}"
 
+  - platform: history_stats
+    name: Radiateur cuisine total ON
+    entity_id: switch.radiateur_cuisine
+    state: "on"
+    type: time
+    start: "{{ 0 }}"
+    end: "{{ now() }}"
+
+  - platform: history_stats
+    name: Radiateur entrée total ON
+    entity_id: switch.radiateur_entree
+    state: "on"
+    type: time
+    start: "{{ 0 }}"
+    end: "{{ now() }}"
+
+  - platform: history_stats
+    name: Radiateur chambre Antoine total ON
+    entity_id: switch.radiateur_chambre_antoine
+    state: "on"
+    type: time
+    start: "{{ 0 }}"
+    end: "{{ now() }}"
+
+  - platform: history_stats
+    name: Radiateur chambre bas total ON
+    entity_id: switch.radiateur_chambre_bas
+    state: "on"
+    type: time
+    start: "{{ 0 }}"
+    end: "{{ now() }}"
+
 template:
   - sensor:
       - name: Total energie radiateur salon
@@ -125,6 +157,35 @@ template:
         state_class: total_increasing
         unit_of_measurement: kWh
         state: "{{2*float(states('sensor.radiateur_salon_total_on'))}}"
+      - name: Total energie radiateur cuisine
+        device_class: energy
+        state_class: total_increasing
+        unit_of_measurement: kWh
+        state: "{{float(states('sensor.radiateur_cuisine_total_on'))}}"
+      - name: Total energie radiateur entrée
+        device_class: energy
+        state_class: total_increasing
+        unit_of_measurement: kWh
+        state: "{{float(states('sensor.radiateur_entree_total_on'))}}"
+      - name: Total energie radiateur chambre bas
+        device_class: energy
+        state_class: total_increasing
+        unit_of_measurement: kWh
+        state: "{{float(states('sensor.radiateur_chambre_bas_total_on'))}}"
+      - name: Total energie radiateur chambre antoine
+        device_class: energy
+        state_class: total_increasing
+        unit_of_measurement: kWh
+        state: "{{3*float(0.378)*float(states('sensor.radiateur_chambre_antoine_total_on'))}}"
+      - name: Production solaire instantannée
+        device_class: power
+        unit_of_measurement: W
+        state: >
+          {%if 5000 < float(states('sensor.tp_link_smart_plug_61cc_current_consumption')) %}
+            {{float(283230)-float(states('sensor.tp_link_smart_plug_61cc_current_consumption'))}}
+          {% else %}
+            {{float(0)}}
+          {% endif %}
 
 generic_hygrostat:
   - name: Salle eau

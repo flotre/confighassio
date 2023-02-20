@@ -9906,7 +9906,7 @@
         "name": null,
         "options": {},
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-60",
+        "original_icon": "mdi:battery-80",
         "original_name": "Pixel 6 Battery Level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -11440,6 +11440,33 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "48:55:19:D4:02:68",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total"
+        },
+        "config_entry_id": "b82955582275edd8bf4c4adf9976a185",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.energie_solaire",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0bfbb439405ee3df9f34ebb5e67f3717",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:chart-histogram",
+        "original_name": "Energie solaire",
+        "platform": "integration",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "b82955582275edd8bf4c4adf9976a185",
         "unit_of_measurement": null
       }
     ]
