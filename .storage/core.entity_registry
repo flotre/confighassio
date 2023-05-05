@@ -19,7 +19,11 @@
         "id": "d934eff940af7aa82d82e7c02bddb463",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Maison",
@@ -44,7 +48,11 @@
         "id": "92fb318eefd1c74f4e4f915f505a70cd",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "speaker",
         "original_icon": null,
         "original_name": null,
@@ -69,7 +77,11 @@
         "id": "16b0e3d8a1d8d42b2f523cbc1dc7a710",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Florent",
@@ -94,7 +106,11 @@
         "id": "ff28a432945447e1d6291e9c345798c7",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Alice",
@@ -119,7 +135,11 @@
         "id": "03b7ab603be8791727ed48e72f5bf99d",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Radiateur entree",
@@ -144,7 +164,11 @@
         "id": "e433f162e96ca2f5099b5f13a79a24ed",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Radiateur cuisine",
@@ -169,7 +193,11 @@
         "id": "f0868370283f1dad76ed64bc9ceed767",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Radiateur salon",
@@ -194,7 +222,11 @@
         "id": "1e7f758706a37ef3257da7d23a78f5a6",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Radiateur sde",
@@ -219,7 +251,11 @@
         "id": "a7db179c4a0ba48d289f3ae40a97d411",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Radiateur chambre Antoine",
@@ -244,7 +280,11 @@
         "id": "1d68583370eb4c2b916b6b86e76a304e",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Radiateur chambre Antoine status",
@@ -269,7 +309,11 @@
         "id": "38280610c4cc7d0a0a7c7b7ee22a5949",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Radiateur chambre bas",
@@ -294,7 +338,11 @@
         "id": "3356d9aee37206b083600181b6a9de8a",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:radiator",
         "original_name": "Etat souhaite du chauffage",
@@ -319,7 +367,11 @@
         "id": "9cdfc15b005efd65bc2f353d435c66d1",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "chauffage antoine on",
@@ -344,7 +396,11 @@
         "id": "12ba296ea59532944ff28b1d9c0dcf8f",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "backup config github",
@@ -369,7 +425,11 @@
         "id": "cf628b9a92d68581fed0835b5ace7b75",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "chauffage antoine off",
@@ -394,7 +454,11 @@
         "id": "f2a1fcfb2d6f9b6f17f9555d09bc040a",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "chauffage salon",
@@ -419,7 +483,11 @@
         "id": "65b4c542f59b5d9b65f989183c4033dd",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Alerte intrusion",
@@ -444,7 +512,11 @@
         "id": "efc8f9bb1eaf66e3c0b6126126bff125",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Backup",
@@ -469,7 +541,11 @@
         "id": "571536bf90ebd9ae5f79b5f2488bcb9b",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:washing-machine",
         "original_name": "Machine en cours",
@@ -494,7 +570,11 @@
         "id": "e0889f0755cb8da8984f763780b88495",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "TP-LINK_Smart Plug_61CC",
@@ -519,7 +599,11 @@
         "id": "290b76cbf5bc6cd01ba5fd9d36747406",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Maison hourly",
@@ -544,7 +628,11 @@
         "id": "79c49b0caccaf5120d29d3b70060a57d",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "IDE: Update Available",
@@ -569,7 +657,11 @@
         "id": "706d28bad8e0c0a7c668f6e1f88fd8d6",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Mosquitto broker: Update Available",
@@ -594,13 +686,17 @@
         "id": "4ecf5ee85bc85be2942bd04b0292c69a",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "a0d7b954_ide_version",
         "unit_of_measurement": null
       },
@@ -619,13 +715,17 @@
         "id": "5c0efdc57991dc01f1e259a045be9b74",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "core_mosquitto_version",
         "unit_of_measurement": null
       },
@@ -644,13 +744,17 @@
         "id": "7f65f4d2acf048e3e6145365082fd3f3",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "a0d7b954_ide_version_latest",
         "unit_of_measurement": null
       },
@@ -669,13 +773,17 @@
         "id": "d8d59a4b9d137e74e5d6ba8f9daa8250",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "core_mosquitto_version_latest",
         "unit_of_measurement": null
       },
@@ -696,7 +804,11 @@
         "id": "3ffde53438c78e88ec28be25168a8a6c",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "power",
         "original_icon": null,
         "original_name": "TP-LINK_Smart Plug_61CC Current Consumption",
@@ -723,7 +835,11 @@
         "id": "c1d209a888a72887bc4a1327e5c13600",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "energy",
         "original_icon": null,
         "original_name": "TP-LINK_Smart Plug_61CC Total Consumption",
@@ -750,7 +866,11 @@
         "id": "552c11ba63a70cb8108129a4bb4d4e45",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "energy",
         "original_icon": null,
         "original_name": "TP-LINK_Smart Plug_61CC Today's Consumption",
@@ -777,7 +897,11 @@
         "id": "d2e21f29865560b66f3e6e9cffd2c8d2",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "voltage",
         "original_icon": null,
         "original_name": "TP-LINK_Smart Plug_61CC Voltage",
@@ -804,7 +928,11 @@
         "id": "c56a68b667807ec056d206acc2465c8e",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "current",
         "original_icon": null,
         "original_name": "TP-LINK_Smart Plug_61CC Current",
@@ -829,7 +957,11 @@
         "id": "18367c24464b0108b211c29257e32aa4",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": null,
@@ -854,13 +986,17 @@
         "id": "5e77f826eeda6b60d470fb9f2cc802e7",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "running",
         "original_icon": null,
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "state",
         "unique_id": "a0d7b954_ide_state",
         "unit_of_measurement": null
       },
@@ -879,13 +1015,17 @@
         "id": "cbecd8f0d6cd6611f543c19980d81016",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "running",
         "original_icon": null,
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "state",
         "unique_id": "core_mosquitto_state",
         "unit_of_measurement": null
       },
@@ -906,13 +1046,17 @@
         "id": "580ef65b517391f718340d1f47d870d0",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "a0d7b954_ide_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -933,13 +1077,17 @@
         "id": "ec8cc9e57f11c1b1647f46e8f0b3c794",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "a0d7b954_ide_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -960,13 +1108,17 @@
         "id": "3f0b804e7e13263f55ca8ccbf304b501",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "core_mosquitto_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -987,13 +1139,17 @@
         "id": "1938b104f57959fbd4fca2291ff5aebc",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "core_mosquitto_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -1012,7 +1168,11 @@
         "id": "9447aa1fb561a5635e690c8893649563",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Radiateur sde status",
@@ -1037,7 +1197,11 @@
         "id": "63d01aa6835d12bc274364a393162e34",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -1062,7 +1226,11 @@
         "id": "0cf14827e75ec6aafabb94093ca99231",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -1087,7 +1255,11 @@
         "id": "9d59fef84547fe77566c1360bcb4ef19",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -1112,7 +1284,11 @@
         "id": "59c6234a0cea68becf73fde54274dcaa",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -1137,7 +1313,11 @@
         "id": "5ce11ac0d5c8ab52013e739de9fd66dc",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:led-on",
         "original_name": "TP-LINK_Smart Plug_61CC LED",
@@ -1162,7 +1342,11 @@
         "id": "6342a9ff75fdbec5ac4afac84b8bab2c",
         "has_entity_name": true,
         "name": "Weather chambre bébé 985bfa01 identify",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -1189,7 +1373,11 @@
         "id": "2347e9a71de8a6e717d1f2eccb25f66b",
         "has_entity_name": true,
         "name": "Weather chambre bébé 985bfa01 power",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -1216,7 +1404,11 @@
         "id": "f1c862c19f6a3bacf915bd694df55dd7",
         "has_entity_name": true,
         "name": "Weather chambre bébé 985bfa01 pressure",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "pressure",
         "original_icon": null,
         "original_name": "Pressure",
@@ -1243,7 +1435,11 @@
         "id": "922267cd89a452a69e4058370944ee80",
         "has_entity_name": true,
         "name": "Chambre Louise",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -1270,7 +1466,11 @@
         "id": "9259b8308dba6e930ce2f11ef66741e2",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -1297,7 +1497,11 @@
         "id": "7fa37251d5fbc61a3447d5aef9c79977",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -1324,7 +1528,11 @@
         "id": "ef9ab1e8ef50450adbe315269595b2ba",
         "has_entity_name": true,
         "name": "Weather chambre bébé 985bfa01 humidity",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -1351,7 +1559,11 @@
         "id": "262e593a95ba9a1e395624829c2cf1db",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -1378,7 +1590,11 @@
         "id": "f7d8f80e8d25811c55cca83c2c42e0a8",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -1405,7 +1621,11 @@
         "id": "7ff06a84f8e5858b756c105cf34d2e05",
         "has_entity_name": true,
         "name": "sensor_magnet portefenetre salon coté terrasse device_temperature",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Device temperature",
@@ -1430,7 +1650,11 @@
         "id": "fbbbfcb0dbc17743cc6c3b66dab8d2db",
         "has_entity_name": true,
         "name": "sensor_magnet portefenetre salon coté terrasse identify",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -1455,7 +1679,11 @@
         "id": "6181423961146bc7a8843c54dae9ac98",
         "has_entity_name": true,
         "name": "Salon coté terrasse",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "opening",
         "original_icon": null,
         "original_name": "Opening",
@@ -1482,7 +1710,11 @@
         "id": "6f630e58fd68935536105829e56e3618",
         "has_entity_name": true,
         "name": "sensor_magnet portefenetre salon coté terrasse power",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -1507,7 +1739,11 @@
         "id": "39ccd9fd7c6fe281cc69d3e5f79e241b",
         "has_entity_name": true,
         "name": "Salon coté rue",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "opening",
         "original_icon": null,
         "original_name": "Opening",
@@ -1532,7 +1768,11 @@
         "id": "052038e2de90248adc2924d863b21ba5",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -1559,7 +1799,11 @@
         "id": "c63a4de7ba3803247d25f63003912433",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -1586,7 +1830,11 @@
         "id": "71f1aca16fc54f6da15994b76470e60b",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Device temperature",
@@ -1613,7 +1861,11 @@
         "id": "a258bf0f68fb4d068792cfa4c61e6655",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -1640,7 +1892,11 @@
         "id": "3235752630fffb8dbd5f1d32365d0c95",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -1665,7 +1921,11 @@
         "id": "03b4bb6e99ce587b765460242661577e",
         "has_entity_name": true,
         "name": "Entrée",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "opening",
         "original_icon": null,
         "original_name": "Opening",
@@ -1690,7 +1950,11 @@
         "id": "87fe1e93acda051ceab1ef9a908d5151",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -1717,7 +1981,11 @@
         "id": "c60db217837243cf03d4d3318771abbf",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -1744,7 +2012,11 @@
         "id": "825b919dc96ffb1d3783ea2cb986afc7",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Device temperature",
@@ -1771,7 +2043,11 @@
         "id": "032328f3c3d92beb7664fec1a0eb22db",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -1798,7 +2074,11 @@
         "id": "c14219d53757a74df36d77b627adbdb6",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -1825,7 +2105,11 @@
         "id": "07e23778335130e6fc4b6d68d4a0fb92",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -1852,7 +2136,11 @@
         "id": "f5c22db0c6aaf0f96cc2b376dce70cf9",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -1879,7 +2167,11 @@
         "id": "358a09966ad1caa308dc542e1d28385c",
         "has_entity_name": true,
         "name": "Weather sol chambre Antoine humidity",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -1904,7 +2196,11 @@
         "id": "ee19022dd0825990d35d58b56f559af0",
         "has_entity_name": true,
         "name": "Weather sol chambre Antoine identify",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -1931,7 +2227,11 @@
         "id": "f2edb177551dde626f1489cd1c6f0e78",
         "has_entity_name": true,
         "name": "Weather sol chambre Antoine power",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -1958,7 +2258,11 @@
         "id": "254806193d64f4c7d511b35838895227",
         "has_entity_name": true,
         "name": "Weather sol chambre Antoine pressure",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "pressure",
         "original_icon": null,
         "original_name": "Pressure",
@@ -1985,7 +2289,11 @@
         "id": "d098ea1be210fc72c6fe88a76b449329",
         "has_entity_name": true,
         "name": "Weather sol chambre Antoine temperature",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -2010,7 +2318,11 @@
         "id": "136ee219b90cfdee12e06cacfe81589f",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -2037,7 +2349,11 @@
         "id": "fe85d95db6d93499c9a9a5e2d7b1f100",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -2064,7 +2380,11 @@
         "id": "e6c7ea75904dacf3f54823484699bedc",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "pressure",
         "original_icon": null,
         "original_name": "Pressure",
@@ -2091,7 +2411,11 @@
         "id": "4edb1fb778701e2f93a8e7caf0a4b882",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -2118,7 +2442,11 @@
         "id": "e485bf5f071d49fa9dfb94ee83b4764f",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -2145,7 +2473,11 @@
         "id": "39aa4a288d8306e859943717f14b5d95",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -2170,7 +2502,11 @@
         "id": "d15568fa2177cedf4598d3031c166b60",
         "has_entity_name": true,
         "name": "Chambre bas",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "opening",
         "original_icon": null,
         "original_name": "Opening",
@@ -2195,7 +2531,11 @@
         "id": "4aa705074e69287f20b694092dfabf0c",
         "has_entity_name": true,
         "name": "sensor_magnet fenetre chambre bas d08fde01 identify",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -2222,7 +2562,11 @@
         "id": "5eef34c8fdfb3c73f39b697ff06032d5",
         "has_entity_name": true,
         "name": "sensor_magnet fenetre chambre bas d08fde01 power",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -2249,7 +2593,11 @@
         "id": "a004b219fcd1c1cfcdd967bb1a143838",
         "has_entity_name": true,
         "name": "sensor_magnet fenetre chambre bas d08fde01 device_temperature",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Device temperature",
@@ -2276,7 +2624,11 @@
         "id": "c9a60d0949bfda0b35bac1c561466079",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -2303,7 +2655,11 @@
         "id": "06e9133badf6502312227387f18878b6",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -2328,7 +2684,11 @@
         "id": "4e0253cf2d752ed80eeb9cbb91950c49",
         "has_entity_name": true,
         "name": "Weather salle eau 7ce37101 identify",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -2355,7 +2715,11 @@
         "id": "da6b4c94c52eddf8d7187bf0b4a0a02a",
         "has_entity_name": true,
         "name": "Weather salle eau 7ce37101 power",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -2382,7 +2746,11 @@
         "id": "3c778e9de71952d50d108e0296e54ce9",
         "has_entity_name": true,
         "name": "Weather salle eau 7ce37101 pressure",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "pressure",
         "original_icon": null,
         "original_name": "Pressure",
@@ -2409,7 +2777,11 @@
         "id": "b0820aa1879f57601171a2da9609ddb9",
         "has_entity_name": true,
         "name": "Salle d'eau",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -2436,7 +2808,11 @@
         "id": "425fd56e1fe1de45a059465f9dd0c7bf",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -2463,7 +2839,11 @@
         "id": "7092eb66a8c954dd81f8d048cc76ea86",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -2490,7 +2870,11 @@
         "id": "4dc7479e89f1488c984e1d63b7715a14",
         "has_entity_name": true,
         "name": "Salle d'eau",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -2515,7 +2899,11 @@
         "id": "52718d851a038eef72b11db2ed955723",
         "has_entity_name": true,
         "name": "Weather chambre dc820102 identify",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -2542,7 +2930,11 @@
         "id": "d2fb8813fc46d17972674cbcbc611202",
         "has_entity_name": true,
         "name": "Weather chambre dc820102 power",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -2569,7 +2961,11 @@
         "id": "143af06fd7109a29d777813bf038f4a2",
         "has_entity_name": true,
         "name": "Weather chambre dc820102 pressure",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "pressure",
         "original_icon": null,
         "original_name": "Pressure",
@@ -2596,7 +2992,11 @@
         "id": "596cea0038db956ebdec4527cc57a0bd",
         "has_entity_name": true,
         "name": "Chambre",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -2623,7 +3023,11 @@
         "id": "626226d5abc65469fef1e7a1e443a1c9",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -2650,7 +3054,11 @@
         "id": "91e948d72b8604f13e1148e2fb08afa9",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -2677,7 +3085,11 @@
         "id": "54574c9a17112db42fd16aff90f1fd0f",
         "has_entity_name": true,
         "name": "Weather chambre dc820102 humidity",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -2702,7 +3114,11 @@
         "id": "f2cfec7175a5485f3a951a5a280c44db",
         "has_entity_name": true,
         "name": "Weather cuisine 6438fa01 identify",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -2729,7 +3145,11 @@
         "id": "a11c1ba770542656bda15bc66e24b80e",
         "has_entity_name": true,
         "name": "Weather cuisine 6438fa01 power",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -2756,7 +3176,11 @@
         "id": "cf1fa8de445143624404ce5c7d433a1d",
         "has_entity_name": true,
         "name": "Weather cuisine 6438fa01 pressure",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "pressure",
         "original_icon": null,
         "original_name": "Pressure",
@@ -2783,7 +3207,11 @@
         "id": "53350db2fb3263ae7404f43621f7ddb5",
         "has_entity_name": true,
         "name": "Cuisine",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -2810,7 +3238,11 @@
         "id": "2afd517f69155868fc05f38d6cc23e3e",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -2837,7 +3269,11 @@
         "id": "15085595511a5d238242471b1c0a06c3",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -2864,7 +3300,11 @@
         "id": "6a166f127d0fd206c27668749498dbb5",
         "has_entity_name": true,
         "name": "Weather cuisine 6438fa01 humidity",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -2889,7 +3329,11 @@
         "id": "8060022400158c538b953a2c9750a0c3",
         "has_entity_name": true,
         "name": "Cuisine",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "opening",
         "original_icon": null,
         "original_name": "Opening",
@@ -2914,7 +3358,11 @@
         "id": "d3aa59fd77c197306d127c85cd329bc7",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -2941,7 +3389,11 @@
         "id": "1127117f830ac1c88d934e33fbe15fea",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -2968,7 +3420,11 @@
         "id": "21a8749876a4b57edfd10538e1309c7f",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Device temperature",
@@ -2995,7 +3451,11 @@
         "id": "6cb9041e1f288ea1a789ed23ae7418fc",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -3022,7 +3482,11 @@
         "id": "8c4c90e5857b3b1f05685e8c3eaa86f7",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -3047,7 +3511,11 @@
         "id": "7e69bec8fd6bf1f35fcb79bd8bc1603f",
         "has_entity_name": true,
         "name": "Weather salon 88e47101 identify",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -3074,7 +3542,11 @@
         "id": "46d6a3fdf0bbe783abaaffe30ffc231a",
         "has_entity_name": true,
         "name": "Weather salon 88e47101 power",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -3101,7 +3573,11 @@
         "id": "5f7dda981fc759bf4ba35b7ec641160b",
         "has_entity_name": true,
         "name": "Weather salon 88e47101 pressure",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "pressure",
         "original_icon": null,
         "original_name": "Pressure",
@@ -3128,7 +3604,11 @@
         "id": "536c2b957a1522d5a5194353d6781eeb",
         "has_entity_name": true,
         "name": "Salon",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -3155,7 +3635,11 @@
         "id": "96a69008f0a1852e071f60de8b4f801d",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -3182,7 +3666,11 @@
         "id": "7e9280fc2e1b8db9511a48ba739197ef",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -3209,7 +3697,11 @@
         "id": "d047f20c41b7c0e0859224685d091b38",
         "has_entity_name": true,
         "name": "Weather salon 88e47101 humidity",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -3234,7 +3726,11 @@
         "id": "9cd980728ebc831c18457508c8771867",
         "has_entity_name": true,
         "name": "Weather entrée f758f501 identify",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -3261,7 +3757,11 @@
         "id": "569d3152decb609339c16ef6a00d4e95",
         "has_entity_name": true,
         "name": "Weather entrée f758f501 power",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -3288,7 +3788,11 @@
         "id": "faa22c513657d8ffa24acab85f9fe769",
         "has_entity_name": true,
         "name": "Weather entrée f758f501 pressure",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "pressure",
         "original_icon": null,
         "original_name": "Pressure",
@@ -3315,7 +3819,11 @@
         "id": "cbde83201ac552dd706b7b3a190804ef",
         "has_entity_name": true,
         "name": "Entrée",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -3342,7 +3850,11 @@
         "id": "f7fc30a346662a8e11677ee69cc8cfb3",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -3369,7 +3881,11 @@
         "id": "421ae87d67bf074a4f3db367ebc6d415",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -3396,7 +3912,11 @@
         "id": "813c80f0b2a3e273b7b8ca72c16f44d5",
         "has_entity_name": true,
         "name": "Weather entrée f758f501 humidity",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -3423,7 +3943,11 @@
         "id": "ec90f238bacbd2d14fe31a50e96dc21c",
         "has_entity_name": true,
         "name": "Chambre Antoine",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -3448,7 +3972,11 @@
         "id": "09920aba222e0652ee52fc01f28ef939",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -3475,7 +4003,11 @@
         "id": "eb1195664f33358ea690a8fcb71faec9",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -3502,7 +4034,11 @@
         "id": "1fa4d30806310e34cdeeec712ee73faa",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "pressure",
         "original_icon": null,
         "original_name": "Pressure",
@@ -3529,7 +4065,11 @@
         "id": "76973937cbd9f3e666f615cb921d656e",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -3556,7 +4096,11 @@
         "id": "26bd220af28871d7ce7c2904ea2027e2",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -3583,7 +4127,11 @@
         "id": "7c5148b2d44bbbc003c7ee8dc2ea0ad5",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -3608,7 +4156,11 @@
         "id": "31019a3f1555cf1a7ff7ff17a4f9aeeb",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -3635,7 +4187,11 @@
         "id": "691be85eda3c12c749578a33b5d3ef58",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -3662,7 +4218,11 @@
         "id": "28882532e369aaf3afdc37b4572949cd",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -3687,7 +4247,11 @@
         "id": "109448b139618a7a50f8e54aa2a2de99",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -3714,7 +4278,11 @@
         "id": "58f469257519a66f60f0a375d0abca97",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -3741,7 +4309,11 @@
         "id": "6caa23ff3f706dbdee91f766c5e391be",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "pressure",
         "original_icon": null,
         "original_name": "Pressure",
@@ -3768,7 +4340,11 @@
         "id": "a9dc24c086cd17a7c931d8b1be03801b",
         "has_entity_name": true,
         "name": "Studio",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -3795,7 +4371,11 @@
         "id": "df5f8a7297ad87e9612480c8928b6eeb",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -3822,7 +4402,11 @@
         "id": "358dfe562c66c5b52de2815ffae437c8",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -3849,7 +4433,11 @@
         "id": "9b7b2a74f6744131ddb86274511dfc34",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -3874,7 +4462,11 @@
         "id": "b7b52fd7dd1af1d65b08a0f8d90c7ac3",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -3901,7 +4493,11 @@
         "id": "4e91547726213413cfee01abd3a0b38d",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -3928,7 +4524,11 @@
         "id": "46b4fb8cb979756512fdbe8712578d89",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "pressure",
         "original_icon": null,
         "original_name": "Pressure",
@@ -3955,7 +4555,11 @@
         "id": "2aa31f5c9eeb4bac3f4a53a4bbfab26e",
         "has_entity_name": true,
         "name": "Buanderie",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -3982,7 +4586,11 @@
         "id": "5d8a3db39efb05a82a3dcd4397ffcb3b",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -4009,7 +4617,11 @@
         "id": "be4f9a701d6dbd2df467afeb584145d6",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -4036,7 +4648,11 @@
         "id": "324d600bd8df2a24997a34b28daeedfe",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "humidity",
         "original_icon": null,
         "original_name": "Humidity",
@@ -4061,7 +4677,11 @@
         "id": "8ae1228c9d66702ea0f9b4709a0e7a99",
         "has_entity_name": true,
         "name": "Garage",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "opening",
         "original_icon": null,
         "original_name": "Opening",
@@ -4086,7 +4706,11 @@
         "id": "22e6fcd9cb5df1718cb7b243a268ede4",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -4113,7 +4737,11 @@
         "id": "e09afa150789f572f5865cec1c0c0670",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -4140,7 +4768,11 @@
         "id": "98f6cab78e2dd9fe04af867147808645",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Device temperature",
@@ -4167,7 +4799,11 @@
         "id": "c64cae712ee9eabac0eb1db5f5538ae6",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -4194,7 +4830,11 @@
         "id": "c842be0a0608653649431799170ef22d",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -4221,7 +4861,11 @@
         "id": "323f5be99bc7d8896dd8a17dc8b56878",
         "has_entity_name": true,
         "name": "Extérieur",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Temperature",
@@ -4246,7 +4890,11 @@
         "id": "21ee20ca6d335288b8628feda762bea3",
         "has_entity_name": true,
         "name": "Porte Buanderie",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "opening",
         "original_icon": null,
         "original_name": "Opening",
@@ -4271,7 +4919,11 @@
         "id": "7d8039efea201a5a152d681feba79a80",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -4298,7 +4950,11 @@
         "id": "d34d8de327ff5cd3166e35c5bee70257",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": null,
         "original_name": "Battery",
@@ -4325,7 +4981,11 @@
         "id": "415232268f5344a4c1c46d2f462df0cd",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Device temperature",
@@ -4352,7 +5012,11 @@
         "id": "8ed7027db9d5938b88b7c34b2fb42441",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -4379,7 +5043,11 @@
         "id": "263b02b7784bf9697b08132c3500c84b",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -4404,7 +5072,11 @@
         "id": "99d659f3e5f7b5875098b311abbaf507",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "restart",
         "original_icon": null,
         "original_name": "Reboot Freebox",
@@ -4429,7 +5101,11 @@
         "id": "e62d0bbbf7ef3b1abbb982e16675b5a5",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "openmediavault",
@@ -4454,7 +5130,11 @@
         "id": "c83626d51a23cd9c90386d452eae43d0",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "beembox",
@@ -4479,7 +5159,11 @@
         "id": "3fdb6655b482e0fd37d1518e9cdae2b9",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "rockrobo",
@@ -4504,7 +5188,11 @@
         "id": "c319fe109a22b4dafd39008c11d6d4f9",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Chromecast-Audio",
@@ -4529,7 +5217,11 @@
         "id": "d0ee0c6003ccf90db689dff0912441d2",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "sonoff-radantoine-1416",
@@ -4554,7 +5246,11 @@
         "id": "7494c90eca39230d5ede7265d3c9bc79",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "sonoff-radchbas-1142",
@@ -4579,7 +5275,11 @@
         "id": "a22a1c044b4d500556c47ffd12b1d380",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "sonoff-radcuisine-1845",
@@ -4604,7 +5304,11 @@
         "id": "f52a85aa3b60abdcfa68c29b02301b13",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "sonoff_sde_bas-6372",
@@ -4629,7 +5333,11 @@
         "id": "ecfbc1d48896245365f5d4c5485fd051",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "sonoff-radsalon-0118",
@@ -4654,7 +5362,11 @@
         "id": "81d0e3927925e15ac7d99f5ee6f5fd1a",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "sonoff-radentree-4355",
@@ -4679,7 +5391,11 @@
         "id": "0ba5901819a84d29aceaf3cb604c8716",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "Galaxy-S9-Florent",
@@ -4704,7 +5420,11 @@
         "id": "cdebb79ba28ced8e47dae374d1148770",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "lumi-gateway-v3_miio57838515",
@@ -4729,7 +5449,11 @@
         "id": "eef7861974f85bfbd86d4c4715f0793e",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "HS110",
@@ -4754,7 +5478,11 @@
         "id": "b29354f0e569f38829c7c368496366a8",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "android-d24d66948a1b54f0",
@@ -4779,7 +5507,11 @@
         "id": "7fe576f67abf776bed496812a817e183",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "MXNS-H0Y31N2",
@@ -4804,7 +5536,11 @@
         "id": "4517069f600bbf3cec325e8daa486fc6",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "MXNS-H0Y31N2",
@@ -4829,7 +5565,11 @@
         "id": "f9871ea5ea1958fe2e8f57009f409715",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "UC681",
@@ -4854,7 +5594,11 @@
         "id": "4511c96ad75a289e0ef859747c47f292",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "MCDO",
@@ -4879,7 +5623,11 @@
         "id": "9d978747c97c1f3843421880d1bb2042",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:printer",
         "original_name": "EPSONEF485A",
@@ -4904,7 +5652,11 @@
         "id": "b83b5c463f7ee724e7120739876ca202",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "MCDO",
@@ -4929,7 +5681,11 @@
         "id": "d58fe9c907c2215f7e23d96ce285f4b2",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "PAPICK",
@@ -4954,7 +5710,11 @@
         "id": "b56b0158e4aba82d39611379d20205f0",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "UC681",
@@ -4979,7 +5739,11 @@
         "id": "ad0f635d2af64653fdf4ab2334126dc6",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Chromecast",
@@ -5004,7 +5768,11 @@
         "id": "52096739e0bf5d393fa70315dc26c885",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "UC681-FAM-Linux",
@@ -5029,7 +5797,11 @@
         "id": "760b06e6d059ad354e6444d63ee09705",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "UC681",
@@ -5054,7 +5826,11 @@
         "id": "67992599fd401f8be467ec93599e6587",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "Galaxy-S9",
@@ -5079,7 +5855,11 @@
         "id": "3ec3d07aaba3016771a7f5b973eadf7a",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "L020939",
@@ -5104,7 +5884,11 @@
         "id": "9977dae60379c671c74f8210f2143356",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "L020939",
@@ -5129,7 +5913,11 @@
         "id": "1612e2e0da7cb84605cff4e27abdcca4",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Unknown device",
@@ -5154,7 +5942,11 @@
         "id": "56a4071c00a1f1644175076ebb95b1ba",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:help-network",
         "original_name": "raspberrypi",
@@ -5179,7 +5971,11 @@
         "id": "f655b6813cb6605d30e41e1839adb7ee",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "android-e9f12c35a3261c57",
@@ -5204,7 +6000,11 @@
         "id": "c76bc08e2bdd19a160bc8bcb9411a4d9",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "iPhone-Ad",
@@ -5229,7 +6029,11 @@
         "id": "0d2caee675348d682f74f5c35a485e5c",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "iPhone-Ad",
@@ -5254,7 +6058,11 @@
         "id": "b48475018d04002e4643a9e51e9d4275",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "iPhone",
@@ -5279,7 +6087,11 @@
         "id": "f47c43dcfd4b29a3632a89c83a443b68",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "AppleWaeAdeline",
@@ -5304,7 +6116,11 @@
         "id": "9ba81998def9a2341584677ef4d15962",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "AppleWaeAdeline",
@@ -5329,7 +6145,11 @@
         "id": "7cfb306e56ad65689d54a91a824161a1",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Unknown device",
@@ -5354,7 +6174,11 @@
         "id": "2b94d9632cbed23693693c9a0511b9bd",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "android-7ad126d2a3b19511",
@@ -5379,7 +6203,11 @@
         "id": "b430262480c3b3f6c0bcafbb2bdc59ab",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "Galaxy-A02s",
@@ -5404,7 +6232,11 @@
         "id": "8376f3af649993c75295e1a16a23c847",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "AppleWaeAdeline",
@@ -5429,7 +6261,11 @@
         "id": "831e13d67467958d2591ff53e0905b76",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "Android",
@@ -5454,7 +6290,11 @@
         "id": "65cbf3965b932e7208f8037573dac574",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Sherlock",
@@ -5479,7 +6319,11 @@
         "id": "fae22a78e9e12d20380211f5e0e28794",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "papick",
@@ -5504,7 +6348,11 @@
         "id": "50a6be033f26b5956b79bd861ee66e76",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "azure_iot",
@@ -5529,7 +6377,11 @@
         "id": "31982ede21866105f4c04f20ae345f2c",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "iPhone-Ad",
@@ -5554,7 +6406,11 @@
         "id": "bf029804a5664ce90e1cd4d956d2c537",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Galaxy-A02s",
@@ -5579,7 +6435,11 @@
         "id": "be11fa655f0952f93f03f17f0c82aa29",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Galaxy-A02s",
@@ -5604,7 +6464,11 @@
         "id": "c41240906d2a5199773d88e9505f2de4",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Unknown device",
@@ -5629,7 +6493,11 @@
         "id": "15244ae4a11b8fb443a56fee4ac32b19",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "iPhone-4",
@@ -5654,7 +6522,11 @@
         "id": "7bfdc24c35bec5640571b5645707a78a",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Unknown device",
@@ -5679,7 +6551,11 @@
         "id": "e2a0dc36466d2479a4f14a41c25e513e",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "JFB22",
@@ -5704,7 +6580,11 @@
         "id": "6eee5fed4ee59c8b8d40162150b3b5cb",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Unknown device",
@@ -5729,7 +6609,11 @@
         "id": "e9399af1b373868d61e66326764813bb",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "OPPO-Find-X5-Lite",
@@ -5754,7 +6638,11 @@
         "id": "11ab3a031210349ecff9817d570a1450",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "iPhone-Ad",
@@ -5779,7 +6667,11 @@
         "id": "dae3163a66dd50f51417263fd0a28f5a",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "iPhone-AL",
@@ -5804,7 +6696,11 @@
         "id": "27e0912f776847890628cd05b543bc6a",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Unknown device",
@@ -5829,7 +6725,11 @@
         "id": "de474bdb1c9c2fd5f286aa76b93271c2",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "Galaxy-S20-FE-5G",
@@ -5854,7 +6754,11 @@
         "id": "0ed4290c8381606a4f5b2406fd07da2a",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:router-wireless",
         "original_name": "Freebox Server (r2)",
@@ -5879,7 +6783,11 @@
         "id": "b18ad89e8488d72577b3af900146370c",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Freebox Disque dur",
@@ -5904,7 +6812,11 @@
         "id": "b70c1a3ee1f413337045dc0548c8914b",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Freebox Température Switch",
@@ -5929,7 +6841,11 @@
         "id": "7e87d9854296abf9d079e94a73d49d5b",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Freebox Température CPU A",
@@ -5954,7 +6870,11 @@
         "id": "455be2f981801535070f4bb1282726de",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": null,
         "original_name": "Freebox Température CPU B",
@@ -5979,7 +6899,11 @@
         "id": "7f96a5562020cf30ecc9e7bb000abff9",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_rate",
         "original_icon": "mdi:download-network",
         "original_name": "Freebox download speed",
@@ -6004,7 +6928,11 @@
         "id": "84c38b629b18c645af64a44cc9a53e94",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_rate",
         "original_icon": "mdi:upload-network",
         "original_name": "Freebox upload speed",
@@ -6029,7 +6957,11 @@
         "id": "d7def0ae28633442c9a660120deac68e",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:phone-missed",
         "original_name": "Freebox missed calls",
@@ -6054,7 +6986,11 @@
         "id": "eba0bca7c0ccdab2e80421ba753df89b",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:harddisk",
         "original_name": "Disque dur free space",
@@ -6079,7 +7015,11 @@
         "id": "daf300cc2bcc568f69356d70c13e17e7",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:harddisk",
         "original_name": "Disque 1 free space",
@@ -6104,7 +7044,11 @@
         "id": "01c616501545e4a47cd29448f55cb181",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Freebox WiFi",
@@ -6129,7 +7073,11 @@
         "id": "36efc9944b3019b8652f3e7de9eaa78d",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Mark calls as read",
@@ -6154,7 +7102,11 @@
         "id": "c5d84ae5160076a479fab85a57848e4a",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "homeassistant",
@@ -6179,7 +7131,11 @@
         "id": "4283f29dfd34fa77780394a3d36f0a83",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -6204,13 +7160,17 @@
         "id": "56749ad750131d25bb21f76a09aea27e",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "home_assistant_os_version",
         "unit_of_measurement": null
       },
@@ -6229,13 +7189,17 @@
         "id": "0a6a3ee7073655feeae3da3e18c2a862",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "home_assistant_os_version_latest",
         "unit_of_measurement": null
       },
@@ -6254,13 +7218,17 @@
         "id": "b78ac03326e08706f81339717cb5b9ee",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "running",
         "original_icon": null,
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "state",
         "unique_id": "core_ssh_state",
         "unit_of_measurement": null
       },
@@ -6279,13 +7247,17 @@
         "id": "66d9ded846e154d7d810d08828e83366",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "core_ssh_version",
         "unit_of_measurement": null
       },
@@ -6304,13 +7276,17 @@
         "id": "7785ac56047e14bb48e67c380e4cb82f",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "core_ssh_version_latest",
         "unit_of_measurement": null
       },
@@ -6331,13 +7307,17 @@
         "id": "e00046f62b9b750d35945b00b668a4c3",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "core_ssh_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -6358,13 +7338,17 @@
         "id": "1f80ca61f6a6ee9af193ac6f4c85d169",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "core_ssh_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -6383,7 +7367,11 @@
         "id": "6c4b594d69a48e9621487e6134612e38",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -6408,7 +7396,11 @@
         "id": "dee564ddf7ba72bfe4ecfdc00f951788",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "ESP_E22C1B",
@@ -6433,7 +7425,11 @@
         "id": "7283111c2ea1ae93d72fd07ee8eaca10",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Chauffage humidité salle d'eau",
@@ -6458,7 +7454,11 @@
         "id": "1cafd91fbf74aab246bc8fb19c1de040",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Low battery level detection & notification for all battery sensors",
@@ -6483,7 +7483,11 @@
         "id": "506f5f8628901b02c452341a525680e7",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:chart-line",
         "original_name": "Pente humidité salle d'eau",
@@ -6508,7 +7512,11 @@
         "id": "0c69183388d3a07eaf5470acaf5cc837",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "update",
         "original_icon": null,
         "original_name": "Identify",
@@ -6537,7 +7545,11 @@
         "id": "056e356a7da325a69763d401a49d6add",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Light",
@@ -6564,7 +7576,11 @@
         "id": "595e518e7d3ff0723b030e800f8c80f3",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -6591,7 +7607,11 @@
         "id": "7a0c06ca33021d7425de03a774ef71f4",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -6616,7 +7636,11 @@
         "id": "2fbde3ba75df994329738ec25fb2b711",
         "has_entity_name": true,
         "name": "Thermostat chambre Louise HVAC action",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "HVAC action",
@@ -6648,7 +7672,11 @@
         "id": "cb69e75945de84d30a128eadb1074540",
         "has_entity_name": true,
         "name": "Thermostat chambre Louise Thermostat",
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Thermostat",
@@ -6675,7 +7703,11 @@
         "id": "6ced45311453f169acf45886ce93a54c",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -6702,7 +7734,11 @@
         "id": "66164c600705b150d0596cff26480b17",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -6727,13 +7763,17 @@
         "id": "c6f47e57519808ddfa92e4aad5448804",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "running",
         "original_icon": null,
         "original_name": "Running",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "state",
         "unique_id": "a0d7b954_vscode_state",
         "unit_of_measurement": null
       },
@@ -6752,13 +7792,17 @@
         "id": "60f3b8584032daf872f61a08c6e7cc4c",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version",
         "unique_id": "a0d7b954_vscode_version",
         "unit_of_measurement": null
       },
@@ -6777,13 +7821,17 @@
         "id": "dc646485bd2cc1f253ce1367d0c29538",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Newest version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "version_latest",
         "unique_id": "a0d7b954_vscode_version_latest",
         "unit_of_measurement": null
       },
@@ -6804,13 +7852,17 @@
         "id": "2ae5d81e6cd21efa3294bc3d5d6ded3c",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "a0d7b954_vscode_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -6831,13 +7883,17 @@
         "id": "b11e776156163b1a9646ed3bea1034c4",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "a0d7b954_vscode_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -6856,7 +7912,11 @@
         "id": "1b0be0d0810a6eec5498197d6318db65",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Update",
@@ -6881,7 +7941,11 @@
         "id": "3b80b1da4c6a16884ee1c39e9299219c",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Unknown device",
@@ -6908,7 +7972,11 @@
         "id": "cf651886ce471f2e1baeab606b14c255",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:counter",
         "original_name": "Chauffage salon",
@@ -6933,7 +8001,11 @@
         "id": "0af2b611b6f76766e52b1fa45a546168",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:shower",
         "original_name": "Chauffage SDE température",
@@ -6958,7 +8030,11 @@
         "id": "f67a0881e11919b59ac94b2f08f56cc9",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "chauffage SDE ON",
@@ -6983,7 +8059,11 @@
         "id": "e99afcf7d653d882b6e98e54fc9004d4",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Chauffage SDE OFF",
@@ -7008,7 +8088,11 @@
         "id": "b6634b65baba4e5249393747aa4ee7ca",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:shower",
         "original_name": "Chauffage SDE humidité",
@@ -7035,7 +8119,11 @@
         "id": "cce00cd758842188e45334ca98e26b66",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:counter",
         "original_name": "Chauffage salon daily",
@@ -7060,7 +8148,11 @@
         "id": "5bf19926401117779aa3047fac361375",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "Pixel-6",
@@ -7085,7 +8177,11 @@
         "id": "3786912aafea5e5c93dc77d26055109a",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Pixel-6",
@@ -7110,7 +8206,11 @@
         "id": "35c3a62f6a24e5912442fc91f98de989",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "Pixel-6",
@@ -7135,7 +8235,11 @@
         "id": "bf41725e92464e0c3d9c144e48131387",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Pixel 6",
@@ -7160,7 +8264,11 @@
         "id": "68b7f795c5f20ea6652bcc1ced4ab2a7",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:walk",
         "original_name": "Pixel 6 Detected Activity",
@@ -7187,7 +8295,11 @@
         "id": "3d48f4dbc89b62081677d2c3a04c69eb",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:sleep",
         "original_name": "Pixel 6 Sleep Confidence",
@@ -7212,7 +8324,11 @@
         "id": "9824926f3868e2384975cd65cc1e6e40",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:sleep",
         "original_name": "Pixel 6 Sleep Segment",
@@ -7237,7 +8353,11 @@
         "id": "d0ef93daf148b5e31b72a45132241430",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:android",
         "original_name": "Pixel 6 Current Version",
@@ -7264,7 +8384,11 @@
         "id": "7669d421828cfe367f66cccf409c9035",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:radio-tower",
         "original_name": "Pixel 6 App Rx GB",
@@ -7291,7 +8415,11 @@
         "id": "3385e261f54676e547ed26d115dc8d75",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:radio-tower",
         "original_name": "Pixel 6 App Tx GB",
@@ -7318,7 +8446,11 @@
         "id": "e751e5e0b207a36bea2731b87f118e26",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
         "original_name": "Pixel 6 App Memory",
@@ -7343,7 +8475,11 @@
         "id": "450f994e18dee02a117db9c2c9a47a93",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:timer-outline",
         "original_name": "Pixel 6 App Inactive",
@@ -7368,7 +8504,11 @@
         "id": "ca1f2e045c370979fdb104adef9bf1b7",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:android",
         "original_name": "Pixel 6 App Standby Bucket",
@@ -7393,7 +8533,11 @@
         "id": "4c8a863b8726138f5299ef8e6e8a96df",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:android",
         "original_name": "Pixel 6 App Importance",
@@ -7418,7 +8562,11 @@
         "id": "0db8f6c90de0ee2849f0951c3e5b6b95",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:volume-high",
         "original_name": "Pixel 6 Ringer Mode",
@@ -7443,7 +8591,11 @@
         "id": "a3cbf806db1f896bb6c417e012993c81",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:volume-high",
         "original_name": "Pixel 6 Audio Mode",
@@ -7468,7 +8620,11 @@
         "id": "c47e3c6d53342e929ddae9dfa2513fbb",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:headphones",
         "original_name": "Pixel 6 Headphones",
@@ -7493,7 +8649,11 @@
         "id": "721b4e2f57b5d6a659eaa94a869bc0eb",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:microphone-off",
         "original_name": "Pixel 6 Mic Muted",
@@ -7518,7 +8678,11 @@
         "id": "117499edd0b887d211570953b26f60ff",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:volume-high",
         "original_name": "Pixel 6 Speakerphone",
@@ -7543,7 +8707,11 @@
         "id": "7550b6bf58678e6830d8808a54edc89d",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:music",
         "original_name": "Pixel 6 Music Active",
@@ -7568,7 +8736,11 @@
         "id": "06da0bb565398ed1026c5c5608e99f31",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:alarm",
         "original_name": "Pixel 6 Volume Level Alarm",
@@ -7593,7 +8765,11 @@
         "id": "bf5033284ff353e9635f11638402d0cb",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:phone",
         "original_name": "Pixel 6 Volume Level Call",
@@ -7618,7 +8794,11 @@
         "id": "22c69633f1807e9709799d49be3f239b",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:music",
         "original_name": "Pixel 6 Volume Level Music",
@@ -7643,7 +8823,11 @@
         "id": "cb1f321c6356a0d59908f5cece414703",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:phone-ring",
         "original_name": "Pixel 6 Volume Level Ringer",
@@ -7668,7 +8852,11 @@
         "id": "9e35a75c1b3888b0a7b076316e87047d",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:bell-ring",
         "original_name": "Pixel 6 Volume Level Notification",
@@ -7693,7 +8881,11 @@
         "id": "da86e00175c549534bf1f2f9a0cc33a3",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone-sound",
         "original_name": "Pixel 6 Volume Level System",
@@ -7718,7 +8910,11 @@
         "id": "1d566811e79f5057a3263d8085f69e68",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:volume-high",
         "original_name": "Pixel 6 Volume Level DTMF",
@@ -7743,7 +8939,11 @@
         "id": "f8396c73f41de05c55788e8845132728",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:human",
         "original_name": "Pixel 6 Volume Level Accessibility",
@@ -7768,7 +8968,11 @@
         "id": "508a883ec0e5cf9356f4461e91937960",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "battery",
         "original_icon": "mdi:battery-90",
         "original_name": "Pixel 6 Battery Level",
@@ -7793,7 +8997,11 @@
         "id": "1bfac42c4c53db0c3bae6a78acb84eca",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:battery-minus",
         "original_name": "Pixel 6 Battery State",
@@ -7818,7 +9026,11 @@
         "id": "acb8e0a3f386dc5bc378efb9730bc9c7",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "plug",
         "original_icon": "mdi:power-plug-off",
         "original_name": "Pixel 6 Is Charging",
@@ -7843,7 +9055,11 @@
         "id": "83eb70e5e113c5f471050cb0e2737074",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:battery",
         "original_name": "Pixel 6 Charger Type",
@@ -7868,7 +9084,11 @@
         "id": "095dcec79db8139bdc42ce8360bbd351",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:battery-heart-variant",
         "original_name": "Pixel 6 Battery Health",
@@ -7893,7 +9113,11 @@
         "id": "0a85ade2d8935d8bbaafaeaec9378568",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "temperature",
         "original_icon": "mdi:battery",
         "original_name": "Pixel 6 Battery Temperature",
@@ -7918,7 +9142,11 @@
         "id": "4a7d2c388fd0d67430ce0bd45e0a476a",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "power",
         "original_icon": "mdi:battery-minus",
         "original_name": "Pixel 6 Battery Power",
@@ -7945,7 +9173,11 @@
         "id": "99d32cce17754424da6f6994a9f31a49",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:bluetooth",
         "original_name": "Pixel 6 Bluetooth Connection",
@@ -7970,7 +9202,11 @@
         "id": "edaefe190598d32a2a8b003272932d87",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:bluetooth",
         "original_name": "Pixel 6 Bluetooth State",
@@ -7995,7 +9231,11 @@
         "id": "3e6604d4052093fdde27f8879b2283de",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:bluetooth",
         "original_name": "Pixel 6 BLE Transmitter",
@@ -8020,7 +9260,11 @@
         "id": "6f8450d85d4e8d91e6220b6462ad2249",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:bluetooth",
         "original_name": "Pixel 6 Beacon Monitor",
@@ -8045,7 +9289,11 @@
         "id": "07cb3b52741d8d177464010fb11c3261",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:brightness-6",
         "original_name": "Pixel 6 Screen Brightness",
@@ -8070,7 +9318,11 @@
         "id": "101a85d498838c656996b975d5400d3e",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone-off",
         "original_name": "Pixel 6 Screen Off Timeout",
@@ -8095,7 +9347,11 @@
         "id": "18b9bf44029cf9087b22de9cfd95269e",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:minus-circle",
         "original_name": "Pixel 6 Do Not Disturb Sensor",
@@ -8120,7 +9376,11 @@
         "id": "7db500be0a28c88b1d6a61dccb9fa6d0",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:palette",
         "original_name": "Pixel 6 Accent Color",
@@ -8145,7 +9405,11 @@
         "id": "0cc35122e38d76956f81467bdac9eda3",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:briefcase",
         "original_name": "Pixel 6 Work Profile",
@@ -8170,7 +9434,11 @@
         "id": "b65913a0ca304546d4842d2311ec82dd",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:map",
         "original_name": "Pixel 6 Geocoded Location",
@@ -8195,7 +9463,11 @@
         "id": "68ec0585096335748b2f100bbb7d76cc",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone-lock",
         "original_name": "Pixel 6 Device Locked",
@@ -8220,7 +9492,11 @@
         "id": "1ff73ce791920ee717583a496d0cf156",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone-key",
         "original_name": "Pixel 6 Device Secure",
@@ -8245,7 +9521,11 @@
         "id": "4dcaf156081846f88611b98db5a6265f",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone-lock",
         "original_name": "Pixel 6 Keyguard Locked",
@@ -8270,7 +9550,11 @@
         "id": "bb388df1680778de5cd6c5d74e96c4a0",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone-key",
         "original_name": "Pixel 6 Keyguard Secure",
@@ -8295,7 +9579,11 @@
         "id": "c828751ab5ad6414dca1795124131518",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:android",
         "original_name": "Pixel 6 Last Used App",
@@ -8320,7 +9608,11 @@
         "id": "047069d2cb113298dfcd66290b1ddbc8",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:restart",
         "original_name": "Pixel 6 Last Reboot",
@@ -8345,7 +9637,11 @@
         "id": "64ab5b6088a4f993c2a5178c4aeecda0",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:update",
         "original_name": "Pixel 6 Last Update Trigger",
@@ -8372,7 +9668,11 @@
         "id": "651f5fa4660141674f06e116344371ae",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "illuminance",
         "original_icon": "mdi:brightness-5",
         "original_name": "Pixel 6 Light Sensor",
@@ -8397,7 +9697,11 @@
         "id": "d8f0f96366c0dd40bd024c792ffca456",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:crosshairs-gps",
         "original_name": "Pixel 6 High Accuracy Mode",
@@ -8422,7 +9726,11 @@
         "id": "4df09ae968c34b5fbd0fb808139a94a6",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:timer",
         "original_name": "Pixel 6 High Accuracy Update Interval",
@@ -8447,7 +9755,11 @@
         "id": "60e400ac434ef8247ee7c35f0aae8062",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:signal",
         "original_name": "Pixel 6 Mobile Data",
@@ -8472,7 +9784,11 @@
         "id": "f2450945d17c48e86d8dd0a5a541c9e5",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:toggle-switch",
         "original_name": "Pixel 6 Mobile Data Roaming",
@@ -8497,7 +9813,11 @@
         "id": "999d500be785fd055d788343c57a9bc0",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:wifi",
         "original_name": "Pixel 6 WiFi Connection",
@@ -8522,7 +9842,11 @@
         "id": "a968a812c7e47e6c907c8e4cdd06982f",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:wifi",
         "original_name": "Pixel 6 WiFi BSSID",
@@ -8547,7 +9871,11 @@
         "id": "4224904eab0f5e6855f3cd040ad92872",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:ip",
         "original_name": "Pixel 6 WiFi IP Address",
@@ -8574,7 +9902,11 @@
         "id": "fe96b414c7ce55fc66a935a85bf4bf9c",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:wifi-strength-3",
         "original_name": "Pixel 6 WiFi Link Speed",
@@ -8599,7 +9931,11 @@
         "id": "27a76e4d8eb5cf496317d887380848c4",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:wifi",
         "original_name": "Pixel 6 WiFi State",
@@ -8626,7 +9962,11 @@
         "id": "1cd9ae6991577c488b350a7bfccb9da4",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:wifi",
         "original_name": "Pixel 6 WiFi Frequency",
@@ -8653,7 +9993,11 @@
         "id": "28dbc423fc1ce94d7ba9703e2a1864ab",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": "mdi:wifi-strength-3",
         "original_name": "Pixel 6 WiFi Signal Strength",
@@ -8678,7 +10022,11 @@
         "id": "366dd9fd95d87ad2166d69e5e16f61f4",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:ip",
         "original_name": "Pixel 6 Public IP Address",
@@ -8703,7 +10051,11 @@
         "id": "4610ff07487315fffef918d4b3d4595e",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:network",
         "original_name": "Pixel 6 Network Type",
@@ -8728,7 +10080,11 @@
         "id": "4eaad4c7452a201612f619bdd1a77790",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:alarm",
         "original_name": "Pixel 6 Next Alarm",
@@ -8753,7 +10109,11 @@
         "id": "5eac757a02ac8587525148caf545af8d",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:bell-ring",
         "original_name": "Pixel 6 Last Notification",
@@ -8778,7 +10138,11 @@
         "id": "e2716ccbf9e6a13d0b45fa0dfc83657d",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:bell-ring",
         "original_name": "Pixel 6 Last Removed Notification",
@@ -8805,7 +10169,11 @@
         "id": "5628f3218003729d457fa173aa43d1e9",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:bell-ring",
         "original_name": "Pixel 6 Active Notification Count",
@@ -8830,7 +10198,11 @@
         "id": "00328d2438432d9ebb8a596ad32371bc",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:play-circle",
         "original_name": "Pixel 6 Media Session",
@@ -8855,7 +10227,11 @@
         "id": "f65e6f447117d0615b8b64b92c6363c5",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:phone",
         "original_name": "Pixel 6 Phone State",
@@ -8880,7 +10256,11 @@
         "id": "216474a138d6d8564fdbd0004773b2df",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:sim",
         "original_name": "Pixel 6 SIM 1",
@@ -8905,7 +10285,11 @@
         "id": "f1cd2d067cb1d1a225508efa4c43e87d",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:sim",
         "original_name": "Pixel 6 SIM 2",
@@ -8930,7 +10314,11 @@
         "id": "40850f2fa595f92e4e628c291b325359",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "Pixel 6 Interactive",
@@ -8955,7 +10343,11 @@
         "id": "94ebd73358da1a8b336c7e1516279cdf",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:sleep",
         "original_name": "Pixel 6 Doze Mode",
@@ -8980,7 +10372,11 @@
         "id": "4821aee23e6a3ec4fd21110c6a27bc1f",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:battery-plus",
         "original_name": "Pixel 6 Power Save",
@@ -9007,7 +10403,11 @@
         "id": "ae229872ce311f0905ba5774422df9c3",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "pressure",
         "original_icon": "mdi:gauge",
         "original_name": "Pixel 6 Pressure Sensor",
@@ -9032,7 +10432,11 @@
         "id": "75134c1e726f181ce6147f2748bc531f",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:leak",
         "original_name": "Pixel 6 Proximity Sensor",
@@ -9059,7 +10463,11 @@
         "id": "08c7dc283dc87bde718eac5b15ffb5eb",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:walk",
         "original_name": "Pixel 6 Steps Sensor",
@@ -9086,7 +10494,11 @@
         "id": "f796d9296af608a4d72776d4a306a8a5",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:harddisk",
         "original_name": "Pixel 6 Internal Storage",
@@ -9113,7 +10525,11 @@
         "id": "56b87e153bf059492e1210c18f239ceb",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:micro-sd",
         "original_name": "Pixel 6 External Storage",
@@ -9138,7 +10554,11 @@
         "id": "1ad293cec73d39ab8a0e5497fa36f8a6",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:map-clock",
         "original_name": "Pixel 6 Current Time Zone",
@@ -9165,7 +10585,11 @@
         "id": "72236e2789b501d3a34a7b0cf3b83da5",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:radio-tower",
         "original_name": "Pixel 6 Mobile Rx GB",
@@ -9192,7 +10616,11 @@
         "id": "cc380549064ad55a2b72d864b1f6aa9f",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:radio-tower",
         "original_name": "Pixel 6 Mobile Tx GB",
@@ -9219,7 +10647,11 @@
         "id": "7130f74b2c51738c63b4b7fd92e346ae",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:radio-tower",
         "original_name": "Pixel 6 Total Rx GB",
@@ -9246,7 +10678,11 @@
         "id": "68846f209234608e3920a9826f761184",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:radio-tower",
         "original_name": "Pixel 6 Total Tx GB",
@@ -9271,7 +10707,11 @@
         "id": "d96d152723c5a4ce422d614706c32cb6",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:car",
         "original_name": "Pixel 6 Android Auto",
@@ -9296,7 +10736,11 @@
         "id": "a817bbe9547f5e115708132a24f8ab01",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "ESP_D40268",
@@ -9323,7 +10767,11 @@
         "id": "0bfbb439405ee3df9f34ebb5e67f3717",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:chart-histogram",
         "original_name": "Energie solaire",
@@ -9348,7 +10796,11 @@
         "id": "005b5dde6daaac7a3ecc8f4074e11fd5",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "iPhone-Ad",
@@ -9373,7 +10825,11 @@
         "id": "7fab8ada240614cd45235c9e3540d69e",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "iPhone-AL",
@@ -9400,13 +10856,17 @@
         "id": "3810885e701b1efab0ef394215e13af9",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "home_assistant_core_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -9427,13 +10887,17 @@
         "id": "4bf50da9da9c9e908054f83c471004bd",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "home_assistant_core_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -9454,13 +10918,17 @@
         "id": "104dbd91677eaf73c05074a68eeb94cd",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cpu-64-bit",
         "original_name": "CPU percent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "cpu_percent",
         "unique_id": "home_assistant_supervisor_cpu_percent",
         "unit_of_measurement": "%"
       },
@@ -9481,13 +10949,17 @@
         "id": "5f23d22006ce005a3d5159bcbe747c71",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:memory",
         "original_name": "Memory percent",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "memory_percent",
         "unique_id": "home_assistant_supervisor_memory_percent",
         "unit_of_measurement": "%"
       },
@@ -9506,13 +10978,17 @@
         "id": "d923e241cdc7dcfdcb7d7998b70c79f1",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "OS Agent version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "agent_version",
         "unique_id": "home_assistant_host_agent_version",
         "unit_of_measurement": null
       },
@@ -9531,13 +11007,17 @@
         "id": "3f010674cb18a1dc0a048744e7e6f648",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "Apparmor version",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "apparmor_version",
         "unique_id": "home_assistant_host_apparmor_version",
         "unit_of_measurement": null
       },
@@ -9556,13 +11036,17 @@
         "id": "41bc6bf0be92294f2a529e9abf656f80",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_size",
         "original_icon": null,
         "original_name": "Disk total",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "disk_total",
         "unique_id": "home_assistant_host_disk_total",
         "unit_of_measurement": "GB"
       },
@@ -9581,13 +11065,17 @@
         "id": "a4939dcd7d201da35493fc47f4e79f58",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_size",
         "original_icon": null,
         "original_name": "Disk used",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "disk_used",
         "unique_id": "home_assistant_host_disk_used",
         "unit_of_measurement": "GB"
       },
@@ -9606,13 +11094,17 @@
         "id": "b9c95becf60e7ffe350ce0adf900dc5a",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "data_size",
         "original_icon": null,
         "original_name": "Disk free",
         "platform": "hassio",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "disk_free",
         "unique_id": "home_assistant_host_disk_free",
         "unit_of_measurement": "GB"
       },
@@ -9631,7 +11123,11 @@
         "id": "c1ad83875da3e787e07e9d2cf743a0b7",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:sun-clock",
         "original_name": "Next dawn",
@@ -9656,7 +11152,11 @@
         "id": "f3730191f65e299f5507d0e8752bf36c",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:sun-clock",
         "original_name": "Next dusk",
@@ -9681,7 +11181,11 @@
         "id": "974146f618c6430ba7555bf4cf4d765a",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:sun-clock",
         "original_name": "Next midnight",
@@ -9706,7 +11210,11 @@
         "id": "a8a24e9b1a335593e9ad721681b080dc",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:sun-clock",
         "original_name": "Next noon",
@@ -9731,7 +11239,11 @@
         "id": "e839d35c1c47ffba10ce3c3ddc83154f",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:sun-clock",
         "original_name": "Next rising",
@@ -9756,7 +11268,11 @@
         "id": "f0ef3a445515c8706c4e2a40b3ed39f7",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "timestamp",
         "original_icon": "mdi:sun-clock",
         "original_name": "Next setting",
@@ -9783,7 +11299,11 @@
         "id": "ca8776c67d0913c3b5a54288e9a426d4",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:theme-light-dark",
         "original_name": "Solar elevation",
@@ -9810,7 +11330,11 @@
         "id": "64aa98fe0251d4946995be69ac708a9c",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:sun-angle",
         "original_name": "Solar azimuth",
