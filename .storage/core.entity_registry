@@ -8974,7 +8974,7 @@
           }
         },
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-90",
+        "original_icon": "mdi:battery-80",
         "original_name": "Pixel 6 Battery Level",
         "platform": "mobile_app",
         "supported_features": 0,
