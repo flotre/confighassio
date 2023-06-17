@@ -8974,7 +8974,7 @@
           }
         },
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-charging-wireless-80",
+        "original_icon": "mdi:battery-90",
         "original_name": "Pixel 6 Battery Level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9003,7 +9003,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:battery-plus",
+        "original_icon": "mdi:battery-minus",
         "original_name": "Pixel 6 Battery State",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9032,7 +9032,7 @@
           }
         },
         "original_device_class": "plug",
-        "original_icon": "mdi:power-plug",
+        "original_icon": "mdi:power-plug-off",
         "original_name": "Pixel 6 Is Charging",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9061,7 +9061,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:battery-charging-wireless",
+        "original_icon": "mdi:battery",
         "original_name": "Pixel 6 Charger Type",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -11116,7 +11116,7 @@
         "device_class": null,
         "device_id": "47ec158f8854f03a1245a2449d0c97dd",
         "disabled_by": null,
-        "entity_category": null,
+        "entity_category": "diagnostic",
         "entity_id": "sensor.sun_next_dawn",
         "hidden_by": null,
         "icon": null,
@@ -11145,7 +11145,7 @@
         "device_class": null,
         "device_id": "47ec158f8854f03a1245a2449d0c97dd",
         "disabled_by": null,
-        "entity_category": null,
+        "entity_category": "diagnostic",
         "entity_id": "sensor.sun_next_dusk",
         "hidden_by": null,
         "icon": null,
@@ -11174,7 +11174,7 @@
         "device_class": null,
         "device_id": "47ec158f8854f03a1245a2449d0c97dd",
         "disabled_by": null,
-        "entity_category": null,
+        "entity_category": "diagnostic",
         "entity_id": "sensor.sun_next_midnight",
         "hidden_by": null,
         "icon": null,
@@ -11203,7 +11203,7 @@
         "device_class": null,
         "device_id": "47ec158f8854f03a1245a2449d0c97dd",
         "disabled_by": null,
-        "entity_category": null,
+        "entity_category": "diagnostic",
         "entity_id": "sensor.sun_next_noon",
         "hidden_by": null,
         "icon": null,
@@ -11232,7 +11232,7 @@
         "device_class": null,
         "device_id": "47ec158f8854f03a1245a2449d0c97dd",
         "disabled_by": null,
-        "entity_category": null,
+        "entity_category": "diagnostic",
         "entity_id": "sensor.sun_next_rising",
         "hidden_by": null,
         "icon": null,
@@ -11261,7 +11261,7 @@
         "device_class": null,
         "device_id": "47ec158f8854f03a1245a2449d0c97dd",
         "disabled_by": null,
-        "entity_category": null,
+        "entity_category": "diagnostic",
         "entity_id": "sensor.sun_next_setting",
         "hidden_by": null,
         "icon": null,
@@ -11292,7 +11292,7 @@
         "device_class": null,
         "device_id": "47ec158f8854f03a1245a2449d0c97dd",
         "disabled_by": "integration",
-        "entity_category": null,
+        "entity_category": "diagnostic",
         "entity_id": "sensor.sun_solar_elevation",
         "hidden_by": null,
         "icon": null,
@@ -11323,7 +11323,7 @@
         "device_class": null,
         "device_id": "47ec158f8854f03a1245a2449d0c97dd",
         "disabled_by": "integration",
-        "entity_category": null,
+        "entity_category": "diagnostic",
         "entity_id": "sensor.sun_solar_azimuth",
         "hidden_by": null,
         "icon": null,
@@ -11359,7 +11359,11 @@
         "id": "e465ce72c508443944315cf7149b07a8",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "iPhone-Ad-2",
@@ -11384,7 +11388,11 @@
         "id": "e6dea7d9bc3fd7987453a1b2ffb6d573",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Unknown device",
@@ -11409,7 +11417,11 @@
         "id": "e5b5e7d28555f15098c4f8aa4285c8d6",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "iPhone-AL",
@@ -11434,7 +11446,11 @@
         "id": "08bc5c3c1adabb6df14346cb7303b72f",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Unknown device",
@@ -11459,7 +11475,11 @@
         "id": "443601ea087be4eeb3ea80081e98f6e9",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:android",
         "original_name": "Pixel 6 OS Version",
@@ -11484,7 +11504,11 @@
         "id": "7c9927c84383197c7ba0257a8d283953",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:security",
         "original_name": "Pixel 6 Security Patch",
