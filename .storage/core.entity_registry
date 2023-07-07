@@ -11517,6 +11517,31 @@
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_android_os_security_patch",
         "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.android_a7099e1f4aeab86e",
+        "hidden_by": null,
+        "icon": null,
+        "id": "df58408da42e76ad77d86b51840f683e",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone",
+        "original_name": "android-a7099e1f4aeab86e",
+        "platform": "freebox",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "70:8B:CD:04:0E:75",
+        "unit_of_measurement": null
       }
     ]
   }
