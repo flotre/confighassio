@@ -11567,6 +11567,31 @@
         "translation_key": null,
         "unique_id": "2A:9C:58:55:DA:F0",
         "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.iphone_al_4",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3204611315e25ead1071fd47675d9c7b",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:cellphone",
+        "original_name": "iPhone-AL",
+        "platform": "freebox",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "C6:D4:B6:0D:0C:EC",
+        "unit_of_measurement": null
       }
     ]
   }
