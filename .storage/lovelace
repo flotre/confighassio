@@ -269,7 +269,36 @@
             {
               "type": "entities",
               "entities": [
-                "sensor.tp_link_smart_plug_61cc_current_2"
+                {
+                  "entity": "sensor.tp_link_smart_plug_61cc_current_2"
+                },
+                {
+                  "entity": "sensor.courant_maison"
+                },
+                {
+                  "entity": "sensor.puissance_maison"
+                },
+                {
+                  "entity": "sensor.production_solaire_instantannee"
+                },
+                {
+                  "entity": "sensor.puissance_solaire_consommee"
+                },
+                {
+                  "entity": "sensor.puissance_injectee"
+                },
+                {
+                  "entity": "sensor.energie_maison"
+                },
+                {
+                  "entity": "sensor.energie_solaire"
+                },
+                {
+                  "entity": "sensor.energie_injectee"
+                },
+                {
+                  "entity": "sensor.energie_solaire_consommee"
+                }
               ]
             }
           ]

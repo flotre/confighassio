@@ -108,8 +108,13 @@ climate:
     calculate_period: 30
     confort_temp: 19
 
-# history chauffage salon
 sensor:
+  # capteur consommation maison
+  - platform: serial
+    name: Home meter
+    serial_port: /dev/ttyACM0
+    baudrate: 115200
+  # history chauffage salon
   - platform: history_stats
     name: Radiateur salon total ON
     entity_id: switch.radiateur_salon
@@ -150,6 +155,18 @@ sensor:
     start: "{{ 0 }}"
     end: "{{ now() }}"
 
+  - platform: integration
+    name: energie injectee
+    source: sensor.puissance_injectee
+    unit_time: h
+    round: 0
+
+  - platform: integration
+    name: energie solaire consommee
+    source: sensor.puissance_solaire_consommee
+    unit_time: h
+    round: 0
+
 template:
   - sensor:
       - name: Total energie radiateur salon
@@ -185,6 +202,46 @@ template:
             {{float(283230)-float(states('sensor.tp_link_smart_plug_61cc_current_consumption'))}}
           {% else %}
             {{float(0)}}
+          {% endif %}
+      - name: Tension maison
+        unit_of_measurement: V
+        state: "{{ state_attr('sensor.home_meter', 'V') }}"
+        device_class: voltage
+      - name: Fréquence maison
+        unit_of_measurement: Hz
+        state: "{{ state_attr('sensor.home_meter', 'F') }}"
+        device_class: frequency
+      - name: Courant maison
+        unit_of_measurement: A
+        state: "{{ state_attr('sensor.home_meter', 'I2') }}"
+        icon: mdi:current-ac
+        device_class: current
+      - name: Puissance maison
+        unit_of_measurement: W
+        device_class: power
+        state: "{{ state_attr('sensor.home_meter', 'P2') }}"
+      - name: Energie maison
+        unit_of_measurement: Wh
+        device_class: energy
+        state_class: total_increasing
+        state: "{{ state_attr('sensor.home_meter', 'E2') }}"
+      - name: Puissance injectee
+        device_class: power
+        unit_of_measurement: W
+        state: >
+          {% if state_attr('sensor.home_meter', 'P2') < 0 %}
+            {{ -state_attr('sensor.home_meter', 'P2')}}
+          {% else %}
+            0
+          {% endif %}
+      - name: Puissance solaire consommee
+        device_class: power
+        unit_of_measurement: W
+        state: >
+          {% if state_attr('sensor.home_meter', 'P2') > 0 %}
+            {{ states('sensor.production_solaire_instantannee') }}
+          {% else %}
+            {{ float(states('sensor.production_solaire_instantannee')) + state_attr('sensor.home_meter', 'P2') }}
           {% endif %}
 
 generic_hygrostat:
