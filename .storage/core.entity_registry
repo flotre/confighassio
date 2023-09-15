@@ -8994,7 +8994,7 @@
           }
         },
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-80",
+        "original_icon": "mdi:battery-charging-wireless-80",
         "original_name": "Pixel 6 Battery level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9023,7 +9023,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:battery-minus",
+        "original_icon": "mdi:battery-plus",
         "original_name": "Pixel 6 Battery state",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9052,7 +9052,7 @@
           }
         },
         "original_device_class": "plug",
-        "original_icon": "mdi:power-plug-off",
+        "original_icon": "mdi:power-plug",
         "original_name": "Pixel 6 Is charging",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9081,7 +9081,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:battery",
+        "original_icon": "mdi:battery-charging-wireless",
         "original_name": "Pixel 6 Charger type",
         "platform": "mobile_app",
         "supported_features": 0,
