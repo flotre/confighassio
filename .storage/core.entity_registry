@@ -11833,6 +11833,31 @@
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_car_odometer",
         "unit_of_measurement": "m"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.unknown_device_11",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3f8e9f0189d3ca1e7acf5cc12d4379e6",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:desktop-tower-monitor",
+        "original_name": "Unknown device",
+        "platform": "freebox",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "FA:07:41:33:A4:6D",
+        "unit_of_measurement": null
       }
     ],
     "deleted_entities": []
