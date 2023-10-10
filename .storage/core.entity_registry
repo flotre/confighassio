@@ -8232,7 +8232,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:cellphone",
+        "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "Pixel-6",
         "platform": "freebox",
         "supported_features": 0,
@@ -11878,7 +11878,11 @@
         "id": "fcae46091d8f0dd3fb8072c482dbf959",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
         "original_name": "Galaxy-S9",
