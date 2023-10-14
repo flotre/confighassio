@@ -8994,7 +8994,7 @@
           }
         },
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-80",
+        "original_icon": "mdi:battery-charging-wireless-80",
         "original_name": "Pixel 6 Battery level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9023,7 +9023,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:battery-minus",
+        "original_icon": "mdi:battery-plus",
         "original_name": "Pixel 6 Battery state",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9052,7 +9052,7 @@
           }
         },
         "original_device_class": "plug",
-        "original_icon": "mdi:power-plug-off",
+        "original_icon": "mdi:power-plug",
         "original_name": "Pixel 6 Is charging",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9081,7 +9081,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:battery",
+        "original_icon": "mdi:battery-charging-wireless",
         "original_name": "Pixel 6 Charger type",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -11890,6 +11890,31 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "4A:4F:2B:A5:18:A4",
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
+        "device_class": null,
+        "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_nfc_state",
+        "hidden_by": null,
+        "icon": null,
+        "id": "bf7fe5b6cb39143dd224bece2647c566",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:nfc-variant",
+        "original_name": "Pixel 6 NFC state",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_nfc_state",
         "unit_of_measurement": null
       }
     ],
