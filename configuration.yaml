@@ -160,12 +160,14 @@ sensor:
     source: sensor.puissance_injectee
     unit_time: h
     round: 0
+    method: left
 
   - platform: integration
     name: energie solaire consommee
     source: sensor.puissance_solaire_consommee
     unit_time: h
     round: 0
+    method: left
 
 template:
   - sensor:
