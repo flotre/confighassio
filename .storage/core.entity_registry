@@ -6280,7 +6280,7 @@
         },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
-        "original_name": "Android",
+        "original_name": "72bd7ad3-0bb3-0f04-f154-f316ac7f686d",
         "platform": "freebox",
         "supported_features": 0,
         "translation_key": null,
@@ -8994,7 +8994,7 @@
           }
         },
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-charging-wireless-80",
+        "original_icon": "mdi:battery-70",
         "original_name": "Pixel 6 Battery level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9023,7 +9023,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:battery-plus",
+        "original_icon": "mdi:battery-minus",
         "original_name": "Pixel 6 Battery state",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9052,7 +9052,7 @@
           }
         },
         "original_device_class": "plug",
-        "original_icon": "mdi:power-plug",
+        "original_icon": "mdi:power-plug-off",
         "original_name": "Pixel 6 Is charging",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9081,7 +9081,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:battery-charging-wireless",
+        "original_icon": "mdi:battery",
         "original_name": "Pixel 6 Charger type",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -11907,7 +11907,11 @@
         "id": "bf7fe5b6cb39143dd224bece2647c566",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:nfc-variant",
         "original_name": "Pixel 6 NFC state",
