@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "minor_version": 11,
+  "minor_version": 12,
   "key": "core.entity_registry",
   "data": {
     "entities": [
@@ -10,7 +10,7 @@
         "capabilities": null,
         "config_entry_id": "2d76d9e2b3724cb1bc1f199f9a8c12b6",
         "device_class": null,
-        "device_id": "0b9bf4fdde3dd28ee2a8fbcdc310e131",
+        "device_id": "a669abc366cd41051c2c1b23dec6c96f",
         "disabled_by": null,
         "entity_category": null,
         "entity_id": "weather.maison",
@@ -31,6 +31,7 @@
         "supported_features": 3,
         "translation_key": null,
         "unique_id": "home",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -60,6 +61,7 @@
         "supported_features": 131968,
         "translation_key": null,
         "unique_id": "e0425993-6635-4025-bf5c-b43e2107c4a9",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -89,6 +91,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b795ae8c43374c71be78abe34855747c",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -118,6 +121,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "93c92d1f540e4d028ae9c67c41ddcfc5",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -147,6 +151,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "667103_RL_1",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -176,6 +181,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "666735_RL_1",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -205,6 +211,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "68C076_RL_1",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -234,6 +241,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "98D8E4_RL_1",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -263,6 +271,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "40C588_RL_1",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -292,6 +301,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "40C588_status",
+        "previous_unique_id": null,
         "unit_of_measurement": " "
       },
       {
@@ -321,6 +331,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "68C476_RL_1",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -350,6 +361,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "virtual_chauffage_antoine",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -381,6 +393,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "1568229466238",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -412,6 +425,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "backup config",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -443,6 +457,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "1568230211853",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -474,6 +489,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "1574280838904",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -505,6 +521,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "1567537848073",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -536,6 +553,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "1568061925733",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -565,6 +583,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "machine_en_cours",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -594,6 +613,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "CC:32:E5:8D:61:CC",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -602,7 +622,7 @@
         "capabilities": null,
         "config_entry_id": "2d76d9e2b3724cb1bc1f199f9a8c12b6",
         "device_class": null,
-        "device_id": "0b9bf4fdde3dd28ee2a8fbcdc310e131",
+        "device_id": "a669abc366cd41051c2c1b23dec6c96f",
         "disabled_by": "integration",
         "entity_category": null,
         "entity_id": "weather.maison_hourly",
@@ -623,6 +643,7 @@
         "supported_features": 3,
         "translation_key": null,
         "unique_id": "home-hourly",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -652,6 +673,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "a0d7b954_ide_update_available",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -681,6 +703,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "core_mosquitto_update_available",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -710,6 +733,7 @@
         "supported_features": 0,
         "translation_key": "version",
         "unique_id": "a0d7b954_ide_version",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -739,6 +763,7 @@
         "supported_features": 0,
         "translation_key": "version",
         "unique_id": "core_mosquitto_version",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -768,6 +793,7 @@
         "supported_features": 0,
         "translation_key": "version_latest",
         "unique_id": "a0d7b954_ide_version_latest",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -797,6 +823,7 @@
         "supported_features": 0,
         "translation_key": "version_latest",
         "unique_id": "core_mosquitto_version_latest",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -828,6 +855,7 @@
         "supported_features": 0,
         "translation_key": "current_consumption",
         "unique_id": "CC:32:E5:8D:61:CC_current_power_w",
+        "previous_unique_id": null,
         "unit_of_measurement": "W"
       },
       {
@@ -859,6 +887,7 @@
         "supported_features": 0,
         "translation_key": "total_consumption",
         "unique_id": "CC:32:E5:8D:61:CC_total_energy_kwh",
+        "previous_unique_id": null,
         "unit_of_measurement": "kWh"
       },
       {
@@ -890,6 +919,7 @@
         "supported_features": 0,
         "translation_key": "today_consumption",
         "unique_id": "CC:32:E5:8D:61:CC_today_energy_kwh",
+        "previous_unique_id": null,
         "unit_of_measurement": "kWh"
       },
       {
@@ -921,6 +951,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "CC:32:E5:8D:61:CC_voltage",
+        "previous_unique_id": null,
         "unit_of_measurement": "V"
       },
       {
@@ -952,6 +983,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "CC:32:E5:8D:61:CC_current_a",
+        "previous_unique_id": null,
         "unit_of_measurement": "A"
       },
       {
@@ -981,6 +1013,7 @@
         "supported_features": 131968,
         "translation_key": null,
         "unique_id": "72bd7ad3-0bb3-0f04-f154-f316ac7f686d",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1010,6 +1043,7 @@
         "supported_features": 0,
         "translation_key": "state",
         "unique_id": "a0d7b954_ide_state",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1039,6 +1073,7 @@
         "supported_features": 0,
         "translation_key": "state",
         "unique_id": "core_mosquitto_state",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1070,6 +1105,7 @@
         "supported_features": 0,
         "translation_key": "cpu_percent",
         "unique_id": "a0d7b954_ide_cpu_percent",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -1101,6 +1137,7 @@
         "supported_features": 0,
         "translation_key": "memory_percent",
         "unique_id": "a0d7b954_ide_memory_percent",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -1132,6 +1169,7 @@
         "supported_features": 0,
         "translation_key": "cpu_percent",
         "unique_id": "core_mosquitto_cpu_percent",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -1163,6 +1201,7 @@
         "supported_features": 0,
         "translation_key": "memory_percent",
         "unique_id": "core_mosquitto_memory_percent",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -1192,6 +1231,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "98D8E4_status",
+        "previous_unique_id": null,
         "unit_of_measurement": " "
       },
       {
@@ -1221,6 +1261,7 @@
         "supported_features": 1,
         "translation_key": null,
         "unique_id": "home_assistant_supervisor_version_latest",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1250,6 +1291,7 @@
         "supported_features": 11,
         "translation_key": null,
         "unique_id": "home_assistant_core_version_latest",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1279,6 +1321,7 @@
         "supported_features": 25,
         "translation_key": null,
         "unique_id": "a0d7b954_ide_version_latest",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1308,6 +1351,7 @@
         "supported_features": 25,
         "translation_key": null,
         "unique_id": "core_mosquitto_version_latest",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1337,6 +1381,7 @@
         "supported_features": 0,
         "translation_key": "led",
         "unique_id": "CC:32:E5:8D:61:CC_led",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1366,6 +1411,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1397,6 +1443,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -1428,6 +1475,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-1027",
+        "previous_unique_id": null,
         "unit_of_measurement": "hPa"
       },
       {
@@ -1459,6 +1507,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-1026",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -1488,8 +1537,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -1519,8 +1569,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1552,6 +1603,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:5b:98-1-1029",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -1581,8 +1633,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:02:c9:87:13-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -1612,8 +1665,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:02:c9:87:13-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1643,8 +1697,9 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "device_temperature",
         "unique_id": "00:15:8d:00:02:c9:87:13-1-2",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -1674,6 +1729,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:c9:87:13-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1703,6 +1759,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:c9:87:13-1-6",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1734,6 +1791,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:c9:87:13-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -1763,6 +1821,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:6b:11-1-6",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1792,6 +1851,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:6b:11-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1823,6 +1883,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:6b:11-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -1852,8 +1913,9 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "device_temperature",
         "unique_id": "00:15:8d:00:02:b5:6b:11-1-2",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -1883,8 +1945,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:02:b5:6b:11-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -1914,8 +1977,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:02:b5:6b:11-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1945,6 +2009,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:21:cc-1-6",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -1974,6 +2039,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:21:cc-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -2005,6 +2071,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:21:cc-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -2034,8 +2101,9 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "device_temperature",
         "unique_id": "00:15:8d:00:03:e7:21:cc-1-2",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -2065,8 +2133,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:03:e7:21:cc-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -2096,8 +2165,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:03:e7:21:cc-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -2127,8 +2197,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:01:f5:31:61-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -2158,8 +2229,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:01:f5:31:61-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -2191,6 +2263,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:31:61-1-1029",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -2220,6 +2293,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:31:61-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -2251,6 +2325,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:31:61-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -2282,6 +2357,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:31:61-1-1027",
+        "previous_unique_id": null,
         "unit_of_measurement": "hPa"
       },
       {
@@ -2313,6 +2389,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:31:61-1-1026",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -2342,6 +2419,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:87:7a-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -2373,6 +2451,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:87:7a-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -2404,6 +2483,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:87:7a-1-1027",
+        "previous_unique_id": null,
         "unit_of_measurement": "hPa"
       },
       {
@@ -2433,8 +2513,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:02:01:87:7a-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -2464,8 +2545,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:02:01:87:7a-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -2497,6 +2579,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:87:7a-1-1029",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -2526,6 +2609,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:de:8f:d0-1-6",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -2555,6 +2639,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:de:8f:d0-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -2586,6 +2671,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:de:8f:d0-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -2615,8 +2701,9 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "device_temperature",
         "unique_id": "00:15:8d:00:01:de:8f:d0-1-2",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -2646,8 +2733,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:01:de:8f:d0-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -2677,8 +2765,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:01:de:8f:d0-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -2708,6 +2797,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -2739,6 +2829,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -2770,6 +2861,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-1027",
+        "previous_unique_id": null,
         "unit_of_measurement": "hPa"
       },
       {
@@ -2801,6 +2893,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-1026",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -2830,8 +2923,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -2861,8 +2955,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -2894,6 +2989,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e3:7c-1-1029",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -2923,6 +3019,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:82:dc-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -2954,6 +3051,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:82:dc-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -2985,6 +3083,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:82:dc-1-1027",
+        "previous_unique_id": null,
         "unit_of_measurement": "hPa"
       },
       {
@@ -3016,6 +3115,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:82:dc-1-1026",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -3045,8 +3145,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:02:01:82:dc-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -3076,8 +3177,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:02:01:82:dc-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -3109,6 +3211,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:82:dc-1-1029",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -3138,6 +3241,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:38:64-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -3169,6 +3273,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:38:64-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -3200,6 +3305,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:38:64-1-1027",
+        "previous_unique_id": null,
         "unit_of_measurement": "hPa"
       },
       {
@@ -3231,6 +3337,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:38:64-1-1026",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -3260,8 +3367,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:01:fa:38:64-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -3291,8 +3399,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:01:fa:38:64-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -3324,6 +3433,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:38:64-1-1029",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -3353,6 +3463,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:31:b7-1-6",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -3382,6 +3493,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:31:b7-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -3413,6 +3525,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:b5:31:b7-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -3442,8 +3555,9 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "device_temperature",
         "unique_id": "00:15:8d:00:02:b5:31:b7-1-2",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -3473,8 +3587,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:02:b5:31:b7-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -3504,8 +3619,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:02:b5:31:b7-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -3535,6 +3651,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e4:88-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -3566,6 +3683,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e4:88-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -3597,6 +3715,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e4:88-1-1027",
+        "previous_unique_id": null,
         "unit_of_measurement": "hPa"
       },
       {
@@ -3628,6 +3747,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e4:88-1-1026",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -3657,8 +3777,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:01:71:e4:88-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -3688,8 +3809,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:01:71:e4:88-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -3721,6 +3843,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e4:88-1-1029",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -3750,6 +3873,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -3781,6 +3905,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -3812,6 +3937,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-1027",
+        "previous_unique_id": null,
         "unit_of_measurement": "hPa"
       },
       {
@@ -3843,6 +3969,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-1026",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -3872,8 +3999,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -3903,8 +4031,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -3936,6 +4065,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:f5:58:f7-1-1029",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -3967,6 +4097,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:02:01:87:7a-1-1026",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -3996,6 +4127,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:49-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -4027,6 +4159,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:49-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -4058,6 +4191,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:49-1-1027",
+        "previous_unique_id": null,
         "unit_of_measurement": "hPa"
       },
       {
@@ -4087,8 +4221,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:01:fa:76:49-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -4118,8 +4253,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:01:fa:76:49-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -4151,6 +4287,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:49-1-1029",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -4180,6 +4317,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:0d:6f:ff:fe:7c:32:f4-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -4209,8 +4347,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:0d:6f:ff:fe:7c:32:f4-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -4240,8 +4379,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:0d:6f:ff:fe:7c:32:f4-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -4271,6 +4411,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -4302,6 +4443,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -4333,6 +4475,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-1027",
+        "previous_unique_id": null,
         "unit_of_measurement": "hPa"
       },
       {
@@ -4364,6 +4507,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-1026",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -4393,8 +4537,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -4424,8 +4569,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -4457,6 +4603,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:2e-1-1029",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -4486,6 +4633,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -4517,6 +4665,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -4548,6 +4697,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-1027",
+        "previous_unique_id": null,
         "unit_of_measurement": "hPa"
       },
       {
@@ -4579,6 +4729,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-1026",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -4608,8 +4759,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -4639,8 +4791,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -4672,6 +4825,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:71:e2:3f-1-1029",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -4701,6 +4855,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:85:29-1-6",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -4730,6 +4885,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:85:29-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -4761,6 +4917,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:85:29-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -4790,8 +4947,9 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "device_temperature",
         "unique_id": "00:15:8d:00:03:e7:85:29-1-2",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -4821,8 +4979,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:03:e7:85:29-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -4852,8 +5011,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:03:e7:85:29-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -4885,6 +5045,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:01:fa:76:49-1-1026",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -4914,6 +5075,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:48:29-1-6",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -4943,6 +5105,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:48:29-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -4974,6 +5137,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:15:8d:00:03:e7:48:29-1-1",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -5003,8 +5167,9 @@
         "original_name": "Device temperature",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "device_temperature",
         "unique_id": "00:15:8d:00:03:e7:48:29-1-2",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -5034,8 +5199,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:15:8d:00:03:e7:48:29-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -5065,8 +5231,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:15:8d:00:03:e7:48:29-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5096,6 +5263,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Reboot Freebox",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5125,6 +5293,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "70:85:C2:00:DF:69",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5154,6 +5323,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "0C:DC:7E:18:41:7C",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5183,6 +5353,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "34:CE:00:EA:59:F8",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5212,6 +5383,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "54:60:09:F8:8C:DA",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5241,6 +5413,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "5C:CF:7F:40:C5:88",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5270,6 +5443,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "5C:CF:7F:68:C4:76",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5299,6 +5473,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "5C:CF:7F:66:67:35",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5328,6 +5503,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "60:01:94:98:D8:E4",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5357,6 +5533,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "5C:CF:7F:68:C0:76",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5386,6 +5563,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "5C:CF:7F:66:71:03",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5415,6 +5593,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "8C:B8:4A:A6:37:97",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5444,6 +5623,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "34:CE:00:90:98:00",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5473,6 +5653,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "CC:32:E5:8D:61:CC",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5502,6 +5683,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "08:62:66:E3:B9:BB",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5531,6 +5713,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "A0:C5:89:C7:99:A8",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5560,6 +5743,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "10:65:30:17:7A:85",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5589,6 +5773,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "98:E7:43:E6:9F:F2",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5618,6 +5803,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:90:F5:FB:8E:14",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5647,6 +5833,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "AC:18:26:EF:48:5A",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5676,6 +5863,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "AC:7B:A1:3F:1B:82",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5705,6 +5893,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "50:E0:85:33:09:19",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5734,6 +5923,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "98:E7:43:94:46:FA",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5763,6 +5953,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "6C:AD:F8:A7:9B:10",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5792,6 +5983,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "08:00:27:D5:BF:39",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5821,6 +6013,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "24:41:8C:4B:49:C5",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5850,6 +6043,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "8C:B8:4A:A5:43:7F",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5879,6 +6073,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "A4:4C:C8:63:9A:D1",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5908,6 +6103,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "28:C6:3F:02:E0:7C",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5937,6 +6133,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "F8:F0:05:DF:20:4C",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5966,6 +6163,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "B8:27:EB:99:3F:A0",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -5995,6 +6193,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "A0:3E:6B:A9:EA:EF",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6024,6 +6223,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "16:D3:9C:19:39:54",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6053,6 +6253,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "58:6B:14:02:CD:7C",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6082,6 +6283,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "A2:0C:C3:C6:11:EA",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6111,6 +6313,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "46:92:60:4B:9B:48",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6140,6 +6343,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "AC:88:FD:98:D0:1A",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6169,6 +6373,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "F8:F0:05:DF:1A:10",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6198,6 +6403,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "34:2D:0D:01:E7:FF",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6227,6 +6433,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "A0:27:B6:FB:B1:C3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6256,6 +6463,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "D2:FB:6E:62:A0:94",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6280,11 +6488,12 @@
         },
         "original_device_class": null,
         "original_icon": "mdi:cellphone",
-        "original_name": "72bd7ad3-0bb3-0f04-f154-f316ac7f686d",
+        "original_name": "Chromecast",
         "platform": "freebox",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "AC:67:84:EC:18:03",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6314,6 +6523,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "80:B6:55:8A:4C:D3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6343,6 +6553,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:54:E8:3B:20:E9",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6372,6 +6583,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "FC:C2:3D:23:2F:98",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6401,6 +6613,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "B2:8E:C0:E3:1F:2C",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6430,6 +6643,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "4A:22:16:EE:27:7E",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6459,6 +6673,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "56:D6:D8:69:B2:38",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6488,6 +6703,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "D6:A7:BD:E9:B2:CE",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6517,6 +6733,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "26:92:12:9E:48:62",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6546,6 +6763,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "EA:E5:65:B6:0E:1B",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6575,6 +6793,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "F8:E4:3B:45:27:E5",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6604,6 +6823,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "F2:5F:7E:C5:53:48",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6633,6 +6853,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "AA:AB:1A:27:39:77",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6662,6 +6883,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "9E:28:23:BD:09:7D",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6691,6 +6913,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "3A:42:0B:FA:09:49",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6720,6 +6943,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "C6:20:2C:45:6F:9A",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6749,6 +6973,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "7E:04:C5:A6:2D:77",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6778,6 +7003,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -6807,6 +7033,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox Disque dur",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -6836,6 +7063,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox Température Switch",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -6865,6 +7093,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox Température CPU A",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -6894,6 +7123,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox Température CPU B",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -6923,6 +7153,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox download speed",
+        "previous_unique_id": null,
         "unit_of_measurement": "kB/s"
       },
       {
@@ -6952,6 +7183,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox upload speed",
+        "previous_unique_id": null,
         "unit_of_measurement": "kB/s"
       },
       {
@@ -6981,6 +7213,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox missed calls",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7010,6 +7243,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 partition_free_space 0 2",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -7039,6 +7273,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 partition_free_space 1000 1001",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -7068,6 +7303,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Freebox WiFi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7097,6 +7333,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "E4:9E:12:16:78:C6 Mark calls as read",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7126,6 +7363,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:23:24:54:F1:30",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7155,6 +7393,7 @@
         "supported_features": 3,
         "translation_key": null,
         "unique_id": "home_assistant_os_version_latest",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7184,6 +7423,7 @@
         "supported_features": 0,
         "translation_key": "version",
         "unique_id": "home_assistant_os_version",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7213,6 +7453,7 @@
         "supported_features": 0,
         "translation_key": "version_latest",
         "unique_id": "home_assistant_os_version_latest",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7242,6 +7483,7 @@
         "supported_features": 0,
         "translation_key": "state",
         "unique_id": "core_ssh_state",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7271,6 +7513,7 @@
         "supported_features": 0,
         "translation_key": "version",
         "unique_id": "core_ssh_version",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7300,6 +7543,7 @@
         "supported_features": 0,
         "translation_key": "version_latest",
         "unique_id": "core_ssh_version_latest",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7331,6 +7575,7 @@
         "supported_features": 0,
         "translation_key": "cpu_percent",
         "unique_id": "core_ssh_cpu_percent",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -7362,6 +7607,7 @@
         "supported_features": 0,
         "translation_key": "memory_percent",
         "unique_id": "core_ssh_memory_percent",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -7391,6 +7637,7 @@
         "supported_features": 25,
         "translation_key": null,
         "unique_id": "core_ssh_version_latest",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7420,6 +7667,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "3C:61:05:E2:2C:1B",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7451,6 +7699,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "1668461975498",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7482,6 +7731,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "1668629795314",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7511,6 +7761,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "ae2a10e39510876db73db4204a414c88",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7540,6 +7791,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "00:12:4b:00:24:c2:36:c9-1-3",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7571,8 +7823,9 @@
         "original_name": "Light",
         "platform": "zha",
         "supported_features": 8,
-        "translation_key": null,
+        "translation_key": "light",
         "unique_id": "00:12:4b:00:24:c2:36:c9-1",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7602,8 +7855,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "00:12:4b:00:24:c2:36:c9-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -7633,8 +7887,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "00:12:4b:00:24:c2:36:c9-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7662,8 +7917,9 @@
         "original_name": "HVAC action",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "hvac_action",
         "unique_id": "50:32:5f:ff:fe:41:84:b6-1-513-hvac_action",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7698,8 +7954,9 @@
         "original_name": "Thermostat",
         "platform": "zha",
         "supported_features": 1,
-        "translation_key": null,
+        "translation_key": "thermostat",
         "unique_id": "50:32:5f:ff:fe:41:84:b6-1",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7729,8 +7986,9 @@
         "original_name": "LQI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "lqi",
         "unique_id": "50:32:5f:ff:fe:41:84:b6-1-0-lqi",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7760,8 +8018,9 @@
         "original_name": "RSSI",
         "platform": "zha",
         "supported_features": 0,
-        "translation_key": null,
+        "translation_key": "rssi",
         "unique_id": "50:32:5f:ff:fe:41:84:b6-1-0-rssi",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -7791,6 +8050,7 @@
         "supported_features": 0,
         "translation_key": "state",
         "unique_id": "a0d7b954_vscode_state",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7820,6 +8080,7 @@
         "supported_features": 0,
         "translation_key": "version",
         "unique_id": "a0d7b954_vscode_version",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7849,6 +8110,7 @@
         "supported_features": 0,
         "translation_key": "version_latest",
         "unique_id": "a0d7b954_vscode_version_latest",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7880,6 +8142,7 @@
         "supported_features": 0,
         "translation_key": "cpu_percent",
         "unique_id": "a0d7b954_vscode_cpu_percent",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -7911,6 +8174,7 @@
         "supported_features": 0,
         "translation_key": "memory_percent",
         "unique_id": "a0d7b954_vscode_memory_percent",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -7940,6 +8204,7 @@
         "supported_features": 25,
         "translation_key": null,
         "unique_id": "a0d7b954_vscode_version_latest",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -7969,6 +8234,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "46:4A:30:5C:57:6C",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8000,6 +8266,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "52b28e7c735220657a32da684345c889",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8029,6 +8296,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "chauffage_sde_temperature",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8060,6 +8328,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "1674389488356",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8091,6 +8360,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "1674389648731",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8120,6 +8390,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "chauffage_sde_himidite",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8151,6 +8422,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "ff32ed2e2bafe88c6906af04dc7a5b15",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8180,6 +8452,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "72:D4:80:3D:2D:9C",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8209,6 +8482,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "32:7D:50:3D:45:0D",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8238,6 +8512,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "6E:FF:E0:F1:0B:EE",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8267,6 +8542,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "6915bcfcdf2c4bbb",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8296,6 +8572,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_detected_activity",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8327,6 +8604,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_sleep_confidence",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -8356,6 +8634,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_sleep_segment",
+        "previous_unique_id": null,
         "unit_of_measurement": "ms"
       },
       {
@@ -8385,6 +8664,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_current_version",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8416,6 +8696,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_app_rx_gb",
+        "previous_unique_id": null,
         "unit_of_measurement": "GB"
       },
       {
@@ -8447,6 +8728,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_app_tx_gb",
+        "previous_unique_id": null,
         "unit_of_measurement": "GB"
       },
       {
@@ -8478,6 +8760,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_app_memory",
+        "previous_unique_id": null,
         "unit_of_measurement": "GB"
       },
       {
@@ -8507,6 +8790,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_app_inactive",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8536,6 +8820,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_app_standby_bucket",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8565,6 +8850,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_app_importance",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8594,6 +8880,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_audio_sensor",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8623,6 +8910,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_audio_mode",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8652,6 +8940,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_headphone_state",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8681,6 +8970,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_mic_muted",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8710,6 +9000,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_speakerphone_state",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8739,6 +9030,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_music_active",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8768,6 +9060,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_volume_alarm",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8797,6 +9090,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_volume_call",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8826,6 +9120,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_volume_music",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8855,6 +9150,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_volume_ring",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8884,6 +9180,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_volume_notification",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8913,6 +9210,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_volume_system",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8942,6 +9240,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_volume_dtmf",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8971,6 +9270,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_volume_accessibility",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -8994,12 +9294,13 @@
           }
         },
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-70",
+        "original_icon": "mdi:battery-90",
         "original_name": "Pixel 6 Battery level",
         "platform": "mobile_app",
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_battery_level",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -9029,6 +9330,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_battery_state",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9058,6 +9360,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_is_charging",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9087,6 +9390,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_charger_type",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9116,6 +9420,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_battery_health",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9145,6 +9450,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_battery_temperature",
+        "previous_unique_id": null,
         "unit_of_measurement": "°C"
       },
       {
@@ -9174,6 +9480,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_battery_power",
+        "previous_unique_id": null,
         "unit_of_measurement": "W"
       },
       {
@@ -9205,6 +9512,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_bluetooth_connection",
+        "previous_unique_id": null,
         "unit_of_measurement": "connection(s)"
       },
       {
@@ -9234,6 +9542,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_bluetooth_state",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9263,6 +9572,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_ble_emitter",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9292,6 +9602,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_beacon_monitor",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9321,6 +9632,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_screen_brightness",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9350,6 +9662,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_screen_off_timeout",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9379,6 +9692,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_dnd_sensor",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9408,6 +9722,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_accent_color",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9437,6 +9752,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_is_work_profile",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9466,6 +9782,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_geocoded_location",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9495,6 +9812,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_device_locked",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9524,6 +9842,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_device_secure",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9553,6 +9872,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_keyguard_locked",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9582,6 +9902,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_keyguard_secure",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9611,6 +9932,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_last_used_app",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9640,6 +9962,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_last_reboot",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9669,6 +9992,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_last_update",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9700,6 +10024,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_light_sensor",
+        "previous_unique_id": null,
         "unit_of_measurement": "lx"
       },
       {
@@ -9729,6 +10054,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_high_accuracy_mode",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9758,6 +10084,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_high_accuracy_update_interval",
+        "previous_unique_id": null,
         "unit_of_measurement": "seconds"
       },
       {
@@ -9787,6 +10114,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_mobile_data",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9816,6 +10144,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_mobile_data_roaming",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9845,6 +10174,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_wifi_connection",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9874,6 +10204,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_wifi_bssid",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9903,6 +10234,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_wifi_ip_address",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9934,6 +10266,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_wifi_link_speed",
+        "previous_unique_id": null,
         "unit_of_measurement": "Mbps"
       },
       {
@@ -9963,6 +10296,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_wifi_state",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -9994,6 +10328,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_wifi_frequency",
+        "previous_unique_id": null,
         "unit_of_measurement": "MHz"
       },
       {
@@ -10025,6 +10360,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_wifi_signal_strength",
+        "previous_unique_id": null,
         "unit_of_measurement": "dBm"
       },
       {
@@ -10054,6 +10390,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_public_ip_address",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10083,6 +10420,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_network_type",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10112,6 +10450,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_next_alarm",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10141,6 +10480,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_last_notification",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10170,6 +10510,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_last_removed_notification",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10201,6 +10542,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_active_notification_count",
+        "previous_unique_id": null,
         "unit_of_measurement": "notifications"
       },
       {
@@ -10230,6 +10572,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_media_session",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10259,6 +10602,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_phone_state",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10288,6 +10632,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_sim_1",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10317,6 +10662,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_sim_2",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10346,6 +10692,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_is_interactive",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10375,6 +10722,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_is_idle",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10404,6 +10752,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_power_save",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10435,6 +10784,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_pressure_sensor",
+        "previous_unique_id": null,
         "unit_of_measurement": "hPa"
       },
       {
@@ -10464,6 +10814,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_proximity_sensor",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10495,6 +10846,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_steps_sensor",
+        "previous_unique_id": null,
         "unit_of_measurement": "steps"
       },
       {
@@ -10526,6 +10878,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_storage_sensor",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -10557,6 +10910,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_external_storage",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -10586,6 +10940,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_current_time_zone",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10617,6 +10972,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_mobile_rx_gb",
+        "previous_unique_id": null,
         "unit_of_measurement": "GB"
       },
       {
@@ -10648,6 +11004,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_mobile_tx_gb",
+        "previous_unique_id": null,
         "unit_of_measurement": "GB"
       },
       {
@@ -10679,6 +11036,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_total_rx_gb",
+        "previous_unique_id": null,
         "unit_of_measurement": "GB"
       },
       {
@@ -10710,6 +11068,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_total_tx_gb",
+        "previous_unique_id": null,
         "unit_of_measurement": "GB"
       },
       {
@@ -10739,6 +11098,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_android_auto",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10768,6 +11128,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "48:55:19:D4:02:68",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10799,6 +11160,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b82955582275edd8bf4c4adf9976a185",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10828,6 +11190,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "02:D0:88:83:DF:D7",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10857,6 +11220,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "2A:4E:A7:F0:6A:32",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -10888,6 +11252,7 @@
         "supported_features": 0,
         "translation_key": "cpu_percent",
         "unique_id": "home_assistant_core_cpu_percent",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -10919,6 +11284,7 @@
         "supported_features": 0,
         "translation_key": "memory_percent",
         "unique_id": "home_assistant_core_memory_percent",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -10950,6 +11316,7 @@
         "supported_features": 0,
         "translation_key": "cpu_percent",
         "unique_id": "home_assistant_supervisor_cpu_percent",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -10981,6 +11348,7 @@
         "supported_features": 0,
         "translation_key": "memory_percent",
         "unique_id": "home_assistant_supervisor_memory_percent",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -11010,6 +11378,7 @@
         "supported_features": 0,
         "translation_key": "agent_version",
         "unique_id": "home_assistant_host_agent_version",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11039,6 +11408,7 @@
         "supported_features": 0,
         "translation_key": "apparmor_version",
         "unique_id": "home_assistant_host_apparmor_version",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11068,6 +11438,7 @@
         "supported_features": 0,
         "translation_key": "disk_total",
         "unique_id": "home_assistant_host_disk_total",
+        "previous_unique_id": null,
         "unit_of_measurement": "GB"
       },
       {
@@ -11097,6 +11468,7 @@
         "supported_features": 0,
         "translation_key": "disk_used",
         "unique_id": "home_assistant_host_disk_used",
+        "previous_unique_id": null,
         "unit_of_measurement": "GB"
       },
       {
@@ -11126,6 +11498,7 @@
         "supported_features": 0,
         "translation_key": "disk_free",
         "unique_id": "home_assistant_host_disk_free",
+        "previous_unique_id": null,
         "unit_of_measurement": "GB"
       },
       {
@@ -11155,6 +11528,7 @@
         "supported_features": 0,
         "translation_key": "next_dawn",
         "unique_id": "12c11555d7aa6f7bb3a8d1bf3b652017-next_dawn",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11184,6 +11558,7 @@
         "supported_features": 0,
         "translation_key": "next_dusk",
         "unique_id": "12c11555d7aa6f7bb3a8d1bf3b652017-next_dusk",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11213,6 +11588,7 @@
         "supported_features": 0,
         "translation_key": "next_midnight",
         "unique_id": "12c11555d7aa6f7bb3a8d1bf3b652017-next_midnight",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11242,6 +11618,7 @@
         "supported_features": 0,
         "translation_key": "next_noon",
         "unique_id": "12c11555d7aa6f7bb3a8d1bf3b652017-next_noon",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11271,6 +11648,7 @@
         "supported_features": 0,
         "translation_key": "next_rising",
         "unique_id": "12c11555d7aa6f7bb3a8d1bf3b652017-next_rising",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11300,6 +11678,7 @@
         "supported_features": 0,
         "translation_key": "next_setting",
         "unique_id": "12c11555d7aa6f7bb3a8d1bf3b652017-next_setting",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11331,6 +11710,7 @@
         "supported_features": 0,
         "translation_key": "solar_elevation",
         "unique_id": "12c11555d7aa6f7bb3a8d1bf3b652017-solar_elevation",
+        "previous_unique_id": null,
         "unit_of_measurement": "°"
       },
       {
@@ -11362,6 +11742,7 @@
         "supported_features": 0,
         "translation_key": "solar_azimuth",
         "unique_id": "12c11555d7aa6f7bb3a8d1bf3b652017-solar_azimuth",
+        "previous_unique_id": null,
         "unit_of_measurement": "°"
       },
       {
@@ -11391,6 +11772,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "9E:5A:F9:B1:52:BA",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11420,6 +11802,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "A2:D8:8F:BE:8B:51",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11449,6 +11832,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "A2:C6:0F:01:00:4C",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11478,6 +11862,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "02:73:E5:F3:84:4C",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11507,6 +11892,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_android_os_version",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11536,6 +11922,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_android_os_security_patch",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11565,6 +11952,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "70:8B:CD:04:0E:75",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11594,6 +11982,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "2A:9C:58:55:DA:F0",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11623,6 +12012,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "C6:D4:B6:0D:0C:EC",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11654,6 +12044,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_car_battery",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -11683,6 +12074,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_car_name",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11712,6 +12104,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_car_charging_status",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11741,6 +12134,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_car_ev_connector",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11772,6 +12166,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_car_fuel",
+        "previous_unique_id": null,
         "unit_of_measurement": "%"
       },
       {
@@ -11801,6 +12196,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_car_fuel_type",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11832,6 +12228,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_car_odometer",
+        "previous_unique_id": null,
         "unit_of_measurement": "m"
       },
       {
@@ -11861,6 +12258,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "FA:07:41:33:A4:6D",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11890,6 +12288,7 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "4A:4F:2B:A5:18:A4",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       },
       {
@@ -11919,6 +12318,37 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_nfc_state",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "12c11555d7aa6f7bb3a8d1bf3b652017",
+        "device_class": null,
+        "device_id": "47ec158f8854f03a1245a2449d0c97dd",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "884bd93963c38d45744a1081ee8996a0",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:sun-clock",
+        "original_name": "Solar rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_rising",
+        "unique_id": "12c11555d7aa6f7bb3a8d1bf3b652017-solar_rising",
+        "previous_unique_id": null,
         "unit_of_measurement": null
       }
     ],
