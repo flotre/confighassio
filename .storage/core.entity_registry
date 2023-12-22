@@ -12429,10 +12429,13 @@
         "icon": null,
         "id": "e11acaabcf31b179ddad230fe03b2b57",
         "has_entity_name": true,
-        "name": null,
+        "name": "Salle de bain",
         "options": {
           "conversation": {
             "should_expose": true
+          },
+          "sensor": {
+            "display_precision": null
           }
         },
         "original_device_class": "temperature",
