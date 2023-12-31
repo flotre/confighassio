@@ -9294,7 +9294,7 @@
           }
         },
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-90",
+        "original_icon": "mdi:battery",
         "original_name": "Pixel 6 Battery level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -12535,6 +12535,32 @@
         "unique_id": "14:2d:41:ff:fe:2f:08:61-1-1029",
         "previous_unique_id": null,
         "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
+        "device_class": null,
+        "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.pixel_6_hotspot_state",
+        "hidden_by": null,
+        "icon": null,
+        "id": "cab63c14ffca69241f8363e64234d3aa",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:access-point",
+        "original_name": "Pixel 6 Hotspot state",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_hotspot_state",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
       }
     ],
     "deleted_entities": []
