@@ -7,43 +7,6 @@
       "title": "Maison",
       "views": [
         {
-          "badges": [],
-          "cards": [
-            {
-              "entity": "climate.salon",
-              "type": "thermostat"
-            },
-            {
-              "entity": "climate.cuisine",
-              "type": "thermostat"
-            },
-            {
-              "entity": "climate.entree",
-              "type": "thermostat"
-            },
-            {
-              "entity": "climate.salle_deau",
-              "name": "Salle d'eau",
-              "type": "thermostat"
-            },
-            {
-              "entity": "climate.chambre_antoine",
-              "type": "thermostat"
-            },
-            {
-              "entity": "climate.chambre_bas",
-              "type": "thermostat"
-            },
-            {
-              "type": "thermostat",
-              "entity": "climate.thermostat_chambre_louise_thermostat"
-            }
-          ],
-          "icon": "mdi:radiator",
-          "path": "chauffage",
-          "title": "Chauffage"
-        },
-        {
           "path": "default_view",
           "title": "Home",
           "badges": [
@@ -66,10 +29,10 @@
               "entity": "sensor.lumi_lumi_weather_7a870102_weather_chambre_antoine"
             },
             {
-              "entity": "sensor.lumi_lumi_weather_7ce37101_temperature"
+              "entity": "sensor.weather_chambre_louise_temperature_2"
             },
             {
-              "entity": "sensor.lumi_lumi_weather_985bfa01_temperature"
+              "entity": "sensor.lumi_lumi_weather_7ce37101_temperature"
             },
             {
               "entity": "sensor.lumi_lumi_weather_88e47101_temperature"
@@ -164,6 +127,43 @@
               "state_color": true
             }
           ]
+        },
+        {
+          "badges": [],
+          "cards": [
+            {
+              "entity": "climate.salon",
+              "type": "thermostat"
+            },
+            {
+              "entity": "climate.cuisine",
+              "type": "thermostat"
+            },
+            {
+              "entity": "climate.entree",
+              "type": "thermostat"
+            },
+            {
+              "entity": "climate.salle_deau",
+              "name": "Salle d'eau",
+              "type": "thermostat"
+            },
+            {
+              "entity": "climate.chambre_antoine",
+              "type": "thermostat"
+            },
+            {
+              "entity": "climate.chambre_bas",
+              "type": "thermostat"
+            },
+            {
+              "type": "thermostat",
+              "entity": "climate.thermostat_chambre_louise_thermostat"
+            }
+          ],
+          "icon": "mdi:radiator",
+          "path": "chauffage",
+          "title": "Chauffage"
         },
         {
           "theme": "Backend-selected",

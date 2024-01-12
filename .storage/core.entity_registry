@@ -1398,7 +1398,7 @@
         "icon": null,
         "id": "6342a9ff75fdbec5ac4afac84b8bab2c",
         "has_entity_name": true,
-        "name": "Weather chambre bébé 985bfa01 identify",
+        "name": "Weather bureau 985bfa01 identify",
         "options": {
           "conversation": {
             "should_expose": false
@@ -1430,7 +1430,7 @@
         "icon": null,
         "id": "2347e9a71de8a6e717d1f2eccb25f66b",
         "has_entity_name": true,
-        "name": "Weather chambre bébé 985bfa01 power",
+        "name": "Weather bureau 985bfa01 power",
         "options": {
           "conversation": {
             "should_expose": false
@@ -1462,7 +1462,7 @@
         "icon": null,
         "id": "f1c862c19f6a3bacf915bd694df55dd7",
         "has_entity_name": true,
-        "name": "Weather chambre bébé 985bfa01 pressure",
+        "name": "Weather bureau 985bfa01 pressure",
         "options": {
           "conversation": {
             "should_expose": false
@@ -1494,10 +1494,13 @@
         "icon": null,
         "id": "922267cd89a452a69e4058370944ee80",
         "has_entity_name": true,
-        "name": "Chambre Louise",
+        "name": "Bureau",
         "options": {
           "conversation": {
             "should_expose": true
+          },
+          "sensor": {
+            "display_precision": null
           }
         },
         "original_device_class": "temperature",
@@ -1590,7 +1593,7 @@
         "icon": null,
         "id": "ef9ab1e8ef50450adbe315269595b2ba",
         "has_entity_name": true,
-        "name": "Weather chambre bébé 985bfa01 humidity",
+        "name": "Weather bureau 985bfa01 humidity",
         "options": {
           "conversation": {
             "should_expose": true
@@ -12559,6 +12562,217 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_hotspot_state",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
+        "device_class": null,
+        "device_id": "225474b8b3a7c40a01f18301e3182e73",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sonoff_snzb_02d_rssi_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "06fa6117508978b3296516462141af27",
+        "has_entity_name": true,
+        "name": null,
+        "options": {},
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "RSSI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "rssi",
+        "unique_id": "04:87:27:ff:fe:ab:28:ba-1-0-rssi",
+        "previous_unique_id": null,
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
+        "device_class": null,
+        "device_id": "225474b8b3a7c40a01f18301e3182e73",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sonoff_snzb_02d_lqi_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0db5c2f2d2abe8369188b13faa326e70",
+        "has_entity_name": true,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "LQI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "lqi",
+        "unique_id": "04:87:27:ff:fe:ab:28:ba-1-0-lqi",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
+        "device_class": null,
+        "device_id": "225474b8b3a7c40a01f18301e3182e73",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.weather_chambre_louise_battery_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b3ef41e09f298496d9d832347f19d367",
+        "has_entity_name": true,
+        "name": "Weather Chambre Louise Battery",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "battery",
+        "original_icon": null,
+        "original_name": "Battery",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "04:87:27:ff:fe:ab:28:ba-1-1",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
+        "device_class": null,
+        "device_id": "225474b8b3a7c40a01f18301e3182e73",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.weather_chambre_louise_humidity_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8c3f3b86527899ff1a4f76dacb7d60f1",
+        "has_entity_name": true,
+        "name": "Weather Chambre Louise Humidity",
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "humidity",
+        "original_icon": null,
+        "original_name": "Humidity",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "04:87:27:ff:fe:ab:28:ba-1-1029",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
+        "device_class": null,
+        "device_id": "225474b8b3a7c40a01f18301e3182e73",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "button.weather_chambre_louise_identify_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1445cd45ba68dd8f362f81ec914571ae",
+        "has_entity_name": true,
+        "name": "Weather Chambre Louise Identify",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "identify",
+        "original_icon": null,
+        "original_name": "Identify",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "04:87:27:ff:fe:ab:28:ba-1-3",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
+        "device_class": null,
+        "device_id": "225474b8b3a7c40a01f18301e3182e73",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.weather_chambre_louise_temperature_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7279e9ffb4565feb0872eef1f1a71b25",
+        "has_entity_name": true,
+        "name": "Chambre Louise",
+        "options": {
+          "conversation": {
+            "should_expose": true
+          },
+          "sensor": {
+            "display_precision": null
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": null,
+        "original_name": "Temperature",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "04:87:27:ff:fe:ab:28:ba-1-1026",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.wtfrlvse316984l",
+        "hidden_by": null,
+        "icon": null,
+        "id": "947da01423131971a810ebc7ef942d31",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:desktop-tower-monitor",
+        "original_name": "WTFRLVSE316984L",
+        "platform": "freebox",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "AC:19:8E:47:AD:06",
         "previous_unique_id": null,
         "unit_of_measurement": null
       }
