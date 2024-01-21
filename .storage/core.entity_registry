@@ -12775,6 +12775,32 @@
         "unique_id": "AC:19:8E:47:AD:06",
         "previous_unique_id": null,
         "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.lwip",
+        "hidden_by": null,
+        "icon": null,
+        "id": "688de244fb8494630cd4c21e95c8ab80",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:desktop-tower-monitor",
+        "original_name": "lwip",
+        "platform": "freebox",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "6C:22:1A:6B:78:DF",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
       }
     ],
     "deleted_entities": []
