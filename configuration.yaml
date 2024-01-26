@@ -54,7 +54,7 @@ input_boolean:
 climate:
   - platform: generic_smart_thermostat
     name: Salon
-    heater: switch.radiateur_salon
+    heater: switch.chauffage_salon_switch
     in_temp_sensor: sensor.lumi_lumi_weather_88e47101_temperature
     out_temp_sensor: sensor.temperature_exterieur
     use_schedule_list: true
@@ -117,7 +117,7 @@ sensor:
   # history chauffage salon
   - platform: history_stats
     name: Radiateur salon total ON
-    entity_id: switch.radiateur_salon
+    entity_id: switch.chauffage_salon_switch
     state: "on"
     type: time
     start: "{{ 0 }}"
@@ -168,6 +168,18 @@ sensor:
     unit_time: h
     round: 0
     method: left
+
+switch:
+  - platform: template
+    switches:
+      chauffage_salon_switch:
+        value_template: "{{ is_state('light.chauffage_salon_light', 'off') }}"
+        turn_on:
+          service: light.turn_off
+          entity_id: light.chauffage_salon_light
+        turn_off:
+          service: light.turn_on
+          entity_id: light.chauffage_salon_light
 
 template:
   - sensor:

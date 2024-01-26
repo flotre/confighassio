@@ -58,7 +58,7 @@
         "original_icon": null,
         "original_name": null,
         "platform": "cast",
-        "supported_features": 131968,
+        "supported_features": 152461,
         "translation_key": null,
         "unique_id": "e0425993-6635-4025-bf5c-b43e2107c4a9",
         "previous_unique_id": null,
@@ -181,36 +181,6 @@
         "supported_features": 0,
         "translation_key": null,
         "unique_id": "666735_RL_1",
-        "previous_unique_id": null,
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
-        "device_class": null,
-        "device_id": "b0ec9dbee6e74f10861fbc09af2d3c2b",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "switch.radiateur_salon",
-        "hidden_by": null,
-        "icon": null,
-        "id": "f0868370283f1dad76ed64bc9ceed767",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": true
-          }
-        },
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "Radiateur salon",
-        "platform": "mqtt",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "68C076_RL_1",
         "previous_unique_id": null,
         "unit_of_measurement": null
       },
@@ -1010,7 +980,7 @@
         "original_icon": null,
         "original_name": null,
         "platform": "cast",
-        "supported_features": 131968,
+        "supported_features": 152449,
         "translation_key": null,
         "unique_id": "72bd7ad3-0bb3-0f04-f154-f316ac7f686d",
         "previous_unique_id": null,
@@ -7773,134 +7743,6 @@
         "capabilities": null,
         "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
         "device_class": null,
-        "device_id": "664c42b7108a1318056d60af74b1bd03",
-        "disabled_by": null,
-        "entity_category": "diagnostic",
-        "entity_id": "button.sonoff_01minizb_identify",
-        "hidden_by": null,
-        "icon": null,
-        "id": "0c69183388d3a07eaf5470acaf5cc837",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": "identify",
-        "original_icon": null,
-        "original_name": "Identify",
-        "platform": "zha",
-        "supported_features": 0,
-        "translation_key": null,
-        "unique_id": "00:12:4b:00:24:c2:36:c9-1-3",
-        "previous_unique_id": null,
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": {
-          "supported_color_modes": [
-            "onoff"
-          ]
-        },
-        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
-        "device_class": null,
-        "device_id": "664c42b7108a1318056d60af74b1bd03",
-        "disabled_by": null,
-        "entity_category": null,
-        "entity_id": "light.sonoff_01minizb_light",
-        "hidden_by": null,
-        "icon": null,
-        "id": "056e356a7da325a69763d401a49d6add",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": true
-          }
-        },
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "Light",
-        "platform": "zha",
-        "supported_features": 8,
-        "translation_key": "light",
-        "unique_id": "00:12:4b:00:24:c2:36:c9-1",
-        "previous_unique_id": null,
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
-        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
-        "device_class": null,
-        "device_id": "664c42b7108a1318056d60af74b1bd03",
-        "disabled_by": "integration",
-        "entity_category": "diagnostic",
-        "entity_id": "sensor.sonoff_01minizb_rssi",
-        "hidden_by": null,
-        "icon": null,
-        "id": "595e518e7d3ff0723b030e800f8c80f3",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": "signal_strength",
-        "original_icon": null,
-        "original_name": "RSSI",
-        "platform": "zha",
-        "supported_features": 0,
-        "translation_key": "rssi",
-        "unique_id": "00:12:4b:00:24:c2:36:c9-1-0-rssi",
-        "previous_unique_id": null,
-        "unit_of_measurement": "dBm"
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
-        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
-        "device_class": null,
-        "device_id": "664c42b7108a1318056d60af74b1bd03",
-        "disabled_by": "integration",
-        "entity_category": "diagnostic",
-        "entity_id": "sensor.sonoff_01minizb_lqi",
-        "hidden_by": null,
-        "icon": null,
-        "id": "7a0c06ca33021d7425de03a774ef71f4",
-        "has_entity_name": true,
-        "name": null,
-        "options": {
-          "conversation": {
-            "should_expose": false
-          }
-        },
-        "original_device_class": null,
-        "original_icon": null,
-        "original_name": "LQI",
-        "platform": "zha",
-        "supported_features": 0,
-        "translation_key": "lqi",
-        "unique_id": "00:12:4b:00:24:c2:36:c9-1-0-lqi",
-        "previous_unique_id": null,
-        "unit_of_measurement": null
-      },
-      {
-        "aliases": [],
-        "area_id": null,
-        "capabilities": null,
-        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
-        "device_class": null,
         "device_id": "ec306edb9e95da3aa5df611520fb36ed",
         "disabled_by": null,
         "entity_category": null,
@@ -8262,7 +8104,7 @@
             "should_expose": false
           }
         },
-        "original_device_class": null,
+        "original_device_class": "energy",
         "original_icon": "mdi:counter",
         "original_name": "Chauffage salon",
         "platform": "utility_meter",
@@ -8418,7 +8260,7 @@
             "should_expose": false
           }
         },
-        "original_device_class": null,
+        "original_device_class": "energy",
         "original_icon": "mdi:counter",
         "original_name": "Chauffage salon daily",
         "platform": "utility_meter",
@@ -9297,7 +9139,7 @@
           }
         },
         "original_device_class": "battery",
-        "original_icon": "mdi:battery",
+        "original_icon": "mdi:battery-90",
         "original_name": "Pixel 6 Battery level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -11156,7 +10998,7 @@
             "should_expose": false
           }
         },
-        "original_device_class": null,
+        "original_device_class": "energy",
         "original_icon": "mdi:chart-histogram",
         "original_name": "Energie solaire",
         "platform": "integration",
@@ -12468,7 +12310,11 @@
         "id": "a417a5297d862394a8917b6edc5b6d17",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -12496,7 +12342,11 @@
         "id": "4316e6386a24bfa476e276dd53c20832",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -12554,7 +12404,11 @@
         "id": "cab63c14ffca69241f8363e64234d3aa",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:access-point",
         "original_name": "Pixel 6 Hotspot state",
@@ -12582,7 +12436,11 @@
         "id": "06fa6117508978b3296516462141af27",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
@@ -12610,7 +12468,11 @@
         "id": "0db5c2f2d2abe8369188b13faa326e70",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -12765,7 +12627,11 @@
         "id": "947da01423131971a810ebc7ef942d31",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "WTFRLVSE316984L",
@@ -12791,7 +12657,11 @@
         "id": "688de244fb8494630cd4c21e95c8ab80",
         "has_entity_name": false,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": "mdi:desktop-tower-monitor",
         "original_name": "lwip",
@@ -12801,8 +12671,153 @@
         "unique_id": "6C:22:1A:6B:78:DF",
         "previous_unique_id": null,
         "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
+        "device_class": null,
+        "device_id": "664c42b7108a1318056d60af74b1bd03",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "button.chauffage_salon_identify",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0c69183388d3a07eaf5470acaf5cc837",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "identify",
+        "original_icon": null,
+        "original_name": "Identify",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "00:12:4b:00:24:c2:36:c9-1-3",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "supported_color_modes": [
+            "onoff"
+          ]
+        },
+        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
+        "device_class": null,
+        "device_id": "664c42b7108a1318056d60af74b1bd03",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "light.chauffage_salon_light",
+        "hidden_by": null,
+        "icon": null,
+        "id": "056e356a7da325a69763d401a49d6add",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Light",
+        "platform": "zha",
+        "supported_features": 8,
+        "translation_key": "light",
+        "unique_id": "00:12:4b:00:24:c2:36:c9-1",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
+        "device_class": null,
+        "device_id": "664c42b7108a1318056d60af74b1bd03",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.chauffage_salon_lqi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7a0c06ca33021d7425de03a774ef71f4",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "LQI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "lqi",
+        "unique_id": "00:12:4b:00:24:c2:36:c9-1-0-lqi",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
+        "device_class": null,
+        "device_id": "664c42b7108a1318056d60af74b1bd03",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.chauffage_salon_rssi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "595e518e7d3ff0723b030e800f8c80f3",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "RSSI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "rssi",
+        "unique_id": "00:12:4b:00:24:c2:36:c9-1-0-rssi",
+        "previous_unique_id": null,
+        "unit_of_measurement": "dBm"
       }
     ],
-    "deleted_entities": []
+    "deleted_entities": [
+      {
+        "config_entry_id": "091da30051fc43a4bc54ea98797c2f7c",
+        "entity_id": "switch.radiateur_salon",
+        "id": "f0868370283f1dad76ed64bc9ceed767",
+        "orphaned_timestamp": null,
+        "platform": "mqtt",
+        "unique_id": "68C076_RL_1"
+      },
+      {
+        "config_entry_id": "2caa5dceb43bd46d15b8a5aefc0b8668",
+        "entity_id": "switch.chauffage_salon_switch",
+        "id": "68bebffb1959066bc0985cf27b7ae255",
+        "orphaned_timestamp": null,
+        "platform": "zha",
+        "unique_id": "00:12:4b:00:24:c2:36:c9-1"
+      }
+    ]
   }
 }
