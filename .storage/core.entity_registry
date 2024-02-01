@@ -9121,7 +9121,9 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
         "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
         "device_class": "battery",
         "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
@@ -9139,7 +9141,7 @@
           }
         },
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-90",
+        "original_icon": "mdi:battery-charging-wireless-80",
         "original_name": "Pixel 6 Battery level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9169,7 +9171,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:battery-minus",
+        "original_icon": "mdi:battery-plus",
         "original_name": "Pixel 6 Battery state",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9199,7 +9201,7 @@
           }
         },
         "original_device_class": "plug",
-        "original_icon": "mdi:power-plug-off",
+        "original_icon": "mdi:power-plug",
         "original_name": "Pixel 6 Is charging",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9229,7 +9231,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:battery",
+        "original_icon": "mdi:battery-charging-wireless",
         "original_name": "Pixel 6 Charger type",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -9271,7 +9273,9 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
         "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
         "device_class": "temperature",
         "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
@@ -9301,7 +9305,9 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
         "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
         "device_class": "power",
         "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
@@ -9319,7 +9325,7 @@
           }
         },
         "original_device_class": "power",
-        "original_icon": "mdi:battery-minus",
+        "original_icon": "mdi:battery-plus",
         "original_name": "Pixel 6 Battery power",
         "platform": "mobile_app",
         "supported_features": 0,
