@@ -9121,9 +9121,7 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
+        "capabilities": null,
         "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
         "device_class": "battery",
         "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
@@ -9273,9 +9271,7 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
+        "capabilities": null,
         "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
         "device_class": "temperature",
         "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
@@ -9305,9 +9301,7 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": {
-          "state_class": "measurement"
-        },
+        "capabilities": null,
         "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
         "device_class": "power",
         "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
