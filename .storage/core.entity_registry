@@ -12799,6 +12799,32 @@
         "unique_id": "00:12:4b:00:24:c2:36:c9-1-0-rssi",
         "previous_unique_id": null,
         "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.mxns_h0y31n2_5",
+        "hidden_by": null,
+        "icon": null,
+        "id": "100f192eb2feb931e349ede0be604c36",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:desktop-tower-monitor",
+        "original_name": "MXNS-H0Y31N2",
+        "platform": "freebox",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "10:65:30:8D:9B:03",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
       }
     ],
     "deleted_entities": [
