@@ -97,8 +97,7 @@
                   "secondary_info": "last-updated"
                 },
                 {
-                  "entity": "sensor.lumi_lumi_weather_2e76fa01_temperature",
-                  "secondary_info": "last-updated"
+                  "entity": "sensor.weather_studio_temperature_2"
                 }
               ],
               "show_header_toggle": false,
