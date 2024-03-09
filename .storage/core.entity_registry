@@ -12783,7 +12783,11 @@
         "id": "358dfe562c66c5b52de2815ffae437c8",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": null,
         "original_icon": null,
         "original_name": "LQI",
@@ -12811,7 +12815,11 @@
         "id": "df5f8a7297ad87e9612480c8928b6eeb",
         "has_entity_name": true,
         "name": null,
-        "options": {},
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
         "original_device_class": "signal_strength",
         "original_icon": null,
         "original_name": "RSSI",
