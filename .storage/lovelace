@@ -93,8 +93,7 @@
             {
               "entities": [
                 {
-                  "entity": "sensor.lumi_lumi_weather_3fe27101_temperature",
-                  "secondary_info": "last-updated"
+                  "entity": "sensor.buanderie_temperature_2"
                 },
                 {
                   "entity": "sensor.weather_studio_temperature_2"
