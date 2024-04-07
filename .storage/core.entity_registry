@@ -8677,7 +8677,9 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
         "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
         "device_class": "battery",
         "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
@@ -8695,7 +8697,7 @@
           }
         },
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-charging-wireless-80",
+        "original_icon": "mdi:battery-charging-wireless",
         "original_name": "Pixel 6 Battery level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -8725,7 +8727,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:battery-plus",
+        "original_icon": "mdi:battery-charging",
         "original_name": "Pixel 6 Battery state",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -8827,7 +8829,9 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
         "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
         "device_class": "temperature",
         "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
@@ -8857,7 +8861,9 @@
       {
         "aliases": [],
         "area_id": null,
-        "capabilities": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
         "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
         "device_class": "power",
         "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
@@ -8875,7 +8881,7 @@
           }
         },
         "original_device_class": "power",
-        "original_icon": "mdi:battery-plus",
+        "original_icon": "mdi:battery-minus",
         "original_name": "Pixel 6 Battery power",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -13001,6 +13007,34 @@
         "unique_id": "00:15:8d:00:02:4b:ca:b1-1-0-lqi",
         "previous_unique_id": null,
         "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "3a8661eda94f5e8ab696dd25fbdfade4",
+        "device_class": null,
+        "device_id": "8bb68e6674c6afdc0e8e443355f9e3fe",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.pixel_6_ipv6_addresses",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9cb7b7369cc261ce88d605fd4066d2be",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:ip",
+        "original_name": "Pixel 6 IPv6 addresses",
+        "platform": "mobile_app",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_ip6_addresses",
+        "previous_unique_id": null,
+        "unit_of_measurement": "address(es)"
       }
     ],
     "deleted_entities": [
