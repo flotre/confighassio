@@ -8697,7 +8697,7 @@
           }
         },
         "original_device_class": "battery",
-        "original_icon": "mdi:battery-charging-wireless",
+        "original_icon": "mdi:battery-charging-wireless-80",
         "original_name": "Pixel 6 Battery level",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -8727,7 +8727,7 @@
           }
         },
         "original_device_class": null,
-        "original_icon": "mdi:battery-charging",
+        "original_icon": "mdi:battery-plus",
         "original_name": "Pixel 6 Battery state",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -8881,7 +8881,7 @@
           }
         },
         "original_device_class": "power",
-        "original_icon": "mdi:battery-minus",
+        "original_icon": "mdi:battery-plus",
         "original_name": "Pixel 6 Battery power",
         "platform": "mobile_app",
         "supported_features": 0,
@@ -13035,6 +13035,32 @@
         "unique_id": "b4a4099fe530fd84a1b7bd8b174a6628766de869bfb6ad181c89e907f1a70d82_ip6_addresses",
         "previous_unique_id": null,
         "unit_of_measurement": "address(es)"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.pcp",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9b8370020c89ff746d9c0be03265142c",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:desktop-tower-monitor",
+        "original_name": "pCP",
+        "platform": "freebox",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "74:DA:38:6A:DF:D2",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
       }
     ],
     "deleted_entities": [
