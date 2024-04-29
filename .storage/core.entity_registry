@@ -13061,6 +13061,32 @@
         "unique_id": "74:DA:38:6A:DF:D2",
         "previous_unique_id": null,
         "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.unknown_device_12",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7fc819c6ae37422d1ae38b0aeb13d073",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:desktop-tower-monitor",
+        "original_name": "Unknown device",
+        "platform": "freebox",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "A8:43:A4:10:E3:46",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
       }
     ],
     "deleted_entities": [
