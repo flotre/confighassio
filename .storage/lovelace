@@ -48,6 +48,9 @@
             },
             {
               "entity": "sensor.sonoff_snzb_02d_temperature"
+            },
+            {
+              "entity": "sensor.lumi_lumi_weather_985bfa01_temperature"
             }
           ],
           "cards": [
