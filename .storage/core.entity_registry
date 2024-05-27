@@ -13165,6 +13165,32 @@
         "unique_id": "EE:68:5A:BF:50:99",
         "previous_unique_id": null,
         "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "486e901cc4869dbe373eebb5c56cc3e1",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "device_tracker.sharp_uhd_tv_70_2e_d9_5f_b8_f3",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1a34d536edf91786b4957fe238523501",
+        "has_entity_name": false,
+        "name": null,
+        "options": {},
+        "original_device_class": null,
+        "original_icon": "mdi:desktop-tower-monitor",
+        "original_name": "Sharp_UHD_TV (70:2e:d9:5f:b8:f3)",
+        "platform": "freebox",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "70:2E:D9:19:48:B0",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
       }
     ],
     "deleted_entities": [
