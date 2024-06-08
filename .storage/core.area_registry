@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "minor_version": 3,
+  "minor_version": 6,
   "key": "core.area_registry",
   "data": {
     "areas": [
@@ -8,79 +8,118 @@
         "aliases": [],
         "name": "Salon",
         "id": "977b2686d13c4d15ae4e2aa4c973a3d1",
-        "picture": null
+        "picture": null,
+        "icon": null,
+        "floor_id": null,
+        "labels": []
       },
       {
         "aliases": [],
         "name": "Cuisine",
         "id": "87e384a4d3584712b73b13a031a24600",
-        "picture": null
+        "picture": null,
+        "icon": null,
+        "floor_id": null,
+        "labels": []
       },
       {
         "aliases": [],
         "name": "Chambre",
         "id": "dc6ea6c4dfbb4d299116e1d356b29ee1",
-        "picture": null
+        "picture": null,
+        "icon": null,
+        "floor_id": null,
+        "labels": []
       },
       {
         "aliases": [],
         "name": "Buanderie",
         "id": "e907fe4c2713464890a886763801b996",
-        "picture": null
+        "picture": null,
+        "icon": null,
+        "floor_id": null,
+        "labels": []
       },
       {
         "aliases": [],
         "name": "Studio",
         "id": "97f4d16acb2f40a388a1d87ce2b2c2d4",
-        "picture": null
+        "picture": null,
+        "icon": null,
+        "floor_id": null,
+        "labels": []
       },
       {
         "aliases": [],
         "name": "Garage",
         "id": "ef405c1ffa0144cfa83b20cd3b6ea71c",
-        "picture": null
+        "picture": null,
+        "icon": null,
+        "floor_id": null,
+        "labels": []
       },
       {
         "aliases": [],
         "name": "Salle d'eau",
         "id": "85a03f017bb34a30872ddab02bb22f87",
-        "picture": null
+        "picture": null,
+        "icon": null,
+        "floor_id": null,
+        "labels": []
       },
       {
         "aliases": [],
         "name": "Chambre Antoine",
         "id": "3d4c3bb82cd945ae8eef9d74725b23d2",
-        "picture": null
+        "picture": null,
+        "icon": null,
+        "floor_id": null,
+        "labels": []
       },
       {
         "aliases": [],
         "name": "Entrée",
         "id": "e4388544956c456f94e4fe3c7f5acee1",
-        "picture": null
+        "picture": null,
+        "icon": null,
+        "floor_id": null,
+        "labels": []
       },
       {
         "aliases": [],
         "name": "Exterieur",
         "id": "211994d1bb844bd1bd836e741fdcb0f6",
-        "picture": null
+        "picture": null,
+        "icon": null,
+        "floor_id": null,
+        "labels": []
       },
       {
         "aliases": [],
         "name": "Chambre Louise",
         "id": "9b51a6bd6e084815aeadac181a285cc2",
-        "picture": null
+        "picture": null,
+        "icon": null,
+        "floor_id": null,
+        "labels": []
       },
       {
         "aliases": [],
         "name": "Bureau",
         "id": "bureau",
-        "picture": null
+        "picture": null,
+        "icon": null,
+        "floor_id": null,
+        "labels": []
       },
       {
         "aliases": [],
         "name": "Salle de bain",
         "id": "salle_de_bain",
-        "picture": null
+        "picture": null,
+        "icon": null,
+        "floor_id": null,
+        "labels": []
       }
     ]
   }
