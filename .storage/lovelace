@@ -11,46 +11,72 @@
           "title": "Home",
           "badges": [
             {
-              "entity": "sensor.temperature_exterieur"
+              "type": "entity",
+              "entity": "sensor.temperature_exterieur",
+              "display_type": "complete"
             },
             {
               "entity": "sun.sun"
             },
             {
-              "entity": "person.alice"
+              "type": "entity",
+              "entity": "person.alice",
+              "display_type": "complete"
             },
             {
-              "entity": "person.florent"
+              "type": "entity",
+              "entity": "person.florent",
+              "display_type": "complete"
             },
             {
-              "entity": "sensor.lumi_lumi_weather_dc820102_temperature"
+              "type": "entity",
+              "entity": "sensor.lumi_lumi_weather_dc820102_temperature",
+              "display_type": "complete"
             },
             {
-              "entity": "sensor.lumi_lumi_weather_7a870102_weather_chambre_antoine"
+              "type": "entity",
+              "entity": "sensor.lumi_lumi_weather_7a870102_weather_chambre_antoine",
+              "display_type": "complete"
             },
             {
-              "entity": "sensor.weather_chambre_louise_temperature_2"
+              "type": "entity",
+              "entity": "sensor.weather_chambre_louise_temperature_2",
+              "display_type": "complete"
             },
             {
-              "entity": "sensor.lumi_lumi_weather_7ce37101_temperature"
+              "type": "entity",
+              "entity": "sensor.lumi_lumi_weather_7ce37101_temperature",
+              "display_type": "complete"
             },
             {
-              "entity": "sensor.lumi_lumi_weather_88e47101_temperature"
+              "type": "entity",
+              "entity": "sensor.lumi_lumi_weather_88e47101_temperature",
+              "display_type": "complete"
             },
             {
-              "entity": "sensor.lumi_lumi_weather_6438fa01_temperature"
+              "type": "entity",
+              "entity": "sensor.lumi_lumi_weather_6438fa01_temperature",
+              "display_type": "complete"
             },
             {
-              "entity": "sensor.lumi_lumi_weather_f758f501_temperature"
+              "type": "entity",
+              "entity": "sensor.lumi_lumi_weather_f758f501_temperature",
+              "display_type": "complete"
             },
             {
-              "entity": "switch.tp_link_smart_plug_61cc"
+              "type": "entity",
+              "entity": "switch.tp_link_smart_plug_61cc",
+              "display_type": "complete"
             },
             {
-              "entity": "sensor.sonoff_snzb_02d_temperature"
+              "type": "entity",
+              "entity": "sensor.sonoff_snzb_02d_temperature",
+              "display_type": "complete"
             },
             {
-              "entity": "sensor.lumi_lumi_weather_985bfa01_temperature"
+              "type": "entity",
+              "entity": "sensor.lumi_lumi_weather_985bfa01_temperature",
+              "display_type": "complete"
             }
           ],
           "cards": [
