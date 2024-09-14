@@ -89,16 +89,6 @@ climate:
     preheat: true
 
   - platform: generic_smart_thermostat
-    name: Chambre Antoine
-    heater: input_boolean.virtual_chauffage_antoine
-    in_temp_sensor: sensor.lumi_lumi_weather_7a870102_weather_chambre_antoine
-    out_temp_sensor: sensor.temperature_exterieur
-    use_schedule_list: true
-    preheat: true
-    calculate_period: 30
-    confort_temp: 19
-
-  - platform: generic_smart_thermostat
     name: Chambre bas
     heater: switch.radiateur_chambre_bas
     in_temp_sensor: sensor.lumi_lumi_weather_dc820102_temperature

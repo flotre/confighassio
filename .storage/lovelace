@@ -35,8 +35,10 @@
             },
             {
               "type": "entity",
-              "entity": "sensor.lumi_lumi_weather_7a870102_weather_chambre_antoine",
-              "display_type": "complete"
+              "show_name": true,
+              "show_state": true,
+              "show_icon": true,
+              "entity": "sensor.weather_chambre_antoine_temperature"
             },
             {
               "type": "entity",
@@ -137,7 +139,7 @@
               "type": "entities",
               "entities": [
                 {
-                  "entity": "sensor.lumi_lumi_weather_7a870102_weather_chambre_antoine"
+                  "entity": "sensor.weather_chambre_antoine_temperature"
                 },
                 {
                   "entity": "sensor.lumi_lumi_weather_temperature"
@@ -176,16 +178,35 @@
               "type": "thermostat"
             },
             {
-              "entity": "climate.chambre_antoine",
-              "type": "thermostat"
-            },
-            {
               "entity": "climate.chambre_bas",
               "type": "thermostat"
             },
             {
               "type": "thermostat",
               "entity": "climate.thermostat_chambre_louise_thermostat"
+            },
+            {
+              "type": "thermostat",
+              "entity": "climate.thermostat_chambre_antoine",
+              "features": [
+                {
+                  "type": "climate-hvac-modes",
+                  "hvac_modes": [
+                    "heat",
+                    "off"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "custom:versatile-thermostat-ui-card",
+              "entity": "climate.thermostat_chambre_antoine",
+              "disable_window": true,
+              "disable_heat_cool": true,
+              "disable_dry": true,
+              "disable_fan_only": true,
+              "disable_auto_fan_infos": true,
+              "disable_cool": true
             }
           ],
           "icon": "mdi:radiator",
@@ -248,6 +269,13 @@
               "id": "chambre_antoine",
               "title": "Chambre Antoine",
               "type": "custom:schedule-card"
+            },
+            {
+              "type": "custom:scheduler-card",
+              "include": [
+                "climate"
+              ],
+              "exclude": []
             }
           ],
           "icon": "mdi:calendar",
