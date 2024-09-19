@@ -161,52 +161,36 @@
           "badges": [],
           "cards": [
             {
-              "entity": "climate.salon",
-              "type": "thermostat"
-            },
-            {
-              "entity": "climate.cuisine",
-              "type": "thermostat"
-            },
-            {
-              "entity": "climate.entree",
-              "type": "thermostat"
-            },
-            {
-              "entity": "climate.salle_deau",
-              "name": "Salle d'eau",
-              "type": "thermostat"
-            },
-            {
-              "entity": "climate.chambre_bas",
-              "type": "thermostat"
-            },
-            {
               "type": "thermostat",
               "entity": "climate.thermostat_chambre_louise_thermostat"
             },
             {
               "type": "thermostat",
-              "entity": "climate.thermostat_chambre_antoine",
-              "features": [
-                {
-                  "type": "climate-hvac-modes",
-                  "hvac_modes": [
-                    "heat",
-                    "off"
-                  ]
-                }
-              ]
+              "entity": "climate.chambre_bas"
+            },
+            {
+              "type": "thermostat",
+              "entity": "climate.chambre_antoine"
+            },
+            {
+              "type": "thermostat",
+              "entity": "climate.cuisine"
+            },
+            {
+              "type": "thermostat",
+              "entity": "climate.salon"
+            },
+            {
+              "type": "thermostat",
+              "entity": "climate.entree"
             },
             {
               "type": "custom:versatile-thermostat-ui-card",
-              "entity": "climate.thermostat_chambre_antoine",
-              "disable_window": true,
-              "disable_heat_cool": true,
-              "disable_dry": true,
-              "disable_fan_only": true,
-              "disable_auto_fan_infos": true,
-              "disable_cool": true
+              "entity": "climate.chambre_bas"
+            },
+            {
+              "type": "custom:versatile-thermostat-ui-card",
+              "entity": "climate.chambre_antoine"
             }
           ],
           "icon": "mdi:radiator",
@@ -219,6 +203,14 @@
           "type": "sidebar",
           "badges": [],
           "cards": [
+            {
+              "type": "humidifier",
+              "entity": "humidifier.salle_eau",
+              "name": "Humidité",
+              "view_layout": {
+                "position": "sidebar"
+              }
+            },
             {
               "type": "entities",
               "entities": [
@@ -234,42 +226,24 @@
                 {
                   "entity": "sensor.lumi_lumi_weather_7ce37101_humidity"
                 }
-              ]
-            },
-            {
-              "type": "humidifier",
-              "entity": "humidifier.salle_eau",
-              "name": "Humidité"
+              ],
+              "view_layout": {
+                "position": "main"
+              },
+              "state_color": true
             },
             {
               "type": "thermostat",
-              "entity": "climate.salle_deau"
-            },
-            {
-              "id": "salle_d_eau",
-              "title": "Salle d'eau",
-              "type": "custom:schedule-card"
+              "entity": "climate.salle_d_eau",
+              "view_layout": {
+                "position": "sidebar"
+              }
             }
           ]
         },
         {
           "badges": [],
           "cards": [
-            {
-              "id": "salon",
-              "title": "Salon/Cuisine/Entrée",
-              "type": "custom:schedule-card"
-            },
-            {
-              "id": "chambre_bas",
-              "title": "Chambre bas",
-              "type": "custom:schedule-card"
-            },
-            {
-              "id": "chambre_antoine",
-              "title": "Chambre Antoine",
-              "type": "custom:schedule-card"
-            },
             {
               "type": "custom:scheduler-card",
               "include": [
@@ -301,17 +275,6 @@
           "icon": "mdi:lightning-bolt",
           "badges": [],
           "cards": [
-            {
-              "type": "entities",
-              "entities": [
-                {
-                  "entity": "sensor.total_energie_radiateur_salon"
-                },
-                {
-                  "entity": "sensor.chauffage_salon"
-                }
-              ]
-            },
             {
               "chart_type": "line",
               "period": "5minute",
