@@ -133,16 +133,3 @@ template:
           {% else %}
             {{ float(states('sensor.production_solaire_instantannee')) + state_attr('sensor.home_meter', 'P2') }}
           {% endif %}
-
-generic_hygrostat:
-  - name: Salle eau
-    humidifier: input_boolean.chauffage_sde_humidite
-    target_sensor: sensor.lumi_lumi_weather_7ce37101_humidity
-    target_humidity: 60
-    device_class: "dehumidifier"
-    min_cycle_duration:
-      minutes: 30
-    keep_alive:
-      minutes: 15
-    sensor_stale_duration:
-      hours: 1

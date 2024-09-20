@@ -205,7 +205,7 @@
           "cards": [
             {
               "type": "humidifier",
-              "entity": "humidifier.salle_eau",
+              "entity": "humidifier.sde_humidite",
               "name": "Humidité",
               "view_layout": {
                 "position": "sidebar"
@@ -215,10 +215,10 @@
               "type": "entities",
               "entities": [
                 {
-                  "entity": "input_boolean.chauffage_sde_temperature"
+                  "entity": "switch.switch_sde_temperature"
                 },
                 {
-                  "entity": "input_boolean.chauffage_sde_humidite"
+                  "entity": "switch.switch_sde_humidite"
                 },
                 {
                   "entity": "switch.radiateur_sde"

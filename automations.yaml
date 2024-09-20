@@ -129,25 +129,6 @@
       entity_id: climate.salon
       preset_mode: comfort
     service: climate.set_preset_mode
-- id: '1668461975498'
-  alias: Chauffage humidité salle d'eau
-  description: ''
-  trigger:
-  - platform: numeric_state
-    entity_id: sensor.lumi_lumi_weather_7ce37101_humidity
-    for:
-      hours: 0
-      minutes: 1
-      seconds: 0
-    above: 80
-  condition: []
-  action:
-  - service: climate.set_hvac_mode
-    data:
-      hvac_mode: heat
-    target:
-      entity_id: climate.salle_deau
-  mode: single
 - id: '1668629795314'
   alias: Low battery level detection & notification for all battery sensors
   description: ''
@@ -166,16 +147,16 @@
   trigger:
   - platform: state
     entity_id:
-    - input_boolean.chauffage_sde_humidite
-    - input_boolean.chauffage_sde_temperature
+    - switch.switch_sde_humidite
+    - switch.switch_sde_temperature
     from: 'off'
     to: 'on'
   condition: []
   action:
-  - service: switch.turn_on
-    data: {}
+  - data: {}
     target:
       entity_id: switch.radiateur_sde
+    action: switch.turn_on
   mode: single
 - id: '1674389648731'
   alias: Chauffage SDE OFF
@@ -183,20 +164,20 @@
   trigger:
   - platform: state
     entity_id:
-    - input_boolean.chauffage_sde_humidite
-    - input_boolean.chauffage_sde_temperature
+    - switch.switch_sde_humidite
+    - switch.switch_sde_temperature
   condition:
   - condition: and
     conditions:
     - condition: state
-      entity_id: input_boolean.chauffage_sde_humidite
+      entity_id: switch.switch_sde_humidite
       state: 'off'
     - condition: state
-      entity_id: input_boolean.chauffage_sde_temperature
+      entity_id: switch.switch_sde_temperature
       state: 'off'
   action:
-  - service: switch.turn_off
-    data: {}
+  - data: {}
     target:
       entity_id: switch.radiateur_sde
+    action: switch.turn_off
   mode: single
