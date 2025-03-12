@@ -69,16 +69,6 @@
               "type": "entity",
               "entity": "switch.tp_link_smart_plug_61cc",
               "display_type": "complete"
-            },
-            {
-              "type": "entity",
-              "entity": "sensor.sonoff_snzb_02d_temperature",
-              "display_type": "complete"
-            },
-            {
-              "type": "entity",
-              "entity": "sensor.lumi_lumi_weather_985bfa01_temperature",
-              "display_type": "complete"
             }
           ],
           "cards": [
