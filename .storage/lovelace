@@ -112,20 +112,6 @@
               "type": "entities"
             },
             {
-              "entities": [
-                {
-                  "entity": "sensor.buanderie_temperature_2"
-                },
-                {
-                  "entity": "sensor.weather_studio_temperature_2"
-                }
-              ],
-              "show_header_toggle": false,
-              "title": "Temperature",
-              "type": "entities",
-              "state_color": false
-            },
-            {
               "type": "entities",
               "entities": [
                 {
@@ -144,6 +130,23 @@
               "title": "Chauffage Antoine",
               "show_header_toggle": false,
               "state_color": true
+            },
+            {
+              "entities": [
+                {
+                  "entity": "sensor.buanderie_temperature_2"
+                },
+                {
+                  "entity": "sensor.weather_studio_temperature_2"
+                },
+                {
+                  "entity": "sensor.weather_studio_humidity_2"
+                }
+              ],
+              "show_header_toggle": false,
+              "title": "Temperature",
+              "type": "entities",
+              "state_color": false
             }
           ]
         },
