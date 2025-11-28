@@ -134,10 +134,13 @@
             {
               "entities": [
                 {
-                  "entity": "sensor.buanderie_temperature_2"
+                  "entity": "sensor.buanderie_temperature"
                 },
                 {
                   "entity": "sensor.weather_studio_temperature_2"
+                },
+                {
+                  "entity": "sensor.buanderie_humidity"
                 },
                 {
                   "entity": "sensor.weather_studio_humidity_2"
