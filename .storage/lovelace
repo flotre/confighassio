@@ -115,9 +115,6 @@
                   "entity": "sensor.weather_chambre_antoine_temperature"
                 },
                 {
-                  "entity": "sensor.lumi_lumi_weather_temperature"
-                },
-                {
                   "entity": "input_boolean.virtual_chauffage_antoine"
                 },
                 {
