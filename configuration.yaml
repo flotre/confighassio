@@ -17,7 +17,6 @@ logger:
   default: info
   logs:
     homeassistant.components.mqtt: info
-    custom_components.generic_smart_thermostat.climate: info
     zigpy: info
     zigpy_znp: info
     zhaquirks: info
@@ -48,11 +47,6 @@ input_boolean:
   virtual_chauffage_antoine:
     name: Etat souhaite du chauffage
     icon: mdi:radiator
-
-zha:
-  device_config:
-    00:12:4b:00:24:c1:9e:d3-1: # format: {ieee}-{endpoint_id}
-      type: “switch” # corrected device type
 
 sensor:
   # capteur consommation maison
