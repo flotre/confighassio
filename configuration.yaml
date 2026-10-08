@@ -23,21 +23,6 @@ logger:
 
 webhook:
 
-# Example configuration.yaml entry
-notify:
-  - name: email
-    platform: smtp
-    server: smtp.gmail.com
-    port: 587
-    timeout: 15
-    sender: !secret florent_email
-    encryption: starttls
-    username: !secret florent_email
-    password: !secret gmail_password
-    recipient:
-      - !secret florent_email
-      - !secret alice_email
-    sender_name: My Home Assistant
 
 # Exposes service shell_command.save_config
 shell_command:
